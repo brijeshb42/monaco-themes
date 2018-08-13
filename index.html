@@ -19,12 +19,12 @@
   <div id=editor></div>
   <script type="text/javascript" src="https://unpkg.com/monaco-editor@0.14.2/min/vs/loader.js"></script>
   <script type="text/javascript">
-    const lang = document.getElementById('lang');
-    let loadedThemes = null;
-    const loadedThemesData = {};
+    var lang = document.getElementById('lang');
+    var loadedThemes = null;
+    var loadedThemesData = {};
 
     function loadTheme(theme) {
-      const path = './themes/' + loadedThemes[theme] + '.json';
+      var path = './themes/' + loadedThemes[theme] + '.json';
       return fetch(path)
         .then(r => r.json())
         .then(data => {
@@ -36,7 +36,7 @@
     }
 
     lang.addEventListener('change', function(ev) {
-      const val = ev.target.value;
+      var val = ev.target.value;
       if (val === 'vs' || val === 'vs-dark' || val === 'hc-black') {
         monaco.editor.setTheme(val);
         return;
@@ -56,9 +56,9 @@
         .then(r => r.json())
         .then(data => {
           loadedThemes = data;
-          const themes = Object.keys(data);
+          var themes = Object.keys(data);
           themes.forEach(theme => {
-            const opt = document.createElement('option');
+            var opt = document.createElement('option');
             opt.value = theme;
             opt.text = data[theme]
             lang.add(opt);
