@@ -33,3 +33,7 @@ fetch('/themes/Monokai.json')
     monaco.editor.setTheme('monokai');
   })
 ```
+
+### Todo
+
+All properties have not been mapped from tmTheme files to the generated JSON. Those will be mapped one at a time after going through the internals of vscode to see all the available color options.
