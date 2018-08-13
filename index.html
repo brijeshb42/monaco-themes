@@ -21,12 +21,14 @@
   <script type="text/javascript">
     const lang = document.getElementById('lang');
     let loadedThemes = null;
+    const loadedThemesData = {};
 
     function loadTheme(theme) {
       const path = './themes/' + loadedThemes[theme] + '.json';
       return fetch(path)
         .then(r => r.json())
         .then(data => {
+          loadedThemesData[theme] = data;
           if (window.monaco) {
             monaco.editor.defineTheme(theme, data);
           }
@@ -39,9 +41,14 @@
         monaco.editor.setTheme(val);
         return;
       }
-      loadTheme(val).then(() => {
+
+      if (loadedThemesData[val]) {
         monaco.editor.setTheme(val);
-      });
+      } else {
+        loadTheme(val).then(() => {
+          monaco.editor.setTheme(val);
+        });
+      }
     });
 
     function loadThemeList() {
