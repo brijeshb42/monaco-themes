@@ -1,0 +1,96 @@
+{
+  "base": "vs",
+  "inherit": true,
+  "rules": [
+    {
+      "foreground": "#919191",
+      "token": "comment"
+    },
+    {
+      "foreground": "#00A33F",
+      "token": "string"
+    },
+    {
+      "token": "constant.numeric"
+    },
+    {
+      "foreground": "#A535AE",
+      "token": "constant.language"
+    },
+    {
+      "token": "constant.character"
+    },
+    {
+      "token": " constant.other"
+    },
+    {
+      "token": "variable.language"
+    },
+    {
+      "token": " variable.other"
+    },
+    {
+      "foreground": "#FF5600",
+      "token": "keyword"
+    },
+    {
+      "foreground": "#FF5600",
+      "token": "storage"
+    },
+    {
+      "foreground": "#21439C",
+      "token": "entity.name.type"
+    },
+    {
+      "token": "entity.other.inherited-class"
+    },
+    {
+      "foreground": "#21439C",
+      "token": "entity.name.function"
+    },
+    {
+      "token": "variable.parameter"
+    },
+    {
+      "token": "entity.name.tag"
+    },
+    {
+      "token": "entity.other.attribute-name"
+    },
+    {
+      "foreground": "#A535AE",
+      "token": "support.function"
+    },
+    {
+      "foreground": "#A535AE",
+      "token": "support.constant"
+    },
+    {
+      "foreground": "#A535AE",
+      "token": "support.type"
+    },
+    {
+      "foreground": "#A535AE",
+      "token": " support.class"
+    },
+    {
+      "foreground": "#A535AE",
+      "token": "support.variable"
+    },
+    {
+      "foreground": "#FFFFFF",
+      "background": "#990000",
+      "token": "invalid"
+    },
+    {
+      "foreground": "#990000",
+      "token": "constant.other.placeholder.py"
+    }
+  ],
+  "colors": {
+    "editor.background": "#FFFFFF",
+    "editor.foreground": "#000000",
+    "editor.selectionHighlightBackground": "#BAD6FD",
+    "editor.lineHighlightBackground": "#00000012"
+  }
+}

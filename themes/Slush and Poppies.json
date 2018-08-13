@@ -1,0 +1,132 @@
+{
+  "base": "vs",
+  "inherit": true,
+  "rules": [
+    {
+      "foreground": "#406040",
+      "token": "comment"
+    },
+    {
+      "foreground": "#C03030",
+      "token": "string"
+    },
+    {
+      "foreground": "#0080A0",
+      "token": "constant.numeric"
+    },
+    {
+      "fontStyle": "underline",
+      "token": "source.ocaml constant.numeric.floating-point"
+    },
+    {
+      "foreground": "#800000",
+      "token": "constant.character"
+    },
+    {
+      "token": "constant.language"
+    },
+    {
+      "token": "constant.character"
+    },
+    {
+      "token": " constant.other"
+    },
+    {
+      "token": "variable.parameter"
+    },
+    {
+      "token": " variable.other"
+    },
+    {
+      "foreground": "#2060A0",
+      "token": "keyword"
+    },
+    {
+      "foreground": "#2060A0",
+      "token": "keyword.operator"
+    },
+    {
+      "fontStyle": "underline",
+      "token": "source.ocaml keyword.operator.symbol.prefix.floating-point"
+    },
+    {
+      "fontStyle": "underline",
+      "token": "source.ocaml keyword.operator.symbol.infix.floating-point"
+    },
+    {
+      "foreground": "#0080FF",
+      "token": "entity.name.module"
+    },
+    {
+      "foreground": "#0080FF",
+      "token": "  support.other.module"
+    },
+    {
+      "foreground": "#A08000",
+      "token": "storage.type"
+    },
+    {
+      "foreground": "#008080",
+      "token": "storage"
+    },
+    {
+      "foreground": "#C08060",
+      "token": "entity.name.class.variant"
+    },
+    {
+      "fontStyle": "bold",
+      "token": "keyword.other.directive"
+    },
+    {
+      "token": "source.ocaml keyword.other.directive.line-number"
+    },
+    {
+      "token": "entity.other.inherited-class"
+    },
+    {
+      "foreground": "#800000",
+      "token": "entity.name.function"
+    },
+    {
+      "foreground": "#800080",
+      "token": "storage.type.user-defined"
+    },
+    {
+      "foreground": "#8000C0",
+      "token": "entity.name.type.class.type"
+    },
+    {
+      "token": "variable.parameter"
+    },
+    {
+      "token": "entity.name.tag"
+    },
+    {
+      "token": "entity.other.attribute-name"
+    },
+    {
+      "token": "support.function"
+    },
+    {
+      "token": "support.constant"
+    },
+    {
+      "token": "support.type"
+    },
+    {
+      "token": " support.class"
+    },
+    {
+      "token": "support.variable"
+    },
+    {
+      "token": "invalid"
+    }
+  ],
+  "colors": {
+    "editor.background": "#F1F1F1",
+    "editor.foreground": "#000000",
+    "editor.selectionHighlightBackground": "#B0B0FF",
+    "editor.lineHighlightBackground": "#00000026"
+  }
+}

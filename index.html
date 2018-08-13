@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Monaco Themes</title>
+  <style type="text/css">
+    #editor {
+      width: 100%;
+      height: 600px;
+    }
+  </style>
+</head>
+<body>
+  <div style="overflow: auto;margin-bottom: 10px">
+    <select id=lang style="float: right;">
+      <option value="vs">Default</option>
+    </select>
+  </div>
+  <div id=editor></div>
+  <script type="text/javascript" src="https://unpkg.com/monaco-editor@0.14.2/min/vs/loader.js"></script>
+  <script type="text/javascript">
+    const lang = document.getElementById('lang');
+    let loadedThemes = null;
+
+    function loadTheme(theme) {
+      const path = './themes/' + loadedThemes[theme] + '.json';
+      return fetch(path)
+        .then(r => r.json())
+        .then(data => {
+          if (window.monaco) {
+            monaco.editor.defineTheme(theme, data);
+          }
+        });
+    }
+
+    lang.addEventListener('change', function(ev) {
+      const val = ev.target.value;
+      if (val === 'vs' || val === 'vs-dark' || val === 'hc-black') {
+        monaco.editor.setTheme(val);
+        return;
+      }
+      loadTheme(val).then(() => {
+        monaco.editor.setTheme(val);
+      });
+    });
+
+    function loadThemeList() {
+      return fetch('./themes/themelist.json')
+        .then(r => r.json())
+        .then(data => {
+          loadedThemes = data;
+          const themes = Object.keys(data);
+          themes.forEach(theme => {
+            const opt = document.createElement('option');
+            opt.value = theme;
+            opt.text = data[theme]
+            lang.add(opt);
+          });
+        });
+    }
+
+    loadThemeList();
+
+    require.config({ paths: { 'vs': 'https://unpkg.com/monaco-editor@0.14.2/min/vs' }});
+    window.MonacoEnvironment = {
+      getWorkerUrl: function(workerId, label) {
+        return `data:text/javascript;charset=utf-8,${encodeURIComponent(`
+          self.MonacoEnvironment = {
+            baseUrl: 'https://unpkg.com/monaco-editor@0.14.2/min'
+          };
+          importScripts('https://unpkg.com/monaco-editor@0.14.2/min/vs/base/worker/workerMain.js');`
+        )}`;
+      }
+    };
+    require(['vs/editor/editor.main'], function() {
+      var editor = monaco.editor.create(document.getElementById('editor'), {
+        value: [
+          'function x() {',
+          '\tconsole.log("Hello world!");',
+          '}'
+        ].join('\n'),
+        language: 'javascript',
+        fontSize: 16,
+        minimap: {
+          enabled: false,
+        }
+      });
+      editor.focus();
+
+      fetch('/index.js')
+        .then(data => data.text())
+        .then(text => {
+          editor.setValue(text);
+        })
+
+      window.editor = editor;
+    });
+  </script>
+</body>
+</html>

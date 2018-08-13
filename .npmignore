@@ -1,0 +1,7 @@
+node_modules/
+tmThemes
+.gitignore
+acetm.js
+monaco.d.ts
+.npmignore
+index.html

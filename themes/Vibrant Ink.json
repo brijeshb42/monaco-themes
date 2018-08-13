@@ -1,0 +1,206 @@
+{
+  "base": "vs-dark",
+  "inherit": true,
+  "rules": [
+    {
+      "foreground": "#FFFFFF",
+      "background": "#0F0F0F",
+      "token": "text"
+    },
+    {
+      "background": "#000000",
+      "token": "source.ruby.rails.embedded.html"
+    },
+    {
+      "foreground": "#FFFFFF",
+      "background": "#101010",
+      "token": "text.html.ruby"
+    },
+    {
+      "foreground": "#CCFF33",
+      "background": "#000000",
+      "token": "invalid"
+    },
+    {
+      "foreground": "#CCFF33",
+      "background": "#000000",
+      "token": " invalid.deprecated"
+    },
+    {
+      "foreground": "#99CC99",
+      "token": "constant.numeric"
+    },
+    {
+      "token": "source.ruby"
+    },
+    {
+      "foreground": "#FFFFFF",
+      "background": "#000000",
+      "token": "source"
+    },
+    {
+      "foreground": "#9933CC",
+      "token": "comment"
+    },
+    {
+      "foreground": "#339999",
+      "token": "constant"
+    },
+    {
+      "foreground": "#FF6600",
+      "token": "keyword"
+    },
+    {
+      "foreground": "#EDF8F9",
+      "token": "keyword.preprocessor"
+    },
+    {
+      "foreground": "#FFFFFF",
+      "token": "keyword.preprocessor directive"
+    },
+    {
+      "foreground": "#FFCC00",
+      "token": "entity.name.function"
+    },
+    {
+      "foreground": "#FFCC00",
+      "token": " storage.type.function.js"
+    },
+    {
+      "fontStyle": "italic",
+      "token": "variable.parameter"
+    },
+    {
+      "foreground": "#772CB7",
+      "background": "#070707",
+      "token": "source comment.block"
+    },
+    {
+      "foreground": "#FFFFFF",
+      "token": "variable.other"
+    },
+    {
+      "foreground": "#FFCC00",
+      "token": "support.function"
+    },
+    {
+      "foreground": "#66FF00",
+      "token": "string"
+    },
+    {
+      "foreground": "#AAAAAA",
+      "token": "string constant.character.escape"
+    },
+    {
+      "foreground": "#000000",
+      "background": "#CCCC33",
+      "token": "string.interpolated"
+    },
+    {
+      "foreground": "#44B4CC",
+      "token": "string.regexp"
+    },
+    {
+      "foreground": "#CCCC33",
+      "token": "string.literal"
+    },
+    {
+      "foreground": "#555555",
+      "token": "string.interpolated constant.character.escape"
+    },
+    {
+      "fontStyle": "underline",
+      "token": "entity.name.class"
+    },
+    {
+      "fontStyle": "underline",
+      "token": " support.class.js"
+    },
+    {
+      "fontStyle": "italic underline",
+      "token": "entity.other.inherited-class"
+    },
+    {
+      "token": "entity.name.tag"
+    },
+    {
+      "foreground": "#FF6600",
+      "token": "meta.tag.inline.any.html"
+    },
+    {
+      "foreground": "#FF6600",
+      "token": "  meta.tag.block.any.html"
+    },
+    {
+      "foreground": "#99CC99",
+      "fontStyle": "italic",
+      "token": "entity.other.attribute-name"
+    },
+    {
+      "foreground": "#DDE93D",
+      "token": "keyword.other"
+    },
+    {
+      "foreground": "#FF6600",
+      "token": "meta.selector.css"
+    },
+    {
+      "foreground": "#FF6600",
+      "token": " entity.other.attribute-name.pseudo-class.css"
+    },
+    {
+      "foreground": "#FF6600",
+      "token": " entity.name.tag.wildcard.css"
+    },
+    {
+      "foreground": "#FF6600",
+      "token": " entity.other.attribute-name.id.css"
+    },
+    {
+      "foreground": "#FF6600",
+      "token": " entity.other.attribute-name.class.css"
+    },
+    {
+      "foreground": "#999966",
+      "token": "support.type.property-name.css"
+    },
+    {
+      "foreground": "#FFFFFF",
+      "token": "keyword.other.unit.css"
+    },
+    {
+      "foreground": "#FFFFFF",
+      "token": " constant.other.rgb-value.css"
+    },
+    {
+      "foreground": "#FFFFFF",
+      "token": " constant.numeric.css"
+    },
+    {
+      "foreground": "#FFFFFF",
+      "token": "support.function.event-handler.js"
+    },
+    {
+      "foreground": "#FFFFFF",
+      "token": "keyword.operator.js"
+    },
+    {
+      "foreground": "#CCCC66",
+      "token": "keyword.control.js"
+    },
+    {
+      "foreground": "#FFFFFF",
+      "token": "support.class.prototype.js"
+    },
+    {
+      "foreground": "#FF6600",
+      "token": "object.property.function.prototype.js"
+    }
+  ],
+  "colors": {
+    "editor.background": "#0F0F0F",
+    "editor.foreground": "#FFFFFF",
+    "editor.selectionHighlightBackground": "#6699CC",
+    "editor.lineHighlightBackground": "#333333"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "base": "vs",
+  "inherit": true,
+  "rules": [
+    {
+      "foreground": "#008E00",
+      "token": "comment"
+    },
+    {
+      "foreground": "#7D4726",
+      "token": "meta.preprocessor"
+    },
+    {
+      "foreground": "#7D4726",
+      "token": " keyword.control.import"
+    },
+    {
+      "foreground": "#DF0002",
+      "token": "string"
+    },
+    {
+      "foreground": "#3A00DC",
+      "token": "constant.numeric"
+    },
+    {
+      "foreground": "#C800A4",
+      "token": "constant.language"
+    },
+    {
+      "foreground": "#275A5E",
+      "token": "constant.character"
+    },
+    {
+      "foreground": "#275A5E",
+      "token": " constant.other"
+    },
+    {
+      "foreground": "#C800A4",
+      "token": "variable.language"
+    },
+    {
+      "foreground": "#C800A4",
+      "token": " variable.other"
+    },
+    {
+      "foreground": "#C800A4",
+      "token": "keyword"
+    },
+    {
+      "foreground": "#C900A4",
+      "token": "storage"
+    },
+    {
+      "foreground": "#438288",
+      "token": "entity.name.class"
+    },
+    {
+      "token": "entity.other.inherited-class"
+    },
+    {
+      "token": "entity.name.function"
+    },
+    {
+      "token": "variable.parameter"
+    },
+    {
+      "foreground": "#790EAD",
+      "token": "entity.name.tag"
+    },
+    {
+      "foreground": "#450084",
+      "token": "entity.other.attribute-name"
+    },
+    {
+      "foreground": "#450084",
+      "token": "support.function"
+    },
+    {
+      "foreground": "#450084",
+      "token": "support.constant"
+    },
+    {
+      "foreground": "#790EAD",
+      "token": "support.type"
+    },
+    {
+      "foreground": "#790EAD",
+      "token": " support.class"
+    },
+    {
+      "foreground": "#790EAD",
+      "token": "support.other.variable"
+    },
+    {
+      "token": "invalid"
+    }
+  ],
+  "colors": {
+    "editor.background": "#FFFFFF",
+    "editor.foreground": "#000000",
+    "editor.selectionHighlightBackground": "#B5D5FF",
+    "editor.lineHighlightBackground": "#00000012"
+  }
+}

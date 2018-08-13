@@ -1,0 +1,110 @@
+{
+  "base": "vs",
+  "inherit": true,
+  "rules": [
+    {
+      "foreground": "#8C868F",
+      "token": "comment"
+    },
+    {
+      "foreground": "#3B5BB5",
+      "token": "constant"
+    },
+    {
+      "foreground": "#3B5BB5",
+      "token": "entity"
+    },
+    {
+      "foreground": "#D62A28",
+      "token": "text.tex.latex entity"
+    },
+    {
+      "foreground": "#FF7800",
+      "token": "keyword"
+    },
+    {
+      "foreground": "#FF7800",
+      "token": " storage"
+    },
+    {
+      "foreground": "#409B1C",
+      "token": "string"
+    },
+    {
+      "foreground": "#409B1C",
+      "token": " meta.verbatim"
+    },
+    {
+      "foreground": "#3B5BB5",
+      "token": "support"
+    },
+    {
+      "token": "variable"
+    },
+    {
+      "foreground": "#990000",
+      "fontStyle": "italic",
+      "token": "invalid.deprecated"
+    },
+    {
+      "foreground": "#F8F8F8",
+      "background": "#9D1E15",
+      "token": "invalid.illegal"
+    },
+    {
+      "foreground": "#3B5BB5",
+      "fontStyle": "italic",
+      "token": "entity.other.inherited-class"
+    },
+    {
+      "foreground": "#671EBB",
+      "token": "string constant.other.placeholder"
+    },
+    {
+      "foreground": "#3E4558",
+      "token": "meta.function-call.py"
+    },
+    {
+      "foreground": "#3A4A64",
+      "token": "meta.tag"
+    },
+    {
+      "foreground": "#3A4A64",
+      "token": " meta.tag entity"
+    },
+    {
+      "foreground": "#7F90AA",
+      "token": "keyword.type.variant"
+    },
+    {
+      "foreground": "#000000",
+      "token": "source.ocaml keyword.operator"
+    },
+    {
+      "foreground": "#3B5BB5",
+      "token": "source.ocaml keyword.operator.symbol.infix"
+    },
+    {
+      "foreground": "#3B5BB5",
+      "token": "source.ocaml keyword.operator.symbol.prefix"
+    },
+    {
+      "fontStyle": "underline",
+      "token": "source.ocaml keyword.operator.symbol.infix.floating-point"
+    },
+    {
+      "fontStyle": "underline",
+      "token": "source.ocaml keyword.operator.symbol.prefix.floating-point"
+    },
+    {
+      "fontStyle": "underline",
+      "token": "source.ocaml constant.numeric.floating-point"
+    }
+  ],
+  "colors": {
+    "editor.background": "#FFFFFF",
+    "editor.foreground": "#000000",
+    "editor.selectionHighlightBackground": "#E3FC8D",
+    "editor.lineHighlightBackground": "#EFFCA68F"
+  }
+}

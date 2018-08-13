@@ -1,0 +1,130 @@
+{
+  "base": "vs-dark",
+  "inherit": true,
+  "rules": [
+    {
+      "foreground": "#AEAEAE",
+      "token": "comment"
+    },
+    {
+      "foreground": "#D8FA3C",
+      "token": "constant"
+    },
+    {
+      "foreground": "#FF6400",
+      "token": "entity"
+    },
+    {
+      "foreground": "#FBDE2D",
+      "token": "keyword"
+    },
+    {
+      "foreground": "#FBDE2D",
+      "token": "storage"
+    },
+    {
+      "foreground": "#61CE3C",
+      "token": "string"
+    },
+    {
+      "foreground": "#61CE3C",
+      "token": " meta.verbatim"
+    },
+    {
+      "foreground": "#8DA6CE",
+      "token": "support"
+    },
+    {
+      "token": "variable"
+    },
+    {
+      "foreground": "#AB2A1D",
+      "fontStyle": "italic",
+      "token": "invalid.deprecated"
+    },
+    {
+      "foreground": "#F8F8F8",
+      "background": "#9D1E15",
+      "token": "invalid.illegal"
+    },
+    {
+      "foreground": "#FF6400",
+      "fontStyle": "italic",
+      "token": "entity.other.inherited-class"
+    },
+    {
+      "foreground": "#FF6400",
+      "token": "string constant.other.placeholder"
+    },
+    {
+      "foreground": "#BECDE6",
+      "token": "meta.function-call.py"
+    },
+    {
+      "foreground": "#7F90AA",
+      "token": "meta.tag"
+    },
+    {
+      "foreground": "#7F90AA",
+      "token": " meta.tag entity"
+    },
+    {
+      "foreground": "#FFFFFF",
+      "token": "entity.name.section"
+    },
+    {
+      "foreground": "#D5E0F3",
+      "token": "keyword.type.variant"
+    },
+    {
+      "foreground": "#F8F8F8",
+      "token": "source.ocaml keyword.operator.symbol"
+    },
+    {
+      "foreground": "#8DA6CE",
+      "token": "source.ocaml keyword.operator.symbol.infix"
+    },
+    {
+      "foreground": "#8DA6CE",
+      "token": "source.ocaml keyword.operator.symbol.prefix"
+    },
+    {
+      "fontStyle": "underline",
+      "token": "source.ocaml keyword.operator.symbol.infix.floating-point"
+    },
+    {
+      "fontStyle": "underline",
+      "token": "source.ocaml keyword.operator.symbol.prefix.floating-point"
+    },
+    {
+      "fontStyle": "underline",
+      "token": "source.ocaml constant.numeric.floating-point"
+    },
+    {
+      "background": "#FFFFFF08",
+      "token": "text.tex.latex meta.function.environment"
+    },
+    {
+      "background": "#7A96FA08",
+      "token": "text.tex.latex meta.function.environment meta.function.environment"
+    },
+    {
+      "foreground": "#FBDE2D",
+      "token": "text.tex.latex support.function"
+    },
+    {
+      "foreground": "#FFFFFF",
+      "token": "source.plist string.unquoted"
+    },
+    {
+      "foreground": "#FFFFFF",
+      "token": " source.plist keyword.operator"
+    }
+  ],
+  "colors": {
+    "editor.background": "#0C1021",
+    "editor.foreground": "#F8F8F8",
+    "editor.selectionHighlightBackground": "#253B76",
+    "editor.lineHighlightBackground": "#FFFFFF0F"
+  }
+}

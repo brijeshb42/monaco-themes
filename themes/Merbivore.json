@@ -1,0 +1,145 @@
+{
+  "base": "vs-dark",
+  "inherit": true,
+  "rules": [
+    {
+      "token": "source"
+    },
+    {
+      "foreground": "#AD2EA4",
+      "fontStyle": "italic",
+      "token": "comment"
+    },
+    {
+      "foreground": "#FC6F09",
+      "token": "keyword"
+    },
+    {
+      "foreground": "#FC6F09",
+      "token": " storage"
+    },
+    {
+      "token": "entity.name.function"
+    },
+    {
+      "token": " keyword.other.name-of-parameter.objc"
+    },
+    {
+      "token": "entity.name"
+    },
+    {
+      "foreground": "#FC83FF",
+      "token": "entity.other.inherited-class"
+    },
+    {
+      "foreground": "#58C554",
+      "token": "constant.numeric"
+    },
+    {
+      "token": "variable.language"
+    },
+    {
+      "token": " variable.other"
+    },
+    {
+      "foreground": "#1EDAFB",
+      "token": "constant"
+    },
+    {
+      "token": "variable.other.constant"
+    },
+    {
+      "foreground": "#8DFF0A",
+      "token": "constant.library"
+    },
+    {
+      "foreground": "#FC6F09",
+      "token": "support.function"
+    },
+    {
+      "foreground": "#FDC251",
+      "token": "constant.language"
+    },
+    {
+      "foreground": "#8DFF0A",
+      "token": "string"
+    },
+    {
+      "foreground": "#1EDAFB",
+      "token": "support.type"
+    },
+    {
+      "foreground": "#8DFF0A",
+      "token": "support.constant"
+    },
+    {
+      "foreground": "#FC6F09",
+      "token": "meta.tag"
+    },
+    {
+      "foreground": "#FC6F09",
+      "token": " declaration.tag"
+    },
+    {
+      "foreground": "#FC6F09",
+      "token": " entity.name.tag"
+    },
+    {
+      "foreground": "#FFFF89",
+      "token": "entity.other.attribute-name"
+    },
+    {
+      "foreground": "#FFFFFF",
+      "background": "#990000",
+      "token": "invalid"
+    },
+    {
+      "foreground": "#519F50",
+      "token": "constant.character.escaped"
+    },
+    {
+      "foreground": "#519F50",
+      "token": " constant.character.escape"
+    },
+    {
+      "foreground": "#519F50",
+      "token": " string source"
+    },
+    {
+      "foreground": "#519F50",
+      "token": " string source.ruby"
+    },
+    {
+      "foreground": "#E6E1DC",
+      "background": "#144212",
+      "token": "markup.inserted"
+    },
+    {
+      "foreground": "#E6E1DC",
+      "background": "#660000",
+      "token": "markup.deleted"
+    },
+    {
+      "background": "#2F33AB",
+      "token": "meta.diff.header"
+    },
+    {
+      "background": "#2F33AB",
+      "token": " meta.separator.diff"
+    },
+    {
+      "background": "#2F33AB",
+      "token": " meta.diff.index"
+    },
+    {
+      "background": "#2F33AB",
+      "token": " meta.diff.range"
+    }
+  ],
+  "colors": {
+    "editor.background": "#161616",
+    "editor.foreground": "#E6E1DC",
+    "editor.selectionHighlightBackground": "#454545",
+    "editor.lineHighlightBackground": "#333435"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "monaco-themes",
+  "version": "0.1.0",
+  "description": "Themes for monaco editor in web browser",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["monaco", "editor", "themes"],
+  "author": "Brijesh <brijeshb42@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "plist": "^3.0.1"
+  }
+}

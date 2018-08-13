@@ -1,0 +1,97 @@
+{
+  "base": "vs-dark",
+  "inherit": true,
+  "rules": [
+    {
+      "foreground": "#FFFFFF",
+      "background": "#434242",
+      "token": "text"
+    },
+    {
+      "foreground": "#FFFFFF",
+      "background": "#000000",
+      "token": "source"
+    },
+    {
+      "foreground": "#9933CC",
+      "token": "comment"
+    },
+    {
+      "foreground": "#3387CC",
+      "token": "constant"
+    },
+    {
+      "foreground": "#CC7833",
+      "token": "keyword"
+    },
+    {
+      "foreground": "#D0D0FF",
+      "token": "meta.preprocessor.c"
+    },
+    {
+      "token": "keyword.control.import"
+    },
+    {
+      "token": "entity.name.function"
+    },
+    {
+      "fontStyle": "italic",
+      "token": "variable.parameter"
+    },
+    {
+      "foreground": "#FFFFFF",
+      "background": "#9B9B9B",
+      "token": "source comment.block"
+    },
+    {
+      "foreground": "#66CC33",
+      "token": "string"
+    },
+    {
+      "foreground": "#AAAAAA",
+      "token": "string constant.character.escape"
+    },
+    {
+      "foreground": "#000000",
+      "background": "#CCCC33",
+      "token": "string.interpolated"
+    },
+    {
+      "foreground": "#CCCC33",
+      "token": "string.regexp"
+    },
+    {
+      "foreground": "#CCCC33",
+      "token": "string.literal"
+    },
+    {
+      "foreground": "#555555",
+      "token": "string.interpolated constant.character.escape"
+    },
+    {
+      "fontStyle": "underline",
+      "token": "entity.name.type"
+    },
+    {
+      "fontStyle": "italic underline",
+      "token": "entity.other.inherited-class"
+    },
+    {
+      "fontStyle": "underline",
+      "token": "entity.name.tag"
+    },
+    {
+      "token": "entity.other.attribute-name"
+    },
+    {
+      "foreground": "#C83730",
+      "token": "support.function"
+    }
+  ],
+  "colors": {
+    "editor.background": "#000000",
+    "editor.foreground": "#FFFFFF",
+    "editor.selectionHighlightBackground": "#73597EE0",
+    "editor.lineHighlightBackground": "#333300"
+  }
+}
