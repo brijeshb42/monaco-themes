@@ -86,7 +86,7 @@
       });
       editor.focus();
 
-      fetch('/index.js')
+      fetch('./index.js')
         .then(data => data.text())
         .then(text => {
           editor.setValue(text);
