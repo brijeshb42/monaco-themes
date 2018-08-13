@@ -15,7 +15,7 @@
     {
       "foreground": "#43A8ED",
       "fontStyle": "bold",
-      "token": " storage"
+      "token": "storage"
     },
     {
       "foreground": "#44AA43",
@@ -37,7 +37,7 @@
     },
     {
       "foreground": "#318495",
-      "token": " variable.other"
+      "token": "variable.other"
     },
     {
       "foreground": "#049B0A",
@@ -49,7 +49,7 @@
     },
     {
       "foreground": "#2FE420",
-      "token": " string source"
+      "token": "string source"
     },
     {
       "foreground": "#1A921C",
@@ -68,7 +68,7 @@
     {
       "foreground": "#FF9358",
       "fontStyle": "bold",
-      "token": " keyword.other.name-of-parameter.objc"
+      "token": "keyword.other.name-of-parameter.objc"
     },
     {
       "fontStyle": "underline",
@@ -92,7 +92,7 @@
     },
     {
       "fontStyle": "italic",
-      "token": " declaration.section entity.name.section"
+      "token": "declaration.section entity.name.section"
     },
     {
       "foreground": "#7290D9",
@@ -107,7 +107,7 @@
     {
       "foreground": "#6D79DE",
       "fontStyle": "bold",
-      "token": " support.type"
+      "token": "support.type"
     },
     {
       "foreground": "#00AF0E",
@@ -138,7 +138,7 @@
     },
     {
       "background": "#F5AA7730",
-      "token": " string.unquoted"
+      "token": "string.unquoted"
     },
     {
       "foreground": "#8F7E65",
@@ -158,7 +158,7 @@
     },
     {
       "foreground": "#43A8ED",
-      "token": " declaration.tag"
+      "token": "declaration.tag"
     },
     {
       "fontStyle": "bold",

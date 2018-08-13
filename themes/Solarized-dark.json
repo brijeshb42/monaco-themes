@@ -25,7 +25,7 @@
     },
     {
       "foreground": "#268BD2",
-      "token": " variable.other"
+      "token": "variable.other"
     },
     {
       "foreground": "#859900",
@@ -42,7 +42,7 @@
     },
     {
       "foreground": "#CB4B16",
-      "token": " entity.name.type.class"
+      "token": "entity.name.type.class"
     },
     {
       "foreground": "#268BD2",
@@ -58,7 +58,7 @@
     },
     {
       "foreground": "#D30102",
-      "token": " punctuation.section.embedded.end"
+      "token": "punctuation.section.embedded.end"
     },
     {
       "foreground": "#B58900",
@@ -66,7 +66,7 @@
     },
     {
       "foreground": "#B58900",
-      "token": " meta.preprocessor"
+      "token": "meta.preprocessor"
     },
     {
       "foreground": "#CB4B16",
@@ -74,7 +74,7 @@
     },
     {
       "foreground": "#CB4B16",
-      "token": " keyword.other.new"
+      "token": "keyword.other.new"
     },
     {
       "foreground": "#CB4B16",
@@ -82,7 +82,7 @@
     },
     {
       "foreground": "#CB4B16",
-      "token": " constant.other"
+      "token": "constant.other"
     },
     {
       "foreground": "#6C71C4",
@@ -121,7 +121,7 @@
     },
     {
       "foreground": "#859900",
-      "token": " support.class"
+      "token": "support.class"
     },
     {
       "foreground": "#CB4B16",

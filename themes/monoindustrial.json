@@ -13,7 +13,7 @@
     },
     {
       "foreground": "#C23B00",
-      "token": " support.type"
+      "token": "support.type"
     },
     {
       "foreground": "#FFFFFF",
@@ -23,12 +23,12 @@
     {
       "foreground": "#FFFFFF",
       "background": "#151C19",
-      "token": " text source"
+      "token": "text source"
     },
     {
       "foreground": "#FFFFFF",
       "background": "#151C19",
-      "token": " string.unquoted"
+      "token": "string.unquoted"
     },
     {
       "foreground": "#E9470000",
@@ -38,12 +38,12 @@
     {
       "foreground": "#E9470000",
       "background": "#1A0700",
-      "token": " string source - string.unquoted.embedded"
+      "token": "string source - string.unquoted.embedded"
     },
     {
       "foreground": "#E9470000",
       "background": "#1A0700",
-      "token": " string string source"
+      "token": "string string source"
     },
     {
       "foreground": "#C23800",
@@ -53,12 +53,12 @@
     {
       "foreground": "#C23800",
       "background": "#1A0700",
-      "token": " string source string"
+      "token": "string source string"
     },
     {
       "foreground": "#C23800",
       "background": "#1A0700",
-      "token": " meta.scope.heredoc"
+      "token": "meta.scope.heredoc"
     },
     {
       "foreground": "#E98800",
@@ -70,7 +70,7 @@
     },
     {
       "foreground": "#648BD2",
-      "token": " variable.other"
+      "token": "variable.other"
     },
     {
       "foreground": "#E98800",
@@ -92,11 +92,11 @@
     },
     {
       "foreground": "#A8B3AB",
-      "token": " keyword.operator"
+      "token": "keyword.operator"
     },
     {
       "foreground": "#A8B3AB",
-      "token": " keyword.other.name-of-parameter"
+      "token": "keyword.other.name-of-parameter"
     },
     {
       "foreground": "#9A2F00",
@@ -116,7 +116,7 @@
     },
     {
       "foreground": "#A39E64",
-      "token": " storage.type.function.php"
+      "token": "storage.type.function.php"
     },
     {
       "foreground": "#FFFFFF",
@@ -138,11 +138,11 @@
     },
     {
       "foreground": "#5778B6",
-      "token": " support.type"
+      "token": "support.type"
     },
     {
       "foreground": "#5778B6",
-      "token": " entity.name"
+      "token": "entity.name"
     },
     {
       "foreground": "#C87500",
@@ -192,17 +192,17 @@
     {
       "foreground": "#FFFFFF",
       "background": "#00000059",
-      "token": " markup.inserted.svn"
+      "token": "markup.inserted.svn"
     },
     {
       "foreground": "#FFFFFF",
       "background": "#00000059",
-      "token": " markup.changed.svn"
+      "token": "markup.changed.svn"
     },
     {
       "foreground": "#FFFFFF",
       "background": "#00000059",
-      "token": " markup.deleted.svn"
+      "token": "markup.deleted.svn"
     },
     {
       "background": "#78807B0A",

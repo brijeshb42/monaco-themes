@@ -78,17 +78,17 @@
     {
       "foreground": "#CF5628",
       "fontStyle": "bold italic",
-      "token": " string.regexp constant.character.escaped"
+      "token": "string.regexp constant.character.escaped"
     },
     {
       "foreground": "#CF5628",
       "fontStyle": "bold italic",
-      "token": " string.regexp source.ruby.embedded"
+      "token": "string.regexp source.ruby.embedded"
     },
     {
       "foreground": "#CF5628",
       "fontStyle": "bold italic",
-      "token": " string.regexp string.regexp.arbitrary-repitition"
+      "token": "string.regexp string.regexp.arbitrary-repitition"
     },
     {
       "foreground": "#811F24",

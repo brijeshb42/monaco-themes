@@ -12,7 +12,7 @@
     },
     {
       "foreground": "#7D4726",
-      "token": " keyword.control.import"
+      "token": "keyword.control.import"
     },
     {
       "foreground": "#DF0002",
@@ -32,7 +32,7 @@
     },
     {
       "foreground": "#275A5E",
-      "token": " constant.other"
+      "token": "constant.other"
     },
     {
       "foreground": "#C800A4",
@@ -40,7 +40,7 @@
     },
     {
       "foreground": "#C800A4",
-      "token": " variable.other"
+      "token": "variable.other"
     },
     {
       "foreground": "#C800A4",
@@ -85,7 +85,7 @@
     },
     {
       "foreground": "#790EAD",
-      "token": " support.class"
+      "token": "support.class"
     },
     {
       "foreground": "#790EAD",

@@ -24,7 +24,7 @@
     },
     {
       "foreground": "#FF7800",
-      "token": " storage"
+      "token": "storage"
     },
     {
       "foreground": "#409B1C",
@@ -32,7 +32,7 @@
     },
     {
       "foreground": "#409B1C",
-      "token": " meta.verbatim"
+      "token": "meta.verbatim"
     },
     {
       "foreground": "#3B5BB5",
@@ -70,7 +70,7 @@
     },
     {
       "foreground": "#3A4A64",
-      "token": " meta.tag entity"
+      "token": "meta.tag entity"
     },
     {
       "foreground": "#7F90AA",

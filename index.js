@@ -53,7 +53,7 @@ function parseTheme(rawData) {
 
     scopes.forEach(scope => {
       const r = Object.assign({}, rule, {
-        token: scope,
+        token: scope.trim(),
       });
       rules.push(r);
     });

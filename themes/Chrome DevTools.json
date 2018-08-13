@@ -61,7 +61,7 @@
     },
     {
       "foreground": "#AA0D91",
-      "token": " declaration.tag"
+      "token": "declaration.tag"
     },
     {
       "foreground": "#000000",

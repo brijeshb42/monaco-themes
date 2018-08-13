@@ -49,11 +49,11 @@
     },
     {
       "foreground": "#842B44",
-      "token": " source.js.embedded.html entity.name.tag.script"
+      "token": "source.js.embedded.html entity.name.tag.script"
     },
     {
       "foreground": "#842B44",
-      "token": " source.js.embedded entity.other.attribute-name - source.js string"
+      "token": "source.js.embedded entity.other.attribute-name - source.js string"
     },
     {
       "foreground": "#9A9A9A",
@@ -69,7 +69,7 @@
     },
     {
       "foreground": "#24C696",
-      "token": " source.js support.function - source.php"
+      "token": "source.js support.function - source.php"
     },
     {
       "foreground": "#0035FF",
@@ -77,7 +77,7 @@
     },
     {
       "foreground": "#0035FF",
-      "token": " source.js keyword.operator"
+      "token": "source.js keyword.operator"
     },
     {
       "foreground": "#7E00B7",
@@ -96,32 +96,32 @@
     {
       "foreground": "#05208C",
       "fontStyle": "bold",
-      "token": " source.js constant - source.php"
+      "token": "source.js constant - source.php"
     },
     {
       "foreground": "#05208C",
       "fontStyle": "bold",
-      "token": " source.js keyword - source.php"
+      "token": "source.js keyword - source.php"
     },
     {
       "foreground": "#05208C",
       "fontStyle": "bold",
-      "token": " source.js variable.language"
+      "token": "source.js variable.language"
     },
     {
       "foreground": "#05208C",
       "fontStyle": "bold",
-      "token": " source.js meta.brace"
+      "token": "source.js meta.brace"
     },
     {
       "foreground": "#05208C",
       "fontStyle": "bold",
-      "token": " source.js punctuation.definition.parameters.begin"
+      "token": "source.js punctuation.definition.parameters.begin"
     },
     {
       "foreground": "#05208C",
       "fontStyle": "bold",
-      "token": " source.js punctuation.definition.parameters.end"
+      "token": "source.js punctuation.definition.parameters.end"
     },
     {
       "foreground": "#106800",
@@ -129,7 +129,7 @@
     },
     {
       "foreground": "#106800",
-      "token": " source.js string.regexp constant"
+      "token": "source.js string.regexp constant"
     },
     {
       "foreground": "#8D00B7",
@@ -137,11 +137,11 @@
     },
     {
       "foreground": "#8D00B7",
-      "token": " source.css.embedded.html entity.name.tag.style"
+      "token": "source.css.embedded.html entity.name.tag.style"
     },
     {
       "foreground": "#8D00B7",
-      "token": " source.css.embedded entity.other.attribute-name - meta.selector"
+      "token": "source.css.embedded entity.other.attribute-name - meta.selector"
     },
     {
       "foreground": "#009C7F",
@@ -168,11 +168,11 @@
     },
     {
       "foreground": "#DA29FF",
-      "token": " source.css meta.property-list"
+      "token": "source.css meta.property-list"
     },
     {
       "foreground": "#DA29FF",
-      "token": " source.css meta.at-rule"
+      "token": "source.css meta.at-rule"
     },
     {
       "foreground": "#DA29FF",
@@ -182,7 +182,7 @@
     {
       "foreground": "#DA29FF",
       "fontStyle": "bold",
-      "token": " source.css punctuation.terminator - source.php"
+      "token": "source.css punctuation.terminator - source.php"
     },
     {
       "foreground": "#05208C",
@@ -200,7 +200,7 @@
     {
       "foreground": "#EE000B",
       "fontStyle": "bold",
-      "token": " source.php punctuation.section.embedded.end"
+      "token": "source.php punctuation.section.embedded.end"
     },
     {
       "foreground": "#000000",
@@ -212,7 +212,7 @@
     },
     {
       "foreground": "#000000",
-      "token": " source.php meta.function.arguments"
+      "token": "source.php meta.function.arguments"
     },
     {
       "foreground": "#05208C",
@@ -228,35 +228,35 @@
     },
     {
       "foreground": "#009714",
-      "token": " source.php storage.type.class"
+      "token": "source.php storage.type.class"
     },
     {
       "foreground": "#009714",
-      "token": " source.php storage.type.interface"
+      "token": "source.php storage.type.interface"
     },
     {
       "foreground": "#009714",
-      "token": " source.php storage.modifier"
+      "token": "source.php storage.modifier"
     },
     {
       "foreground": "#009714",
-      "token": " source.php constant.language"
+      "token": "source.php constant.language"
     },
     {
       "foreground": "#0035FF",
-      "token": "source.php support "
+      "token": "source.php support"
     },
     {
       "foreground": "#0035FF",
-      "token": " source.php storage"
+      "token": "source.php storage"
     },
     {
       "foreground": "#0035FF",
-      "token": " source.php keyword.operator"
+      "token": "source.php keyword.operator"
     },
     {
       "foreground": "#0035FF",
-      "token": " source.php storage.type.function"
+      "token": "source.php storage.type.function"
     },
     {
       "foreground": "#0092F2",
@@ -268,7 +268,7 @@
     },
     {
       "foreground": "#551D02",
-      "token": " source.php constant.language.php"
+      "token": "source.php constant.language.php"
     },
     {
       "foreground": "#E20000",
@@ -276,7 +276,7 @@
     },
     {
       "foreground": "#E20000",
-      "token": " source.php string keyword.operator"
+      "token": "source.php string keyword.operator"
     },
     {
       "foreground": "#FF6200",

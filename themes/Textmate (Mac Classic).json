@@ -15,7 +15,7 @@
     {
       "foreground": "#0000FF",
       "fontStyle": "bold",
-      "token": " storage"
+      "token": "storage"
     },
     {
       "foreground": "#0000CD",
@@ -37,7 +37,7 @@
     },
     {
       "foreground": "#318495",
-      "token": " variable.other"
+      "token": "variable.other"
     },
     {
       "foreground": "#036A07",
@@ -49,7 +49,7 @@
     },
     {
       "foreground": "#26B31A",
-      "token": " string source"
+      "token": "string source"
     },
     {
       "foreground": "#1A921C",
@@ -68,7 +68,7 @@
     {
       "foreground": "#0000A2",
       "fontStyle": "bold",
-      "token": " support.function.any-method"
+      "token": "support.function.any-method"
     },
     {
       "fontStyle": "underline",
@@ -92,7 +92,7 @@
     },
     {
       "fontStyle": "italic",
-      "token": " declaration.section entity.name.section"
+      "token": "declaration.section entity.name.section"
     },
     {
       "foreground": "#3C4C72",
@@ -107,7 +107,7 @@
     {
       "foreground": "#6D79DE",
       "fontStyle": "bold",
-      "token": " support.type"
+      "token": "support.type"
     },
     {
       "foreground": "#06960E",
@@ -138,7 +138,7 @@
     },
     {
       "background": "#0000000D",
-      "token": " string.unquoted"
+      "token": "string.unquoted"
     },
     {
       "background": "#0000000F",
@@ -146,7 +146,7 @@
     },
     {
       "background": "#0000000F",
-      "token": " text source text source"
+      "token": "text source text source"
     },
     {
       "foreground": "#68685B",
@@ -158,23 +158,23 @@
     },
     {
       "foreground": "#888888",
-      "token": " meta.tag.sgml.doctype entity"
+      "token": "meta.tag.sgml.doctype entity"
     },
     {
       "foreground": "#888888",
-      "token": " meta.tag.sgml.doctype string"
+      "token": "meta.tag.sgml.doctype string"
     },
     {
       "foreground": "#888888",
-      "token": " meta.tag.preprocessor.xml"
+      "token": "meta.tag.preprocessor.xml"
     },
     {
       "foreground": "#888888",
-      "token": " meta.tag.preprocessor.xml entity"
+      "token": "meta.tag.preprocessor.xml entity"
     },
     {
       "foreground": "#888888",
-      "token": " meta.tag.preprocessor.xml string"
+      "token": "meta.tag.preprocessor.xml string"
     },
     {
       "fontStyle": "italic",
@@ -186,7 +186,7 @@
     },
     {
       "foreground": "#1C02FF",
-      "token": " declaration.tag"
+      "token": "declaration.tag"
     },
     {
       "fontStyle": "bold",

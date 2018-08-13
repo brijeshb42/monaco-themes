@@ -22,11 +22,11 @@
     },
     {
       "foreground": "#FFE5BB",
-      "token": " declaration.tag"
+      "token": "declaration.tag"
     },
     {
       "foreground": "#FFE5BB",
-      "token": " meta.doctype"
+      "token": "meta.doctype"
     },
     {
       "foreground": "#FFC66D",
@@ -50,7 +50,7 @@
     },
     {
       "foreground": "#6C99BB",
-      "token": " support.constant"
+      "token": "support.constant"
     },
     {
       "foreground": "#CC7833",

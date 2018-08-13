@@ -21,13 +21,13 @@
     },
     {
       "foreground": "#FC803A",
-      "token": " storage"
+      "token": "storage"
     },
     {
       "token": "entity.name.function"
     },
     {
-      "token": " keyword.other.name-of-parameter.objc"
+      "token": "keyword.other.name-of-parameter.objc"
     },
     {
       "token": "entity.name"
@@ -44,7 +44,7 @@
       "token": "variable.language"
     },
     {
-      "token": " variable.other"
+      "token": "variable.other"
     },
     {
       "foreground": "#68C1D8",
@@ -82,11 +82,11 @@
     },
     {
       "foreground": "#FC803A",
-      "token": " declaration.tag"
+      "token": "declaration.tag"
     },
     {
       "foreground": "#FC803A",
-      "token": " entity.name.tag"
+      "token": "entity.name.tag"
     },
     {
       "foreground": "#AC4BB8",
@@ -108,15 +108,15 @@
     },
     {
       "foreground": "#B3E5B4",
-      "token": " constant.character.escape"
+      "token": "constant.character.escape"
     },
     {
       "foreground": "#B3E5B4",
-      "token": " string source"
+      "token": "string source"
     },
     {
       "foreground": "#B3E5B4",
-      "token": " string source.ruby"
+      "token": "string source.ruby"
     },
     {
       "foreground": "#E6E1DC",
@@ -134,15 +134,15 @@
     },
     {
       "background": "#5A9EE1",
-      "token": " meta.separator.diff"
+      "token": "meta.separator.diff"
     },
     {
       "background": "#5A9EE1",
-      "token": " meta.diff.index"
+      "token": "meta.diff.index"
     },
     {
       "background": "#5A9EE1",
-      "token": " meta.diff.range"
+      "token": "meta.diff.range"
     }
   ],
   "colors": {

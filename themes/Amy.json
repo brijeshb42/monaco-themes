@@ -56,7 +56,7 @@
     },
     {
       "foreground": "#008080",
-      "token": " variable.other"
+      "token": "variable.other"
     },
     {
       "foreground": "#A080FF",
@@ -107,7 +107,7 @@
     {
       "foreground": "#60B0FF",
       "fontStyle": "italic",
-      "token": " entity.name.type.variant.polymorphic"
+      "token": "entity.name.type.variant.polymorphic"
     },
     {
       "foreground": "#B000B0",
@@ -172,7 +172,7 @@
       "token": "support.type"
     },
     {
-      "token": " support.class"
+      "token": "support.class"
     },
     {
       "token": "support.other.variable"

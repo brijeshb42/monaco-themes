@@ -20,7 +20,7 @@
     {
       "foreground": "#999999",
       "fontStyle": "bold italic",
-      "token": " comment.block.documentation"
+      "token": "comment.block.documentation"
     },
     {
       "foreground": "#A61717",
@@ -33,7 +33,7 @@
     },
     {
       "fontStyle": "bold",
-      "token": " storage"
+      "token": "storage"
     },
     {
       "fontStyle": "bold",
@@ -45,7 +45,7 @@
     },
     {
       "fontStyle": "bold",
-      "token": " support.constant"
+      "token": "support.constant"
     },
     {
       "foreground": "#445588",
@@ -55,7 +55,7 @@
     {
       "foreground": "#445588",
       "fontStyle": "bold",
-      "token": " support.type"
+      "token": "support.type"
     },
     {
       "foreground": "#008080",
@@ -77,12 +77,12 @@
     {
       "foreground": "#445588",
       "fontStyle": "bold",
-      "token": " entity.other.inherited-class"
+      "token": "entity.other.inherited-class"
     },
     {
       "foreground": "#445588",
       "fontStyle": "bold",
-      "token": " support.class"
+      "token": "support.class"
     },
     {
       "foreground": "#008080",
@@ -102,11 +102,11 @@
     },
     {
       "foreground": "#990000",
-      "token": " support.function"
+      "token": "support.function"
     },
     {
       "foreground": "#990000",
-      "token": " keyword.other.name-of-parameter"
+      "token": "keyword.other.name-of-parameter"
     },
     {
       "foreground": "#555555",
@@ -122,7 +122,7 @@
     },
     {
       "foreground": "#008080",
-      "token": " support.variable"
+      "token": "support.variable"
     },
     {
       "foreground": "#009999",
@@ -130,7 +130,7 @@
     },
     {
       "foreground": "#009999",
-      "token": " constant.other"
+      "token": "constant.other"
     },
     {
       "foreground": "#DD1144",
@@ -138,7 +138,7 @@
     },
     {
       "foreground": "#DD1144",
-      "token": " constant.character"
+      "token": "constant.character"
     },
     {
       "foreground": "#009926",
@@ -180,7 +180,7 @@
     },
     {
       "foreground": "#888888",
-      "token": " markup.raw"
+      "token": "markup.raw"
     },
     {
       "foreground": "#555555",
@@ -210,12 +210,12 @@
     {
       "foreground": "#999999",
       "background": "#EAF2F5",
-      "token": " meta.diff.index"
+      "token": "meta.diff.index"
     },
     {
       "foreground": "#999999",
       "background": "#EAF2F5",
-      "token": " meta.separator"
+      "token": "meta.separator"
     },
     {
       "foreground": "#999999",

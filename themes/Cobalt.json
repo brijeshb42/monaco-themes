@@ -28,7 +28,7 @@
     },
     {
       "foreground": "#3AD900",
-      "token": " string.unquoted.heredoc string"
+      "token": "string.unquoted.heredoc string"
     },
     {
       "foreground": "#0088FF",
@@ -64,12 +64,12 @@
     {
       "foreground": "#FFFFFF",
       "background": "#223545",
-      "token": " string.unquoted.heredoc"
+      "token": "string.unquoted.heredoc"
     },
     {
       "foreground": "#FFFFFF",
       "background": "#223545",
-      "token": " source source"
+      "token": "source source"
     },
     {
       "foreground": "#80FCFF",
@@ -118,23 +118,23 @@
     },
     {
       "foreground": "#73817D",
-      "token": " meta.sgml.html meta.doctype entity"
+      "token": "meta.sgml.html meta.doctype entity"
     },
     {
       "foreground": "#73817D",
-      "token": " meta.sgml.html meta.doctype string"
+      "token": "meta.sgml.html meta.doctype string"
     },
     {
       "foreground": "#73817D",
-      "token": " meta.xml-processing"
+      "token": "meta.xml-processing"
     },
     {
       "foreground": "#73817D",
-      "token": " meta.xml-processing entity"
+      "token": "meta.xml-processing entity"
     },
     {
       "foreground": "#73817D",
-      "token": " meta.xml-processing string"
+      "token": "meta.xml-processing string"
     },
     {
       "foreground": "#9EFFFF",
@@ -142,7 +142,7 @@
     },
     {
       "foreground": "#9EFFFF",
-      "token": " meta.tag entity"
+      "token": "meta.tag entity"
     },
     {
       "foreground": "#9EFFFF",
@@ -166,7 +166,7 @@
     },
     {
       "foreground": "#F6F080",
-      "token": " meta.property-value support.constant.property-value.css"
+      "token": "meta.property-value support.constant.property-value.css"
     },
     {
       "foreground": "#F6AA11",
@@ -178,7 +178,7 @@
     },
     {
       "foreground": "#EDF080",
-      "token": " meta.property-value constant"
+      "token": "meta.property-value constant"
     },
     {
       "foreground": "#EB939A",
@@ -192,7 +192,7 @@
     {
       "foreground": "#F8F8F8",
       "background": "#000E1A",
-      "token": " meta.diff.header"
+      "token": "meta.diff.header"
     },
     {
       "foreground": "#F8F8F8",

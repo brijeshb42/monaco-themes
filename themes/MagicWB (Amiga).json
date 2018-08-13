@@ -29,7 +29,7 @@
     {
       "foreground": "#FFA995",
       "background": "#0000FF33",
-      "token": " constant.other"
+      "token": "constant.other"
     },
     {
       "foreground": "#FFA995",
@@ -37,7 +37,7 @@
     },
     {
       "foreground": "#FFA995",
-      "token": " variable.other"
+      "token": "variable.other"
     },
     {
       "fontStyle": "bold",
@@ -96,7 +96,7 @@
     },
     {
       "foreground": "#FFA995",
-      "token": " support.class"
+      "token": "support.class"
     },
     {
       "foreground": "#3A68A3",

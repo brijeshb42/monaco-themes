@@ -1,6 +1,6 @@
 {
   "name": "monaco-themes",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Themes for monaco editor in web browser",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

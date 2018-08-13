@@ -12,11 +12,11 @@
     },
     {
       "foreground": "#CCCCCC",
-      "token": " constant.other"
+      "token": "constant.other"
     },
     {
       "foreground": "#CCCCCC",
-      "token": " source.php.embedded.line"
+      "token": "source.php.embedded.line"
     },
     {
       "foreground": "#F2777A",
@@ -24,27 +24,27 @@
     },
     {
       "foreground": "#F2777A",
-      "token": " support.other.variable"
+      "token": "support.other.variable"
     },
     {
       "foreground": "#F2777A",
-      "token": " string.other.link"
+      "token": "string.other.link"
     },
     {
       "foreground": "#F2777A",
-      "token": " entity.name.tag"
+      "token": "entity.name.tag"
     },
     {
       "foreground": "#F2777A",
-      "token": " entity.other.attribute-name"
+      "token": "entity.other.attribute-name"
     },
     {
       "foreground": "#F2777A",
-      "token": " meta.tag"
+      "token": "meta.tag"
     },
     {
       "foreground": "#F2777A",
-      "token": " declaration.tag"
+      "token": "declaration.tag"
     },
     {
       "foreground": "#F99157",
@@ -52,27 +52,27 @@
     },
     {
       "foreground": "#F99157",
-      "token": " constant.language"
+      "token": "constant.language"
     },
     {
       "foreground": "#F99157",
-      "token": " support.constant"
+      "token": "support.constant"
     },
     {
       "foreground": "#F99157",
-      "token": " constant.character"
+      "token": "constant.character"
     },
     {
       "foreground": "#F99157",
-      "token": " variable.parameter"
+      "token": "variable.parameter"
     },
     {
       "foreground": "#F99157",
-      "token": " punctuation.section.embedded"
+      "token": "punctuation.section.embedded"
     },
     {
       "foreground": "#F99157",
-      "token": " keyword.other.unit"
+      "token": "keyword.other.unit"
     },
     {
       "foreground": "#FFCC66",
@@ -80,15 +80,15 @@
     },
     {
       "foreground": "#FFCC66",
-      "token": " entity.name.type.class"
+      "token": "entity.name.type.class"
     },
     {
       "foreground": "#FFCC66",
-      "token": " support.type"
+      "token": "support.type"
     },
     {
       "foreground": "#FFCC66",
-      "token": " support.class"
+      "token": "support.class"
     },
     {
       "foreground": "#99CC99",
@@ -96,15 +96,15 @@
     },
     {
       "foreground": "#99CC99",
-      "token": " constant.other.symbol"
+      "token": "constant.other.symbol"
     },
     {
       "foreground": "#99CC99",
-      "token": " entity.other.inherited-class"
+      "token": "entity.other.inherited-class"
     },
     {
       "foreground": "#99CC99",
-      "token": " markup.heading"
+      "token": "markup.heading"
     },
     {
       "foreground": "#66CCCC",
@@ -112,7 +112,7 @@
     },
     {
       "foreground": "#66CCCC",
-      "token": " constant.other.color"
+      "token": "constant.other.color"
     },
     {
       "foreground": "#6699CC",
@@ -120,19 +120,19 @@
     },
     {
       "foreground": "#6699CC",
-      "token": " meta.function-call"
+      "token": "meta.function-call"
     },
     {
       "foreground": "#6699CC",
-      "token": " support.function"
+      "token": "support.function"
     },
     {
       "foreground": "#6699CC",
-      "token": " keyword.other.special-method"
+      "token": "keyword.other.special-method"
     },
     {
       "foreground": "#6699CC",
-      "token": " meta.block-level"
+      "token": "meta.block-level"
     },
     {
       "foreground": "#CC99CC",
@@ -140,15 +140,15 @@
     },
     {
       "foreground": "#CC99CC",
-      "token": " storage"
+      "token": "storage"
     },
     {
       "foreground": "#CC99CC",
-      "token": " storage.type"
+      "token": "storage.type"
     },
     {
       "foreground": "#CC99CC",
-      "token": " entity.name.tag.css"
+      "token": "entity.name.tag.css"
     },
     {
       "foreground": "#CDCDCD",

@@ -24,7 +24,7 @@
     {
       "foreground": "#CCFF33",
       "background": "#000000",
-      "token": " invalid.deprecated"
+      "token": "invalid.deprecated"
     },
     {
       "foreground": "#99CC99",
@@ -64,7 +64,7 @@
     },
     {
       "foreground": "#FFCC00",
-      "token": " storage.type.function.js"
+      "token": "storage.type.function.js"
     },
     {
       "fontStyle": "italic",
@@ -114,7 +114,7 @@
     },
     {
       "fontStyle": "underline",
-      "token": " support.class.js"
+      "token": "support.class.js"
     },
     {
       "fontStyle": "italic underline",
@@ -129,7 +129,7 @@
     },
     {
       "foreground": "#FF6600",
-      "token": "  meta.tag.block.any.html"
+      "token": "meta.tag.block.any.html"
     },
     {
       "foreground": "#99CC99",
@@ -146,19 +146,19 @@
     },
     {
       "foreground": "#FF6600",
-      "token": " entity.other.attribute-name.pseudo-class.css"
+      "token": "entity.other.attribute-name.pseudo-class.css"
     },
     {
       "foreground": "#FF6600",
-      "token": " entity.name.tag.wildcard.css"
+      "token": "entity.name.tag.wildcard.css"
     },
     {
       "foreground": "#FF6600",
-      "token": " entity.other.attribute-name.id.css"
+      "token": "entity.other.attribute-name.id.css"
     },
     {
       "foreground": "#FF6600",
-      "token": " entity.other.attribute-name.class.css"
+      "token": "entity.other.attribute-name.class.css"
     },
     {
       "foreground": "#999966",
@@ -170,11 +170,11 @@
     },
     {
       "foreground": "#FFFFFF",
-      "token": " constant.other.rgb-value.css"
+      "token": "constant.other.rgb-value.css"
     },
     {
       "foreground": "#FFFFFF",
-      "token": " constant.numeric.css"
+      "token": "constant.numeric.css"
     },
     {
       "foreground": "#FFFFFF",

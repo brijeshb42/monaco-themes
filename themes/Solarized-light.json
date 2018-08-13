@@ -24,7 +24,7 @@
     },
     {
       "foreground": "#268BD2",
-      "token": " variable.other"
+      "token": "variable.other"
     },
     {
       "foreground": "#859900",
@@ -41,7 +41,7 @@
     },
     {
       "foreground": "#268BD2",
-      "token": " entity.name.type.class"
+      "token": "entity.name.type.class"
     },
     {
       "foreground": "#268BD2",
@@ -57,7 +57,7 @@
     },
     {
       "foreground": "#D30102",
-      "token": " punctuation.section.embedded.end"
+      "token": "punctuation.section.embedded.end"
     },
     {
       "foreground": "#B58900",
@@ -65,7 +65,7 @@
     },
     {
       "foreground": "#B58900",
-      "token": " meta.preprocessor"
+      "token": "meta.preprocessor"
     },
     {
       "foreground": "#D30102",
@@ -73,7 +73,7 @@
     },
     {
       "foreground": "#D30102",
-      "token": " keyword.other.new"
+      "token": "keyword.other.new"
     },
     {
       "foreground": "#CB4B16",
@@ -81,7 +81,7 @@
     },
     {
       "foreground": "#CB4B16",
-      "token": " constant.other"
+      "token": "constant.other"
     },
     {
       "token": "entity.other.inherited-class"
@@ -100,7 +100,7 @@
     },
     {
       "foreground": "#93A1A1",
-      "token": " punctuation.definition.tag.end"
+      "token": "punctuation.definition.tag.end"
     },
     {
       "foreground": "#93A1A1",
@@ -123,7 +123,7 @@
     },
     {
       "foreground": "#859900",
-      "token": " support.class"
+      "token": "support.class"
     },
     {
       "foreground": "#CB4B16",

@@ -20,7 +20,7 @@
     },
     {
       "foreground": "#596380",
-      "token": " variable.other"
+      "token": "variable.other"
     },
     {
       "foreground": "#728059",
@@ -28,7 +28,7 @@
     },
     {
       "foreground": "#728059",
-      "token": " keyword.operator.logical"
+      "token": "keyword.operator.logical"
     },
     {
       "foreground": "#9EBF60",
@@ -63,7 +63,7 @@
       "token": "support.type"
     },
     {
-      "token": " support.class"
+      "token": "support.class"
     },
     {
       "token": "support.other.variable"

@@ -21,13 +21,13 @@
       "token": "constant.character"
     },
     {
-      "token": " constant.other"
+      "token": "constant.other"
     },
     {
       "token": "variable.language"
     },
     {
-      "token": " variable.other"
+      "token": "variable.other"
     },
     {
       "foreground": "#FF5600",
@@ -71,7 +71,7 @@
     },
     {
       "foreground": "#A535AE",
-      "token": " support.class"
+      "token": "support.class"
     },
     {
       "foreground": "#A535AE",

@@ -31,7 +31,7 @@
     {
       "foreground": "#025f69ff",
       "background": "#7f229910",
-      "token": " constant.other"
+      "token": "constant.other"
     },
     {
       "foreground": "#7D7e52",
@@ -88,7 +88,7 @@
     {
       "foreground": "#316fcf",
       "background": "#3aafff0a",
-      "token": " variable.other"
+      "token": "variable.other"
     },
     {
       "foreground": "#33969fdd",
@@ -125,7 +125,7 @@
     {
       "foreground": "#cc4357",
       "background": "#ffddff92",
-      "token": " entity.name.type.class"
+      "token": "entity.name.type.class"
     },
     {
       "foreground": "#ef6aa7ff",

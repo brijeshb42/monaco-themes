@@ -35,7 +35,7 @@
       "token": "constant.character"
     },
     {
-      "token": " constant.other"
+      "token": "constant.other"
     },
     {
       "foreground": "#66CCFF",
@@ -45,7 +45,7 @@
     {
       "foreground": "#66CCFF",
       "fontStyle": "bold",
-      "token": " constant.other.time"
+      "token": "constant.other.time"
     },
     {
       "foreground": "#A535AE",
@@ -118,7 +118,7 @@
     },
     {
       "foreground": "#A535AE",
-      "token": " support.class"
+      "token": "support.class"
     },
     {
       "foreground": "#A535AE",

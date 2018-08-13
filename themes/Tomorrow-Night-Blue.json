@@ -12,15 +12,15 @@
     },
     {
       "foreground": "#FFFFFF",
-      "token": " keyword.operator"
+      "token": "keyword.operator"
     },
     {
       "foreground": "#FFFFFF",
-      "token": " constant.other"
+      "token": "constant.other"
     },
     {
       "foreground": "#FFFFFF",
-      "token": " source.php.embedded.line"
+      "token": "source.php.embedded.line"
     },
     {
       "foreground": "#FF9DA4",
@@ -28,31 +28,31 @@
     },
     {
       "foreground": "#FF9DA4",
-      "token": " support.other.variable"
+      "token": "support.other.variable"
     },
     {
       "foreground": "#FF9DA4",
-      "token": " string.other.link"
+      "token": "string.other.link"
     },
     {
       "foreground": "#FF9DA4",
-      "token": " string.regexp"
+      "token": "string.regexp"
     },
     {
       "foreground": "#FF9DA4",
-      "token": " entity.name.tag"
+      "token": "entity.name.tag"
     },
     {
       "foreground": "#FF9DA4",
-      "token": " entity.other.attribute-name"
+      "token": "entity.other.attribute-name"
     },
     {
       "foreground": "#FF9DA4",
-      "token": " meta.tag"
+      "token": "meta.tag"
     },
     {
       "foreground": "#FF9DA4",
-      "token": " declaration.tag"
+      "token": "declaration.tag"
     },
     {
       "foreground": "#FFC58F",
@@ -60,27 +60,27 @@
     },
     {
       "foreground": "#FFC58F",
-      "token": " constant.language"
+      "token": "constant.language"
     },
     {
       "foreground": "#FFC58F",
-      "token": " support.constant"
+      "token": "support.constant"
     },
     {
       "foreground": "#FFC58F",
-      "token": " constant.character"
+      "token": "constant.character"
     },
     {
       "foreground": "#FFC58F",
-      "token": " variable.parameter"
+      "token": "variable.parameter"
     },
     {
       "foreground": "#FFC58F",
-      "token": " punctuation.section.embedded"
+      "token": "punctuation.section.embedded"
     },
     {
       "foreground": "#FFC58F",
-      "token": " keyword.other.unit"
+      "token": "keyword.other.unit"
     },
     {
       "foreground": "#FFEEAD",
@@ -88,15 +88,15 @@
     },
     {
       "foreground": "#FFEEAD",
-      "token": " entity.name.type.class"
+      "token": "entity.name.type.class"
     },
     {
       "foreground": "#FFEEAD",
-      "token": " support.type"
+      "token": "support.type"
     },
     {
       "foreground": "#FFEEAD",
-      "token": " support.class"
+      "token": "support.class"
     },
     {
       "foreground": "#D1F1A9",
@@ -104,15 +104,15 @@
     },
     {
       "foreground": "#D1F1A9",
-      "token": " constant.other.symbol"
+      "token": "constant.other.symbol"
     },
     {
       "foreground": "#D1F1A9",
-      "token": " entity.other.inherited-class"
+      "token": "entity.other.inherited-class"
     },
     {
       "foreground": "#D1F1A9",
-      "token": " markup.heading"
+      "token": "markup.heading"
     },
     {
       "foreground": "#99FFFF",
@@ -120,7 +120,7 @@
     },
     {
       "foreground": "#99FFFF",
-      "token": " constant.other.color"
+      "token": "constant.other.color"
     },
     {
       "foreground": "#BBDAFF",
@@ -128,19 +128,19 @@
     },
     {
       "foreground": "#BBDAFF",
-      "token": " meta.function-call"
+      "token": "meta.function-call"
     },
     {
       "foreground": "#BBDAFF",
-      "token": " support.function"
+      "token": "support.function"
     },
     {
       "foreground": "#BBDAFF",
-      "token": " keyword.other.special-method"
+      "token": "keyword.other.special-method"
     },
     {
       "foreground": "#BBDAFF",
-      "token": " meta.block-level"
+      "token": "meta.block-level"
     },
     {
       "foreground": "#EBBBFF",
@@ -148,15 +148,15 @@
     },
     {
       "foreground": "#EBBBFF",
-      "token": " storage"
+      "token": "storage"
     },
     {
       "foreground": "#EBBBFF",
-      "token": " storage.type"
+      "token": "storage.type"
     },
     {
       "foreground": "#EBBBFF",
-      "token": " entity.name.tag.css"
+      "token": "entity.name.tag.css"
     },
     {
       "foreground": "#FFFFFF",

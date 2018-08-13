@@ -22,32 +22,32 @@
     {
       "foreground": "#FFFC80",
       "background": "#803D0033",
-      "token": " variable.parameter.misc.css"
+      "token": "variable.parameter.misc.css"
     },
     {
       "foreground": "#FFFC80",
       "background": "#803D0033",
-      "token": " text string source string"
+      "token": "text string source string"
     },
     {
       "foreground": "#FFFC80",
       "background": "#803D0033",
-      "token": " string.unquoted string"
+      "token": "string.unquoted string"
     },
     {
       "foreground": "#FFFC80",
       "background": "#803D0033",
-      "token": " string.regexp string"
+      "token": "string.regexp string"
     },
     {
       "foreground": "#FFFC80",
       "background": "#803D0033",
-      "token": " string.interpolated string"
+      "token": "string.interpolated string"
     },
     {
       "foreground": "#FFFC80",
       "background": "#803D0033",
-      "token": " meta.tag source string"
+      "token": "meta.tag source string"
     },
     {
       "foreground": "#803D00",
@@ -59,11 +59,11 @@
     },
     {
       "foreground": "#FFF80033",
-      "token": " string.quoted.literal punctuation.definition.string"
+      "token": "string.quoted.literal punctuation.definition.string"
     },
     {
       "foreground": "#FFF80033",
-      "token": " string.quoted.double.ruby.mod punctuation.definition.string"
+      "token": "string.quoted.double.ruby.mod punctuation.definition.string"
     },
     {
       "foreground": "#FFF800",
@@ -73,7 +73,7 @@
     {
       "foreground": "#FFF800",
       "background": "#43800033",
-      "token": " string.quoted.double.ruby.mod"
+      "token": "string.quoted.double.ruby.mod"
     },
     {
       "foreground": "#FFBC80",
@@ -81,11 +81,11 @@
     },
     {
       "foreground": "#FFBC80",
-      "token": " string.quoted.double.multiline"
+      "token": "string.quoted.double.multiline"
     },
     {
       "foreground": "#FFBC80",
-      "token": " meta.scope.heredoc"
+      "token": "meta.scope.heredoc"
     },
     {
       "foreground": "#FFFC80",
@@ -104,17 +104,17 @@
     {
       "foreground": "#FFFFFF66",
       "background": "#43800033",
-      "token": "string.regexp.group string.regexp.group "
+      "token": "string.regexp.group string.regexp.group"
     },
     {
       "foreground": "#FFFFFF66",
       "background": "#43800033",
-      "token": "string.regexp.group string.regexp.group string.regexp.group "
+      "token": "string.regexp.group string.regexp.group string.regexp.group"
     },
     {
       "foreground": "#FFFFFF66",
       "background": "#43800033",
-      "token": "string.regexp.group string.regexp.group string.regexp.group string.regexp.group "
+      "token": "string.regexp.group string.regexp.group string.regexp.group string.regexp.group"
     },
     {
       "foreground": "#86FF00",
@@ -132,7 +132,7 @@
     },
     {
       "background": "#0086FF33",
-      "token": "meta.group.assertion.regexp "
+      "token": "meta.group.assertion.regexp"
     },
     {
       "foreground": "#0086FF",
@@ -140,11 +140,11 @@
     },
     {
       "foreground": "#0086FF",
-      "token": " meta.group.assertion keyword.control.group.regexp"
+      "token": "meta.group.assertion keyword.control.group.regexp"
     },
     {
       "foreground": "#0086FF",
-      "token": " meta.group.assertion punctuation.definition.group"
+      "token": "meta.group.assertion punctuation.definition.group"
     },
     {
       "foreground": "#C6FF00",
@@ -160,15 +160,15 @@
     },
     {
       "foreground": "#07FF00",
-      "token": " keyword.other.unit"
+      "token": "keyword.other.unit"
     },
     {
       "foreground": "#07FF00",
-      "token": " constant.other.java"
+      "token": "constant.other.java"
     },
     {
       "foreground": "#07FF00",
-      "token": " constant.other.unit"
+      "token": "constant.other.unit"
     },
     {
       "foreground": "#07FF00",
@@ -181,7 +181,7 @@
     },
     {
       "foreground": "#00FF79",
-      "token": " constant.block"
+      "token": "constant.block"
     },
     {
       "foreground": "#00FFF8",
@@ -189,7 +189,7 @@
     },
     {
       "foreground": "#00FFF8",
-      "token": " constant.name"
+      "token": "constant.name"
     },
     {
       "foreground": "#00FF79",
@@ -199,7 +199,7 @@
     {
       "foreground": "#00FF79",
       "background": "#00807C33",
-      "token": " variable.language"
+      "token": "variable.language"
     },
     {
       "foreground": "#00FFF8",
@@ -221,11 +221,11 @@
     },
     {
       "foreground": "#31A6FF",
-      "token": " variable.js"
+      "token": "variable.js"
     },
     {
       "foreground": "#31A6FF",
-      "token": " punctuation.separator.variable"
+      "token": "punctuation.separator.variable"
     },
     {
       "foreground": "#0086FF",
@@ -242,7 +242,7 @@
     },
     {
       "foreground": "#406180",
-      "token": " variable.other.normal"
+      "token": "variable.other.normal"
     },
     {
       "foreground": "#00000080",
@@ -250,7 +250,7 @@
     },
     {
       "foreground": "#00000080",
-      "token": " punctuation.separator.variable"
+      "token": "punctuation.separator.variable"
     },
     {
       "foreground": "#7E0080",
@@ -262,7 +262,7 @@
     },
     {
       "background": "#803D0033",
-      "token": " entity.name.preprocessor"
+      "token": "entity.name.preprocessor"
     },
     {
       "foreground": "#666666",
@@ -278,11 +278,11 @@
     },
     {
       "foreground": "#FF0000",
-      "token": " entity.name.type.class"
+      "token": "entity.name.type.class"
     },
     {
       "foreground": "#FF0000",
-      "token": " entity.name.type.module"
+      "token": "entity.name.type.module"
     },
     {
       "foreground": "#870000",
@@ -292,17 +292,17 @@
     {
       "foreground": "#870000",
       "background": "#FF000033",
-      "token": " declaration.class"
+      "token": "declaration.class"
     },
     {
       "foreground": "#870000",
       "background": "#FF000033",
-      "token": " meta.definition.class"
+      "token": "meta.definition.class"
     },
     {
       "foreground": "#870000",
       "background": "#FF000033",
-      "token": " declaration.module"
+      "token": "declaration.module"
     },
     {
       "foreground": "#FF0000",
@@ -312,7 +312,7 @@
     {
       "foreground": "#FF0000",
       "background": "#87000033",
-      "token": " support.class"
+      "token": "support.class"
     },
     {
       "foreground": "#FF3D44",
@@ -320,7 +320,7 @@
     },
     {
       "foreground": "#FF3D44",
-      "token": " entity.name.type.instance"
+      "token": "entity.name.type.instance"
     },
     {
       "background": "#831E5133",
@@ -334,7 +334,7 @@
     {
       "foreground": "#FF0086",
       "background": "#80000433",
-      "token": " entity.name.module"
+      "token": "entity.name.module"
     },
     {
       "foreground": "#FF0086",
@@ -344,10 +344,10 @@
       "token": "meta.function"
     },
     {
-      "token": " meta.property.function"
+      "token": "meta.property.function"
     },
     {
-      "token": " declaration.function"
+      "token": "declaration.function"
     },
     {
       "foreground": "#FF0086",
@@ -355,7 +355,7 @@
     },
     {
       "foreground": "#FF0086",
-      "token": " entity.name.preprocessor"
+      "token": "entity.name.preprocessor"
     },
     {
       "foreground": "#9799FF",
@@ -367,11 +367,11 @@
     },
     {
       "foreground": "#9799FF",
-      "token": " meta.definition.method  meta.definition.param-list"
+      "token": "meta.definition.method  meta.definition.param-list"
     },
     {
       "foreground": "#9799FF",
-      "token": " meta.function.method.with-arguments variable.parameter.function"
+      "token": "meta.function.method.with-arguments variable.parameter.function"
     },
     {
       "foreground": "#800004",
@@ -379,7 +379,7 @@
     },
     {
       "foreground": "#800004",
-      "token": " variable.parameter.function punctuation.separator.object"
+      "token": "variable.parameter.function punctuation.separator.object"
     },
     {
       "foreground": "#782EC1",
@@ -387,11 +387,11 @@
     },
     {
       "foreground": "#782EC1",
-      "token": " meta.function-call entity.name.function -(meta.function-call meta.function)"
+      "token": "meta.function-call entity.name.function -(meta.function-call meta.function)"
     },
     {
       "foreground": "#782EC1",
-      "token": " support.function - variable"
+      "token": "support.function - variable"
     },
     {
       "foreground": "#9D3EFF",
@@ -408,15 +408,15 @@
     },
     {
       "foreground": "#BC80FF",
-      "token": " meta.brace.curly.function"
+      "token": "meta.brace.curly.function"
     },
     {
       "foreground": "#BC80FF",
-      "token": " meta.function-call punctuation.section.scope.ruby"
+      "token": "meta.function-call punctuation.section.scope.ruby"
     },
     {
       "foreground": "#BC80FF",
-      "token": " meta.function-call punctuation.separator.object"
+      "token": "meta.function-call punctuation.separator.object"
     },
     {
       "foreground": "#BC80FF",
@@ -426,17 +426,17 @@
     {
       "foreground": "#BC80FF",
       "fontStyle": "bold",
-      "token": " \nmeta.group.braces.round meta.delimiter.object.comma"
+      "token": "meta.group.braces.round meta.delimiter.object.comma"
     },
     {
       "foreground": "#BC80FF",
       "fontStyle": "bold",
-      "token": " \nmeta.group.braces.curly.function meta.delimiter.object.comma"
+      "token": "meta.group.braces.curly.function meta.delimiter.object.comma"
     },
     {
       "foreground": "#BC80FF",
       "fontStyle": "bold",
-      "token": " \nmeta.brace.round"
+      "token": "meta.brace.round"
     },
     {
       "foreground": "#A88FC0",
@@ -444,7 +444,7 @@
     },
     {
       "foreground": "#A88FC0",
-      "token": " meta.function-call.method.without-arguments entity.name.function"
+      "token": "meta.function-call.method.without-arguments entity.name.function"
     },
     {
       "foreground": "#F800FF",
@@ -466,15 +466,15 @@
     },
     {
       "foreground": "#0000CE",
-      "token": " declaration.function.operator"
+      "token": "declaration.function.operator"
     },
     {
       "foreground": "#0000CE",
-      "token": " meta.preprocessor.c.include"
+      "token": "meta.preprocessor.c.include"
     },
     {
       "foreground": "#0000CE",
-      "token": " punctuation.separator.operator"
+      "token": "punctuation.separator.operator"
     },
     {
       "foreground": "#0000CE",
@@ -506,12 +506,12 @@
     {
       "foreground": "#CCCCCC",
       "background": "#333333",
-      "token": " meta.tag.sgml-declaration.doctype"
+      "token": "meta.tag.sgml-declaration.doctype"
     },
     {
       "foreground": "#CCCCCC",
       "background": "#333333",
-      "token": " meta.tag.sgml.doctype"
+      "token": "meta.tag.sgml.doctype"
     },
     {
       "foreground": "#333333",
@@ -525,7 +525,7 @@
     {
       "foreground": "#666666",
       "background": "#333333BF",
-      "token": " meta.tag.segment"
+      "token": "meta.tag.segment"
     },
     {
       "foreground": "#4C4C4C",
@@ -535,12 +535,12 @@
     {
       "foreground": "#4C4C4C",
       "background": "#4C4C4C33",
-      "token": " meta.tag.xml"
+      "token": "meta.tag.xml"
     },
     {
       "foreground": "#4C4C4C",
       "background": "#4C4C4C33",
-      "token": " meta.tag.key"
+      "token": "meta.tag.key"
     },
     {
       "foreground": "#FF7900",
@@ -559,27 +559,27 @@
     {
       "foreground": "#FF0007",
       "background": "#80000433",
-      "token": " entity.name.tag.style"
+      "token": "entity.name.tag.style"
     },
     {
       "foreground": "#FF0007",
       "background": "#80000433",
-      "token": " entity.name.tag.script"
+      "token": "entity.name.tag.script"
     },
     {
       "foreground": "#FF0007",
       "background": "#80000433",
-      "token": " meta.tag.block.script"
+      "token": "meta.tag.block.script"
     },
     {
       "foreground": "#FF0007",
       "background": "#80000433",
-      "token": " source.js.embedded punctuation.definition.tag.html"
+      "token": "source.js.embedded punctuation.definition.tag.html"
     },
     {
       "foreground": "#FF0007",
       "background": "#80000433",
-      "token": " source.css.embedded punctuation.definition.tag.html"
+      "token": "source.css.embedded punctuation.definition.tag.html"
     },
     {
       "foreground": "#0086FF",
@@ -589,7 +589,7 @@
     {
       "foreground": "#0086FF",
       "background": "#00438033",
-      "token": " meta.tag.block.form"
+      "token": "meta.tag.block.form"
     },
     {
       "foreground": "#F800FF",
@@ -618,7 +618,7 @@
     },
     {
       "foreground": "#FFFFFF33",
-      "token": " meta.tag punctuation.definition.string"
+      "token": "meta.tag punctuation.definition.string"
     },
     {
       "foreground": "#FFFFFF66",
@@ -626,7 +626,7 @@
     },
     {
       "foreground": "#FFFFFF66",
-      "token": " text source text meta.tag string -punctuation"
+      "token": "text source text meta.tag string -punctuation"
     },
     {
       "foreground": "#999999",
@@ -665,7 +665,7 @@
     },
     {
       "foreground": "#0086FF",
-      "token": " markup.underline.link"
+      "token": "markup.underline.link"
     },
     {
       "foreground": "#00FFF8",
@@ -680,7 +680,7 @@
     {
       "foreground": "#00FFF8",
       "fontStyle": "underline",
-      "token": " text.html.textile markup.underline.link"
+      "token": "text.html.textile markup.underline.link"
     },
     {
       "background": "#80808040",
@@ -729,7 +729,7 @@
     },
     {
       "foreground": "#006680",
-      "token": "\nsource.css meta.scope.property-list meta.property-value punctuation.separator.arguments"
+      "token": "source.css meta.scope.property-list meta.property-value punctuation.separator.arguments"
     },
     {
       "foreground": "#4F00FF",
@@ -741,7 +741,7 @@
     },
     {
       "foreground": "#7900FF",
-      "token": " entity.other.attribute-name.tag.pseudo-class"
+      "token": "entity.other.attribute-name.tag.pseudo-class"
     },
     {
       "foreground": "#F800FF",
@@ -763,7 +763,7 @@
     {
       "foreground": "#FF7900",
       "fontStyle": "bold",
-      "token": " entity.other.attribute-name.universal"
+      "token": "entity.other.attribute-name.universal"
     },
     {
       "foreground": "#C25A00",
@@ -876,24 +876,24 @@
     {
       "foreground": "#33333333",
       "background": "#00000080",
-      "token": "text.latex meta.environment.list meta.environment.list "
+      "token": "text.latex meta.environment.list meta.environment.list"
     },
     {
       "foreground": "#33333333",
       "background": "#000000",
-      "token": "text.latex meta.environment.list meta.environment.list meta.environment.list "
+      "token": "text.latex meta.environment.list meta.environment.list meta.environment.list"
     },
     {
       "foreground": "#33333333",
-      "token": "text.latex meta.environment.list meta.environment.list meta.environment.list meta.environment.list "
+      "token": "text.latex meta.environment.list meta.environment.list meta.environment.list meta.environment.list"
     },
     {
       "foreground": "#33333333",
-      "token": "text.latex meta.environment.list meta.environment.list meta.environment.list meta.environment.list meta.environment.list "
+      "token": "text.latex meta.environment.list meta.environment.list meta.environment.list meta.environment.list meta.environment.list"
     },
     {
       "foreground": "#33333333",
-      "token": "text.latex meta.environment.list meta.environment.list meta.environment.list meta.environment.list meta.environment.list meta.environment.list "
+      "token": "text.latex meta.environment.list meta.environment.list meta.environment.list meta.environment.list meta.environment.list meta.environment.list"
     },
     {
       "foreground": "#000000",
@@ -903,27 +903,27 @@
     {
       "foreground": "#000000",
       "background": "#CCCCCC",
-      "token": " text.latex meta.begin-document"
+      "token": "text.latex meta.begin-document"
     },
     {
       "foreground": "#000000",
       "background": "#CCCCCC",
-      "token": " meta.end-document.latex support.function"
+      "token": "meta.end-document.latex support.function"
     },
     {
       "foreground": "#000000",
       "background": "#CCCCCC",
-      "token": " meta.end-document.latex variable.parameter"
+      "token": "meta.end-document.latex variable.parameter"
     },
     {
       "foreground": "#000000",
       "background": "#CCCCCC",
-      "token": " meta.begin-document.latex support.function"
+      "token": "meta.begin-document.latex support.function"
     },
     {
       "foreground": "#000000",
       "background": "#CCCCCC",
-      "token": " meta.begin-document.latex variable.parameter"
+      "token": "meta.begin-document.latex variable.parameter"
     },
     {
       "foreground": "#00FFAA",
@@ -942,7 +942,7 @@
     {
       "foreground": "#00FFF8",
       "background": "#00FFF81A",
-      "token": " meta.brace.erb.html"
+      "token": "meta.brace.erb.html"
     },
     {
       "background": "#00FFF81A",
@@ -979,7 +979,7 @@
     },
     {
       "background": "#3333331A",
-      "token": " source.java.embedded"
+      "token": "source.java.embedded"
     },
     {
       "foreground": "#FFFFFF",
@@ -993,7 +993,7 @@
     {
       "foreground": "#CCCCCC",
       "background": "#000000",
-      "token": " meta.scope.django.template"
+      "token": "meta.scope.django.template"
     },
     {
       "foreground": "#999999",
@@ -1057,7 +1057,7 @@
     {
       "foreground": "#FFFFFF",
       "background": "#000000",
-      "token": " text.subversion-commit meta.scope.changed-files.svn meta.diff.separator"
+      "token": "text.subversion-commit meta.scope.changed-files.svn meta.diff.separator"
     },
     {
       "foreground": "#000000",
@@ -1074,13 +1074,13 @@
       "foreground": "#7F7F7F",
       "background": "#FFFFFF03",
       "fontStyle": "bold",
-      "token": " meta.delimiter"
+      "token": "meta.delimiter"
     },
     {
       "foreground": "#7F7F7F",
       "background": "#FFFFFF03",
       "fontStyle": "bold",
-      "token": " punctuation.separator.method"
+      "token": "punctuation.separator.method"
     },
     {
       "background": "#00000080",
@@ -1088,7 +1088,7 @@
     },
     {
       "background": "#00000080",
-      "token": " meta.delimiter.statement.js"
+      "token": "meta.delimiter.statement.js"
     },
     {
       "background": "#00000040",
@@ -1102,7 +1102,7 @@
     {
       "foreground": "#803D00",
       "fontStyle": "bold",
-      "token": " string.quoted.double.brace"
+      "token": "string.quoted.double.brace"
     },
     {
       "foreground": "#333333",
@@ -1112,7 +1112,7 @@
     {
       "foreground": "#333333",
       "background": "#DCDCDC",
-      "token": " text.mail"
+      "token": "text.mail"
     },
     {
       "foreground": "#CCCCCC",
@@ -1122,7 +1122,7 @@
     {
       "foreground": "#CCCCCC",
       "background": "#000000",
-      "token": " text.mail text"
+      "token": "text.mail text"
     },
     {
       "foreground": "#06403E",
@@ -1132,7 +1132,7 @@
     {
       "foreground": "#06403E",
       "background": "#00FFF81A",
-      "token": " meta.header.mail keyword.other"
+      "token": "meta.header.mail keyword.other"
     },
     {
       "foreground": "#803D00",
@@ -1142,7 +1142,7 @@
     {
       "foreground": "#803D00",
       "background": "#FFFF551A",
-      "token": " meta.header.mail string.unquoted"
+      "token": "meta.header.mail string.unquoted"
     },
     {
       "foreground": "#FF0000",
@@ -1163,7 +1163,7 @@
     },
     {
       "foreground": "#00FF79",
-      "token": " source.ocaml meta.record.definition"
+      "token": "source.ocaml meta.record.definition"
     },
     {
       "foreground": "#FFFFFF",
@@ -1183,32 +1183,32 @@
     {
       "foreground": "#666666",
       "fontStyle": "bold",
-      "token": " source.ruby.embedded.source.brace"
+      "token": "source.ruby.embedded.source.brace"
     },
     {
       "foreground": "#666666",
       "fontStyle": "bold",
-      "token": " punctuation.section.dictionary"
+      "token": "punctuation.section.dictionary"
     },
     {
       "foreground": "#666666",
       "fontStyle": "bold",
-      "token": " punctuation.terminator.dictionary"
+      "token": "punctuation.terminator.dictionary"
     },
     {
       "foreground": "#666666",
       "fontStyle": "bold",
-      "token": " punctuation.separator.object"
+      "token": "punctuation.separator.object"
     },
     {
       "foreground": "#666666",
       "fontStyle": "bold",
-      "token": " punctuation.separator.statement"
+      "token": "punctuation.separator.statement"
     },
     {
       "foreground": "#666666",
       "fontStyle": "bold",
-      "token": " punctuation.separator.key-value.css"
+      "token": "punctuation.separator.key-value.css"
     },
     {
       "foreground": "#999999",
@@ -1218,7 +1218,7 @@
     {
       "foreground": "#999999",
       "fontStyle": "bold",
-      "token": " punctuation.section.scope"
+      "token": "punctuation.section.scope"
     },
     {
       "foreground": "#0C823B",
@@ -1228,17 +1228,17 @@
     {
       "foreground": "#0C823B",
       "fontStyle": "bold",
-      "token": " \nmeta.group.braces.curly meta.delimiter.object.comma"
+      "token": "meta.group.braces.curly meta.delimiter.object.comma"
     },
     {
       "foreground": "#0C823B",
       "fontStyle": "bold",
-      "token": " \npunctuation.separator.key-value -meta.tag"
+      "token": "punctuation.separator.key-value -meta.tag"
     },
     {
       "foreground": "#0C823B",
       "fontStyle": "bold",
-      "token": " \nsource.ocaml punctuation.separator.match-definition\n"
+      "token": "source.ocaml punctuation.separator.match-definition"
     },
     {
       "foreground": "#800043",
@@ -1250,19 +1250,19 @@
     },
     {
       "foreground": "#800043",
-      "token": " punctuation.separator.function-return"
+      "token": "punctuation.separator.function-return"
     },
     {
       "foreground": "#800043",
-      "token": " punctuation.separator.function-definition"
+      "token": "punctuation.separator.function-definition"
     },
     {
       "foreground": "#800043",
-      "token": " punctuation.definition.arguments"
+      "token": "punctuation.definition.arguments"
     },
     {
       "foreground": "#800043",
-      "token": " punctuation.separator.arguments"
+      "token": "punctuation.separator.arguments"
     },
     {
       "foreground": "#7F5E40",
@@ -1274,37 +1274,37 @@
       "foreground": "#7F5E40",
       "background": "#803D001A",
       "fontStyle": "bold",
-      "token": " meta.group.braces.square meta.delimiter.object.comma"
+      "token": "meta.group.braces.square meta.delimiter.object.comma"
     },
     {
       "foreground": "#7F5E40",
       "background": "#803D001A",
       "fontStyle": "bold",
-      "token": " meta.brace.square"
+      "token": "meta.brace.square"
     },
     {
       "foreground": "#7F5E40",
       "background": "#803D001A",
       "fontStyle": "bold",
-      "token": " punctuation.separator.array"
+      "token": "punctuation.separator.array"
     },
     {
       "foreground": "#7F5E40",
       "background": "#803D001A",
       "fontStyle": "bold",
-      "token": " punctuation.section.array"
+      "token": "punctuation.section.array"
     },
     {
       "foreground": "#7F5E40",
       "background": "#803D001A",
       "fontStyle": "bold",
-      "token": " punctuation.definition.array"
+      "token": "punctuation.definition.array"
     },
     {
       "foreground": "#7F5E40",
       "background": "#803D001A",
       "fontStyle": "bold",
-      "token": " punctuation.definition.constant.range"
+      "token": "punctuation.definition.constant.range"
     },
     {
       "background": "#803D001A",
@@ -1312,7 +1312,7 @@
     },
     {
       "background": "#803D001A",
-      "token": " meta.definition.range -punctuation.definition.constant.range"
+      "token": "meta.definition.range -punctuation.definition.constant.range"
     },
     {
       "background": "#00000080",
@@ -1326,13 +1326,13 @@
     {
       "foreground": "#666666",
       "background": "#00000080",
-      "token": " entity.other.django.tagbraces"
+      "token": "entity.other.django.tagbraces"
     },
     {
       "token": "source.js meta.group.braces.round"
     },
     {
-      "token": " meta.scope.heredoc"
+      "token": "meta.scope.heredoc"
     },
     {
       "background": "#00000080",
@@ -1340,27 +1340,27 @@
     },
     {
       "background": "#00000080",
-      "token": " source.ruby meta.even-tab.group2"
+      "token": "source.ruby meta.even-tab.group2"
     },
     {
       "background": "#00000080",
-      "token": " source.ruby meta.even-tab.group4"
+      "token": "source.ruby meta.even-tab.group4"
     },
     {
       "background": "#00000080",
-      "token": " source.ruby meta.even-tab.group6"
+      "token": "source.ruby meta.even-tab.group6"
     },
     {
       "background": "#00000080",
-      "token": " source.ruby meta.even-tab.group8"
+      "token": "source.ruby meta.even-tab.group8"
     },
     {
       "background": "#00000080",
-      "token": " source.ruby meta.even-tab.group10"
+      "token": "source.ruby meta.even-tab.group10"
     },
     {
       "background": "#00000080",
-      "token": " source.ruby meta.even-tab.group12\n"
+      "token": "source.ruby meta.even-tab.group12"
     },
     {
       "foreground": "#666666",
@@ -1368,13 +1368,13 @@
     },
     {
       "foreground": "#CCCCCC",
-      "token": "meta.block.content.slate "
+      "token": "meta.block.content.slate"
     },
     {
       "token": "meta.function meta.group.braces.curly.function -(meta.group meta.group)"
     },
     {
-      "token": " meta.function meta.odd-tab.group1"
+      "token": "meta.function meta.odd-tab.group1"
     },
     {
       "background": "#0A0A0A",
@@ -1382,23 +1382,23 @@
     },
     {
       "background": "#0A0A0A",
-      "token": " meta.group.braces"
+      "token": "meta.group.braces"
     },
     {
       "background": "#0A0A0A",
-      "token": " meta.block.slate"
+      "token": "meta.block.slate"
     },
     {
       "background": "#0A0A0A",
-      "token": " text.xml.strict meta.tag"
+      "token": "text.xml.strict meta.tag"
     },
     {
       "background": "#0A0A0A",
-      "token": " meta.paren-group"
+      "token": "meta.paren-group"
     },
     {
       "background": "#0A0A0A",
-      "token": " meta.section"
+      "token": "meta.section"
     },
     {
       "background": "#0E0E0E",
@@ -1406,27 +1406,27 @@
     },
     {
       "background": "#0E0E0E",
-      "token": " meta.group.braces meta.group.braces"
+      "token": "meta.group.braces meta.group.braces"
     },
     {
       "background": "#0E0E0E",
-      "token": " meta.block.slate meta.block.slate"
+      "token": "meta.block.slate meta.block.slate"
     },
     {
       "background": "#0E0E0E",
-      "token": " text.xml.strict meta.tag meta.tag"
+      "token": "text.xml.strict meta.tag meta.tag"
     },
     {
       "background": "#0E0E0E",
-      "token": " meta.group.braces meta.group.braces"
+      "token": "meta.group.braces meta.group.braces"
     },
     {
       "background": "#0E0E0E",
-      "token": " meta.paren-group meta.paren-group"
+      "token": "meta.paren-group meta.paren-group"
     },
     {
       "background": "#0E0E0E",
-      "token": " meta.section meta.section"
+      "token": "meta.section meta.section"
     },
     {
       "background": "#111111",
@@ -1434,27 +1434,27 @@
     },
     {
       "background": "#111111",
-      "token": " meta.group.braces meta.group.braces meta.group.braces "
+      "token": "meta.group.braces meta.group.braces meta.group.braces"
     },
     {
       "background": "#111111",
-      "token": " meta.block.slate meta.block.slate meta.block.slate "
+      "token": "meta.block.slate meta.block.slate meta.block.slate"
     },
     {
       "background": "#111111",
-      "token": " text.xml.strict meta.tag meta.tag meta.tag"
+      "token": "text.xml.strict meta.tag meta.tag meta.tag"
     },
     {
       "background": "#111111",
-      "token": " meta.group.braces meta.group.braces meta.group.braces"
+      "token": "meta.group.braces meta.group.braces meta.group.braces"
     },
     {
       "background": "#111111",
-      "token": " meta.paren-group meta.paren-group meta.paren-group"
+      "token": "meta.paren-group meta.paren-group meta.paren-group"
     },
     {
       "background": "#111111",
-      "token": " meta.section meta.section meta.section"
+      "token": "meta.section meta.section meta.section"
     },
     {
       "background": "#151515",
@@ -1462,27 +1462,27 @@
     },
     {
       "background": "#151515",
-      "token": " meta.group.braces meta.group.braces meta.group.braces meta.group.braces "
+      "token": "meta.group.braces meta.group.braces meta.group.braces meta.group.braces"
     },
     {
       "background": "#151515",
-      "token": " meta.block.slate meta.block.slate meta.block.slate meta.block.slate "
+      "token": "meta.block.slate meta.block.slate meta.block.slate meta.block.slate"
     },
     {
       "background": "#151515",
-      "token": " text.xml.strict meta.tag meta.tag meta.tag meta.tag"
+      "token": "text.xml.strict meta.tag meta.tag meta.tag meta.tag"
     },
     {
       "background": "#151515",
-      "token": " meta.group.braces meta.group.braces meta.group.braces meta.group.braces"
+      "token": "meta.group.braces meta.group.braces meta.group.braces meta.group.braces"
     },
     {
       "background": "#151515",
-      "token": " meta.paren-group meta.paren-group meta.paren-group meta.paren-group"
+      "token": "meta.paren-group meta.paren-group meta.paren-group meta.paren-group"
     },
     {
       "background": "#151515",
-      "token": " meta.section meta.section meta.section meta.section"
+      "token": "meta.section meta.section meta.section meta.section"
     },
     {
       "background": "#191919",
@@ -1490,27 +1490,27 @@
     },
     {
       "background": "#191919",
-      "token": " meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces "
+      "token": "meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces"
     },
     {
       "background": "#191919",
-      "token": " meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate "
+      "token": "meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate"
     },
     {
       "background": "#191919",
-      "token": " text.xml.strict meta.tag meta.tag meta.tag meta.tag meta.tag"
+      "token": "text.xml.strict meta.tag meta.tag meta.tag meta.tag meta.tag"
     },
     {
       "background": "#191919",
-      "token": " meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces"
+      "token": "meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces"
     },
     {
       "background": "#191919",
-      "token": " meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group"
+      "token": "meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group"
     },
     {
       "background": "#191919",
-      "token": " meta.section meta.section meta.section meta.section meta.section"
+      "token": "meta.section meta.section meta.section meta.section meta.section"
     },
     {
       "background": "#1C1C1C",
@@ -1518,27 +1518,27 @@
     },
     {
       "background": "#1C1C1C",
-      "token": " meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces "
+      "token": "meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces"
     },
     {
       "background": "#1C1C1C",
-      "token": " meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate "
+      "token": "meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate"
     },
     {
       "background": "#1C1C1C",
-      "token": " text.xml.strict meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag"
+      "token": "text.xml.strict meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag"
     },
     {
       "background": "#1C1C1C",
-      "token": " meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces"
+      "token": "meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces"
     },
     {
       "background": "#1C1C1C",
-      "token": " meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group"
+      "token": "meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group"
     },
     {
       "background": "#1C1C1C",
-      "token": " meta.section meta.section meta.section meta.section meta.section meta.section"
+      "token": "meta.section meta.section meta.section meta.section meta.section meta.section"
     },
     {
       "background": "#1F1F1F",
@@ -1546,27 +1546,27 @@
     },
     {
       "background": "#1F1F1F",
-      "token": " meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces "
+      "token": "meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces"
     },
     {
       "background": "#1F1F1F",
-      "token": " meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate "
+      "token": "meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate"
     },
     {
       "background": "#1F1F1F",
-      "token": " text.xml.strict meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag"
+      "token": "text.xml.strict meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag"
     },
     {
       "background": "#1F1F1F",
-      "token": " meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces"
+      "token": "meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces"
     },
     {
       "background": "#1F1F1F",
-      "token": " meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group"
+      "token": "meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group"
     },
     {
       "background": "#1F1F1F",
-      "token": " meta.section meta.section meta.section meta.section meta.section meta.section meta.section"
+      "token": "meta.section meta.section meta.section meta.section meta.section meta.section meta.section"
     },
     {
       "background": "#212121",
@@ -1574,27 +1574,27 @@
     },
     {
       "background": "#212121",
-      "token": " meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces "
+      "token": "meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces"
     },
     {
       "background": "#212121",
-      "token": " meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate "
+      "token": "meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate"
     },
     {
       "background": "#212121",
-      "token": " text.xml.strict meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag"
+      "token": "text.xml.strict meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag"
     },
     {
       "background": "#212121",
-      "token": " meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces"
+      "token": "meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces"
     },
     {
       "background": "#212121",
-      "token": " meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group"
+      "token": "meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group"
     },
     {
       "background": "#212121",
-      "token": " meta.section meta.section meta.section meta.section meta.section meta.section meta.section meta.section"
+      "token": "meta.section meta.section meta.section meta.section meta.section meta.section meta.section meta.section"
     },
     {
       "background": "#242424",
@@ -1602,27 +1602,27 @@
     },
     {
       "background": "#242424",
-      "token": " meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces "
+      "token": "meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces"
     },
     {
       "background": "#242424",
-      "token": " meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate "
+      "token": "meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate"
     },
     {
       "background": "#242424",
-      "token": " text.xml.strict meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag"
+      "token": "text.xml.strict meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag"
     },
     {
       "background": "#242424",
-      "token": " meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces"
+      "token": "meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces"
     },
     {
       "background": "#242424",
-      "token": " meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group"
+      "token": "meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group meta.paren-group"
     },
     {
       "background": "#242424",
-      "token": " meta.section meta.section meta.section meta.section meta.section meta.section meta.section meta.section meta.section"
+      "token": "meta.section meta.section meta.section meta.section meta.section meta.section meta.section meta.section meta.section"
     },
     {
       "background": "#1F1F1F",
@@ -1638,11 +1638,11 @@
     },
     {
       "foreground": "#1B95E2",
-      "token": " \nmeta.property.vendor.microsoft.trident.4 support.type.property-name"
+      "token": "meta.property.vendor.microsoft.trident.4 support.type.property-name"
     },
     {
       "foreground": "#1B95E2",
-      "token": "\nmeta.property.vendor.microsoft.trident.4 punctuation.terminator.rule"
+      "token": "meta.property.vendor.microsoft.trident.4 punctuation.terminator.rule"
     },
     {
       "foreground": "#F5C034",
@@ -1650,15 +1650,15 @@
     },
     {
       "foreground": "#F5C034",
-      "token": " \nmeta.property.vendor.microsoft.trident.5 support.type.property-name"
+      "token": "meta.property.vendor.microsoft.trident.5 support.type.property-name"
     },
     {
       "foreground": "#F5C034",
-      "token": "\nmeta.property.vendor.microsoft.trident.5 punctuation.separator.key-value"
+      "token": "meta.property.vendor.microsoft.trident.5 punctuation.separator.key-value"
     },
     {
       "foreground": "#F5C034",
-      "token": "\nmeta.property.vendor.microsoft.trident.5 punctuation.terminator.rule"
+      "token": "meta.property.vendor.microsoft.trident.5 punctuation.terminator.rule"
     }
   ],
   "colors": {

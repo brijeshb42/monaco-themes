@@ -24,7 +24,7 @@
     },
     {
       "foreground": "#AE81FF",
-      "token": " constant.other"
+      "token": "constant.other"
     },
     {
       "token": "variable"
@@ -85,7 +85,7 @@
     {
       "foreground": "#66D9EF",
       "fontStyle": "italic",
-      "token": " support.class"
+      "token": "support.class"
     },
     {
       "token": "support.other.variable"
@@ -110,7 +110,7 @@
     },
     {
       "foreground": "#75715E",
-      "token": " meta.diff.header"
+      "token": "meta.diff.header"
     },
     {
       "foreground": "#F92672",

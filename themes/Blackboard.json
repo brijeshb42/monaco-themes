@@ -28,7 +28,7 @@
     },
     {
       "foreground": "#61CE3C",
-      "token": " meta.verbatim"
+      "token": "meta.verbatim"
     },
     {
       "foreground": "#8DA6CE",
@@ -66,7 +66,7 @@
     },
     {
       "foreground": "#7F90AA",
-      "token": " meta.tag entity"
+      "token": "meta.tag entity"
     },
     {
       "foreground": "#FFFFFF",
@@ -118,7 +118,7 @@
     },
     {
       "foreground": "#FFFFFF",
-      "token": " source.plist keyword.operator"
+      "token": "source.plist keyword.operator"
     }
   ],
   "colors": {

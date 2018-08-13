@@ -72,11 +72,11 @@
     },
     {
       "foreground": "#CF7D34",
-      "token": " string.regexp source.ruby.embedded"
+      "token": "string.regexp source.ruby.embedded"
     },
     {
       "foreground": "#CF7D34",
-      "token": " string.regexp string.regexp.arbitrary-repitition"
+      "token": "string.regexp string.regexp.arbitrary-repitition"
     },
     {
       "foreground": "#8A9A95",
@@ -113,23 +113,23 @@
     },
     {
       "foreground": "#494949",
-      "token": " meta.sgml.html meta.doctype entity"
+      "token": "meta.sgml.html meta.doctype entity"
     },
     {
       "foreground": "#494949",
-      "token": " meta.sgml.html meta.doctype string"
+      "token": "meta.sgml.html meta.doctype string"
     },
     {
       "foreground": "#494949",
-      "token": " meta.xml-processing"
+      "token": "meta.xml-processing"
     },
     {
       "foreground": "#494949",
-      "token": " meta.xml-processing entity"
+      "token": "meta.xml-processing entity"
     },
     {
       "foreground": "#494949",
-      "token": " meta.xml-processing string"
+      "token": "meta.xml-processing string"
     },
     {
       "foreground": "#89BDFF",
@@ -137,7 +137,7 @@
     },
     {
       "foreground": "#89BDFF",
-      "token": " meta.tag entity"
+      "token": "meta.tag entity"
     },
     {
       "foreground": "#E0C589",
@@ -145,15 +145,15 @@
     },
     {
       "foreground": "#E0C589",
-      "token": " source entity.other.attribute-name"
+      "token": "source entity.other.attribute-name"
     },
     {
       "foreground": "#E0C589",
-      "token": " meta.tag.inline"
+      "token": "meta.tag.inline"
     },
     {
       "foreground": "#E0C589",
-      "token": " meta.tag.inline entity"
+      "token": "meta.tag.inline entity"
     },
     {
       "foreground": "#E18964",
@@ -161,7 +161,7 @@
     },
     {
       "foreground": "#E18964",
-      "token": " entity.other.attribute-name.namespace"
+      "token": "entity.other.attribute-name.namespace"
     },
     {
       "foreground": "#CDA869",
@@ -189,7 +189,7 @@
     },
     {
       "foreground": "#F9EE98",
-      "token": " meta.property-value support.constant.property-value.css"
+      "token": "meta.property-value support.constant.property-value.css"
     },
     {
       "foreground": "#8693A5",
@@ -201,7 +201,7 @@
     },
     {
       "foreground": "#DD7B3B",
-      "token": " meta.property-value constant"
+      "token": "meta.property-value constant"
     },
     {
       "foreground": "#8F9D6A",
@@ -217,7 +217,7 @@
       "foreground": "#F8F8F8",
       "background": "#0E2231",
       "fontStyle": "italic",
-      "token": " meta.diff.header"
+      "token": "meta.diff.header"
     },
     {
       "foreground": "#F8F8F8",
@@ -263,7 +263,7 @@
     {
       "foreground": "#FEDCC5",
       "background": "#632D04",
-      "token": " markup.heading entity"
+      "token": "markup.heading entity"
     },
     {
       "foreground": "#E1D4B9",
@@ -290,7 +290,7 @@
     },
     {
       "background": "#EEEEEE29",
-      "token": " meta.line.exit.logfile"
+      "token": "meta.line.exit.logfile"
     },
     {
       "background": "#751012",

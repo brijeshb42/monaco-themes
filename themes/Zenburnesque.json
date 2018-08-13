@@ -38,13 +38,13 @@
       "token": "constant.character"
     },
     {
-      "token": " constant.other"
+      "token": "constant.other"
     },
     {
       "token": "variable.parameter"
     },
     {
-      "token": " variable.other"
+      "token": "variable.other"
     },
     {
       "foreground": "#FFFFA0",
@@ -58,7 +58,7 @@
     {
       "foreground": "#FF8000",
       "fontStyle": "bold",
-      "token": "  support.other.module"
+      "token": "support.other.module"
     },
     {
       "foreground": "#FFFFA0",
@@ -122,7 +122,7 @@
       "token": "support.type"
     },
     {
-      "token": " support.class"
+      "token": "support.class"
     },
     {
       "token": "support.variable"

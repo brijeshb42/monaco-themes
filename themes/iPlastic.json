@@ -63,7 +63,7 @@
     },
     {
       "foreground": "#0033CC",
-      "token": " declaration.tag"
+      "token": "declaration.tag"
     },
     {
       "foreground": "#6782D3",
@@ -71,7 +71,7 @@
     },
     {
       "foreground": "#6782D3",
-      "token": " support.constant"
+      "token": "support.constant"
     },
     {
       "foreground": "#3333FF",

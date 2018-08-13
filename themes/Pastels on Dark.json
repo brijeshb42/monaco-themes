@@ -72,7 +72,7 @@
       "foreground": "#F8F8F8",
       "background": "#562D56BF",
       "fontStyle": "bold",
-      "token": " invalid.illegal"
+      "token": "invalid.illegal"
     },
     {
       "foreground": "#D2A8A1",
@@ -165,7 +165,7 @@
     },
     {
       "foreground": "#909090",
-      "token": " comment.other.server-side-include.html"
+      "token": "comment.other.server-side-include.html"
     },
     {
       "foreground": "#858EF4",
@@ -173,11 +173,11 @@
     },
     {
       "foreground": "#858EF4",
-      "token": " text.html meta.tag"
+      "token": "text.html meta.tag"
     },
     {
       "foreground": "#858EF4",
-      "token": " text.html entity.name.tag.xhtml"
+      "token": "text.html entity.name.tag.xhtml"
     },
     {
       "foreground": "#9B456F",
@@ -265,7 +265,7 @@
     },
     {
       "foreground": "#7171F3",
-      "token": " support.constant.name.tm-language-def"
+      "token": "support.constant.name.tm-language-def"
     },
     {
       "foreground": "#6969FA",
