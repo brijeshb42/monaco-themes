@@ -1,6 +1,6 @@
 {
   "name": "monaco-themes",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Themes for monaco editor in web browser",
   "main": "src/index.js",
   "scripts": {
@@ -17,9 +17,11 @@
   "author": "Brijesh <brijesh@bitwiser.in>",
   "license": "MIT",
   "devDependencies": {
-    "fast-plist": "^0.1.2",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "fast-plist": "^0.1.2"
   }
 }
