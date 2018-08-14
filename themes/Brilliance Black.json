@@ -341,15 +341,6 @@
       "token": "meta.definition.method"
     },
     {
-      "token": "meta.function"
-    },
-    {
-      "token": "meta.property.function"
-    },
-    {
-      "token": "declaration.function"
-    },
-    {
       "foreground": "#FF0086",
       "token": "entity.name.function"
     },
@@ -451,14 +442,8 @@
       "token": "keyword.control"
     },
     {
-      "token": "keyword"
-    },
-    {
       "foreground": "#7900FF",
       "token": "keyword.other"
-    },
-    {
-      "token": "source.regexp keyword.operator"
     },
     {
       "foreground": "#0000CE",
@@ -717,9 +702,6 @@
       "token": "text.html.markdown string"
     },
     {
-      "token": "source.css"
-    },
-    {
       "foreground": "#666666",
       "token": "meta.selector"
     },
@@ -793,9 +775,6 @@
       "token": "meta.property-value"
     },
     {
-      "token": "text.latex"
-    },
-    {
       "background": "#000000",
       "token": "text.latex markup.raw"
     },
@@ -811,9 +790,6 @@
       "foreground": "#000000",
       "background": "#FFFFFF",
       "token": "text.latex entity.name.section -meta.group -keyword.operator.braces"
-    },
-    {
-      "token": "text.latex constant.language.general"
     },
     {
       "background": "#00000080",
@@ -957,9 +933,6 @@
       "token": "source.js.embedded"
     },
     {
-      "token": "source"
-    },
-    {
       "background": "#000000",
       "token": "meta.brace.erb"
     },
@@ -1000,9 +973,6 @@
       "token": "text string source"
     },
     {
-      "token": "text string source string source"
-    },
-    {
       "foreground": "#330004",
       "background": "#FF0007",
       "fontStyle": "bold",
@@ -1026,9 +996,6 @@
       "foreground": "#4C4C4C",
       "fontStyle": "italic",
       "token": "comment.line"
-    },
-    {
-      "token": "comment punctuation"
     },
     {
       "fontStyle": "italic",
@@ -1329,12 +1296,6 @@
       "token": "entity.other.django.tagbraces"
     },
     {
-      "token": "source.js meta.group.braces.round"
-    },
-    {
-      "token": "meta.scope.heredoc"
-    },
-    {
       "background": "#00000080",
       "token": "source.ruby meta.even-tab"
     },
@@ -1369,12 +1330,6 @@
     {
       "foreground": "#CCCCCC",
       "token": "meta.block.content.slate"
-    },
-    {
-      "token": "meta.function meta.group.braces.curly.function -(meta.group meta.group)"
-    },
-    {
-      "token": "meta.function meta.odd-tab.group1"
     },
     {
       "background": "#0A0A0A",
@@ -1662,9 +1617,11 @@
     }
   ],
   "colors": {
-    "editor.background": "#0D0D0DFA",
     "editor.foreground": "#EEEEEE",
-    "editor.selectionHighlightBackground": "#0010B499",
-    "editor.lineHighlightBackground": "#00008033"
+    "editor.background": "#0D0D0DFA",
+    "editor.selectionBackground": "#0010B499",
+    "editor.lineHighlightBackground": "#00008033",
+    "editorCursor.foreground": "#3333FF",
+    "editorWhitespace.foreground": "#CCCCCC1A"
   }
 }

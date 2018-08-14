@@ -45,12 +45,6 @@
       "token": "constant.language.boolean"
     },
     {
-      "token": "constant.language"
-    },
-    {
-      "token": "constant.other"
-    },
-    {
       "foreground": "#008080",
       "token": "variable.language"
     },
@@ -131,9 +125,6 @@
       "token": "entity.name.type.class-type"
     },
     {
-      "token": "entity.other.inherited-class"
-    },
-    {
       "foreground": "#50A0A0",
       "token": "entity.name.function"
     },
@@ -162,20 +153,8 @@
       "token": "entity.name.tag"
     },
     {
-      "token": "entity.other.attribute-name"
-    },
-    {
       "background": "#200020",
       "token": "support.constant"
-    },
-    {
-      "token": "support.type"
-    },
-    {
-      "token": "support.class"
-    },
-    {
-      "token": "support.other.variable"
     },
     {
       "foreground": "#400080",
@@ -193,17 +172,16 @@
       "token": "source.camlp4.embedded"
     },
     {
-      "token": "source.camlp4.embedded.parser.ocaml"
-    },
-    {
       "foreground": "#805080",
       "token": "punctuation"
     }
   ],
   "colors": {
-    "editor.background": "#200020",
     "editor.foreground": "#D0D0FF",
-    "editor.selectionHighlightBackground": "#80000080",
-    "editor.lineHighlightBackground": "#80000040"
+    "editor.background": "#200020",
+    "editor.selectionBackground": "#80000080",
+    "editor.lineHighlightBackground": "#80000040",
+    "editorCursor.foreground": "#7070FF",
+    "editorWhitespace.foreground": "#BFBFBF"
   }
 }

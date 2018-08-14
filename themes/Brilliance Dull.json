@@ -597,9 +597,6 @@
       "token": "markup.quote"
     },
     {
-      "token": "source.css"
-    },
-    {
       "foreground": "#666666",
       "background": "#00000080",
       "token": "meta.selector"
@@ -659,9 +656,6 @@
       "token": "meta.property-value"
     },
     {
-      "token": "text.latex"
-    },
-    {
       "background": "#000000",
       "token": "text.latex markup.raw"
     },
@@ -677,9 +671,6 @@
       "foreground": "#000000",
       "background": "#FFFFFF",
       "token": "text.latex entity.name.section -meta.group -keyword.operator.braces"
-    },
-    {
-      "token": "text.latex constant.language.general"
     },
     {
       "background": "#00000080",
@@ -853,9 +844,6 @@
     {
       "foreground": "#999999",
       "token": "text string source"
-    },
-    {
-      "token": "text string source string source"
     },
     {
       "foreground": "#333333",
@@ -1112,12 +1100,6 @@
       "token": "entity.other.django.tagbraces"
     },
     {
-      "token": "source.js meta.group.braces.round"
-    },
-    {
-      "token": "meta.scope.heredoc"
-    },
-    {
       "background": "#0A0A0A",
       "token": "meta.odd-tab.group1"
     },
@@ -1347,9 +1329,11 @@
     }
   ],
   "colors": {
-    "editor.background": "#050505FA",
     "editor.foreground": "#CDCDCD",
-    "editor.selectionHighlightBackground": "#2E2EE64D",
-    "editor.lineHighlightBackground": "#0000801A"
+    "editor.background": "#050505FA",
+    "editor.selectionBackground": "#2E2EE64D",
+    "editor.lineHighlightBackground": "#0000801A",
+    "editorCursor.foreground": "#7979B7",
+    "editorWhitespace.foreground": "#CDCDCD1A"
   }
 }

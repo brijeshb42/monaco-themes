@@ -4,11 +4,33 @@ A list of theme definitions to be used with [monaco-editor](https://microsoft.gi
 
 ### Usage
 
-#### With webpack
-
 ```sh
 npm install monaco-themes
 ```
+
+#### API
+
+##### Using `<script>`
+
+```js
+<script type="text/javascript" src="https://unpkg.com/monaco-themes/dist/monaco-themes.js"></script>
+<script type="text/javascript">
+    var tmThemeString = /* read using FileReader */
+    var themeData = MonacoThemes.parseTmTheme(tmThemeString);
+    monaco.editor.defineTheme('mytheme', themeData);
+    monaco.editor.setTheme('mytheme');
+</script>
+```
+
+##### Using webpack/node
+
+```js
+const parseTmTheme = require('monaco-themes').parseTmTheme;
+```
+
+#### Directly using themes
+
+##### With webpack
 
 ```js
 const monaco = /* require monaco */
@@ -19,7 +41,7 @@ import('monaco-themes/themes/Monokai.json')
   })
 ```
 
-#### Independently
+##### Independently
 
 Download this [repository](https://github.com/brijeshb42/monaco-themes/archive/master.zip) and extract and save `themes` directory in your project.
 
@@ -33,7 +55,3 @@ fetch('/themes/Monokai.json')
     monaco.editor.setTheme('monokai');
   })
 ```
-
-### Todo
-
-All properties have not been mapped from tmTheme files to the generated JSON. Those will be mapped one at a time after going through the internals of vscode to see all the available color options.

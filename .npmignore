@@ -5,3 +5,4 @@ acetm.js
 monaco.d.ts
 .npmignore
 index.html
+webpack.config.js

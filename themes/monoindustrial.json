@@ -218,9 +218,11 @@
     }
   ],
   "colors": {
-    "editor.background": "#222C28",
     "editor.foreground": "#FFFFFF",
-    "editor.selectionHighlightBackground": "#91999466",
-    "editor.lineHighlightBackground": "#0C0D0C40"
+    "editor.background": "#222C28",
+    "editor.selectionBackground": "#91999466",
+    "editor.lineHighlightBackground": "#0C0D0C40",
+    "editorCursor.foreground": "#FFFFFF",
+    "editorWhitespace.foreground": "#666C6880"
   }
 }

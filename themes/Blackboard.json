@@ -35,9 +35,6 @@
       "token": "support"
     },
     {
-      "token": "variable"
-    },
-    {
       "foreground": "#AB2A1D",
       "fontStyle": "italic",
       "token": "invalid.deprecated"
@@ -122,9 +119,11 @@
     }
   ],
   "colors": {
-    "editor.background": "#0C1021",
     "editor.foreground": "#F8F8F8",
-    "editor.selectionHighlightBackground": "#253B76",
-    "editor.lineHighlightBackground": "#FFFFFF0F"
+    "editor.background": "#0C1021",
+    "editor.selectionBackground": "#253B76",
+    "editor.lineHighlightBackground": "#FFFFFF0F",
+    "editorCursor.foreground": "#FFFFFFA6",
+    "editorWhitespace.foreground": "#FFFFFF40"
   }
 }

@@ -31,9 +31,6 @@
       "token": "constant.numeric"
     },
     {
-      "token": "source.ruby"
-    },
-    {
       "foreground": "#FFFFFF",
       "background": "#000000",
       "token": "source"
@@ -121,9 +118,6 @@
       "token": "entity.other.inherited-class"
     },
     {
-      "token": "entity.name.tag"
-    },
-    {
       "foreground": "#FF6600",
       "token": "meta.tag.inline.any.html"
     },
@@ -198,9 +192,11 @@
     }
   ],
   "colors": {
-    "editor.background": "#0F0F0F",
     "editor.foreground": "#FFFFFF",
-    "editor.selectionHighlightBackground": "#6699CC",
-    "editor.lineHighlightBackground": "#333333"
+    "editor.background": "#0F0F0F",
+    "editor.selectionBackground": "#6699CC",
+    "editor.lineHighlightBackground": "#333333",
+    "editorCursor.foreground": "#FFFFFF",
+    "editorWhitespace.foreground": "#404040"
   }
 }

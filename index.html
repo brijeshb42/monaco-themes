@@ -3,6 +3,9 @@
 <head>
   <title>Monaco Themes</title>
   <style type="text/css">
+    body {
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    }
     #editor {
       width: 100%;
       height: 600px;
@@ -10,18 +13,26 @@
   </style>
 </head>
 <body>
+  <div>
+    <a target="_blank" href="https://github.com/brijeshb42/monaco-themes/">Fork on Github</a>
+  </div>
   <div style="overflow: auto;margin-bottom: 10px">
-    <a href="https://github.com/brijeshb42/monaco-themes/">Fork on Github</a>
+    <label>
+      Select local theme file
+      <input type="file" id="file" accept=".tmTheme" />
+    </label>
     <select id=lang style="float: right;">
       <option value="vs">Default</option>
     </select>
   </div>
   <div id=editor></div>
+  <script type="text/javascript" src="https://unpkg.com/monaco-themes@0.2.1/dist/monaco-themes.js"></script>
   <script type="text/javascript" src="https://unpkg.com/monaco-editor@0.14.2/min/vs/loader.js"></script>
   <script type="text/javascript">
     var lang = document.getElementById('lang');
     var loadedThemes = null;
     var loadedThemesData = {};
+    var count = 0;
 
     function loadTheme(theme) {
       var path = './themes/' + loadedThemes[theme] + '.json';
@@ -32,7 +43,32 @@
           if (window.monaco) {
             monaco.editor.defineTheme(theme, data);
           }
+          return data;
         });
+    }
+
+    function addFileListener() {
+      var fileNode = document.getElementById('file');
+
+      if (!window.FileReader) {
+        fileNode.disabled = true;
+      }
+
+      fileNode.addEventListener('change', function(ev) {
+        var file = ev.target.files[0];
+        var reader = new FileReader();
+        reader.onload = function(ev) {
+          var themeSlug = 'localtheme-' + count;
+          count++;
+          loadedThemes[themeSlug] = MonacoThemes.parseTmTheme(ev.target.result);
+
+          monaco.editor.defineTheme(themeSlug, loadedThemes[themeSlug]);
+          monaco.editor.setTheme(themeSlug);
+
+          window.editor.setValue(JSON.stringify(loadedThemes[themeSlug], null, 2));
+        };
+        reader.readAsText(file);
+      });
     }
 
     lang.addEventListener('change', function(ev) {
@@ -45,8 +81,11 @@
       if (loadedThemesData[val]) {
         monaco.editor.setTheme(val);
       } else {
-        loadTheme(val).then(() => {
+        loadTheme(val).then((data) => {
           monaco.editor.setTheme(val);
+          if (window.editor) {
+            window.editor.setValue(JSON.stringify(data, null, 2));
+          }
         });
       }
     });
@@ -82,25 +121,21 @@
     require(['vs/editor/editor.main'], function() {
       var editor = monaco.editor.create(document.getElementById('editor'), {
         value: [
-          'function x() {',
-          '\tconsole.log("Hello world!");',
+          '{',
+          '  "value": "Select a locally available tmtheme file or choose from the many pregenrated themes"',
           '}'
         ].join('\n'),
-        language: 'javascript',
+        language: 'json',
         fontSize: 16,
+        fontFamily: 'monospace',
         minimap: {
           enabled: false,
-        }
+        },
+        scrollBeyondLastLine: false,
       });
       editor.focus();
-
-      fetch('./index.js')
-        .then(data => data.text())
-        .then(text => {
-          editor.setValue(text);
-        })
-
       window.editor = editor;
+      addFileListener();
     });
   </script>
 </body>

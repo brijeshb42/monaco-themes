@@ -32,12 +32,6 @@
       "token": "constant.numeric"
     },
     {
-      "token": "constant.character"
-    },
-    {
-      "token": "constant.other"
-    },
-    {
       "foreground": "#66CCFF",
       "fontStyle": "bold",
       "token": "constant.other.date"
@@ -71,9 +65,6 @@
       "token": "keyword"
     },
     {
-      "token": "keyword.operator"
-    },
-    {
       "foreground": "#FF5600",
       "token": "storage"
     },
@@ -82,14 +73,8 @@
       "token": "entity.name.type"
     },
     {
-      "token": "entity.other.inherited-class"
-    },
-    {
       "foreground": "#21439C",
       "token": "entity.name.function"
-    },
-    {
-      "token": "variable.parameter"
     },
     {
       "foreground": "#7A7A7A",
@@ -155,9 +140,11 @@
     }
   ],
   "colors": {
-    "editor.background": "#FFFFFF",
     "editor.foreground": "#3B3B3B",
-    "editor.selectionHighlightBackground": "#BAD6FD",
-    "editor.lineHighlightBackground": "#00000012"
+    "editor.background": "#FFFFFF",
+    "editor.selectionBackground": "#BAD6FD",
+    "editor.lineHighlightBackground": "#00000012",
+    "editorCursor.foreground": "#000000",
+    "editorWhitespace.foreground": "#BFBFBF"
   }
 }

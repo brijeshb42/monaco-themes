@@ -61,12 +61,6 @@
       "token": "other.preprocessor.c"
     },
     {
-      "token": "entity.name.preprocessor"
-    },
-    {
-      "token": "entity.name.function"
-    },
-    {
       "fontStyle": "italic",
       "token": "variable.parameter"
     },
@@ -109,12 +103,6 @@
       "token": "entity.other.inherited-class"
     },
     {
-      "token": "entity.name.tag"
-    },
-    {
-      "token": "entity.other.attribute-name"
-    },
-    {
       "foreground": "#B83426",
       "token": "support.function"
     },
@@ -143,9 +131,11 @@
     }
   ],
   "colors": {
-    "editor.background": "#323232",
     "editor.foreground": "#FFFFFF",
-    "editor.selectionHighlightBackground": "#5A647EE0",
-    "editor.lineHighlightBackground": "#353637"
+    "editor.background": "#323232",
+    "editor.selectionBackground": "#5A647EE0",
+    "editor.lineHighlightBackground": "#353637",
+    "editorCursor.foreground": "#91FF00",
+    "editorWhitespace.foreground": "#404040"
   }
 }

@@ -19,18 +19,6 @@
       "token": "constant.language"
     },
     {
-      "token": "constant.character"
-    },
-    {
-      "token": "constant.other"
-    },
-    {
-      "token": "variable.language"
-    },
-    {
-      "token": "variable.other"
-    },
-    {
       "foreground": "#AF956F",
       "token": "keyword"
     },
@@ -55,17 +43,8 @@
       "token": "storage"
     },
     {
-      "token": "entity.name.class"
-    },
-    {
       "foreground": "#858585",
       "token": "entity.other.inherited-class"
-    },
-    {
-      "token": "entity.name.function"
-    },
-    {
-      "token": "variable.parameter"
     },
     {
       "foreground": "#606060",
@@ -108,18 +87,6 @@
       "token": "support.function"
     },
     {
-      "token": "support.constant"
-    },
-    {
-      "token": "support.type"
-    },
-    {
-      "token": "support.class"
-    },
-    {
-      "token": "support.other.variable"
-    },
-    {
       "background": "#FF002A",
       "token": "invalid"
     },
@@ -141,9 +108,11 @@
     }
   ],
   "colors": {
-    "editor.background": "#FFFFFF",
     "editor.foreground": "#000000",
-    "editor.selectionHighlightBackground": "#BDD5FC",
-    "editor.lineHighlightBackground": "#FFFBD1"
+    "editor.background": "#FFFFFF",
+    "editor.selectionBackground": "#BDD5FC",
+    "editor.lineHighlightBackground": "#FFFBD1",
+    "editorCursor.foreground": "#000000",
+    "editorWhitespace.foreground": "#BFBFBF"
   }
 }

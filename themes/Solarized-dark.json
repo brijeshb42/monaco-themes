@@ -89,9 +89,6 @@
       "token": "entity.other.inherited-class"
     },
     {
-      "token": "variable.parameter"
-    },
-    {
       "foreground": "#268BD2",
       "fontStyle": "bold",
       "token": "entity.name.tag"
@@ -113,9 +110,6 @@
       "token": "punctuation.separator.continuation"
     },
     {
-      "token": "support.constant"
-    },
-    {
       "foreground": "#859900",
       "token": "support.type"
     },
@@ -126,18 +120,14 @@
     {
       "foreground": "#CB4B16",
       "token": "support.type.exception"
-    },
-    {
-      "token": "support.other.variable"
-    },
-    {
-      "token": "invalid"
     }
   ],
   "colors": {
-    "editor.background": "#002B36",
     "editor.foreground": "#93A1A1",
-    "editor.selectionHighlightBackground": "#073642",
-    "editor.lineHighlightBackground": "#073642"
+    "editor.background": "#002B36",
+    "editor.selectionBackground": "#073642",
+    "editor.lineHighlightBackground": "#073642",
+    "editorCursor.foreground": "#D30102",
+    "editorWhitespace.foreground": "#93A1A180"
   }
 }

@@ -2,3 +2,4 @@ node_modules/
 tmthemes/
 acetm.js
 monaco.d.ts
+dist/

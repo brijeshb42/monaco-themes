@@ -29,12 +29,6 @@
       "token": "meta.preprocessor.c"
     },
     {
-      "token": "keyword.control.import"
-    },
-    {
-      "token": "entity.name.function"
-    },
-    {
       "fontStyle": "italic",
       "token": "variable.parameter"
     },
@@ -81,17 +75,16 @@
       "token": "entity.name.tag"
     },
     {
-      "token": "entity.other.attribute-name"
-    },
-    {
       "foreground": "#C83730",
       "token": "support.function"
     }
   ],
   "colors": {
-    "editor.background": "#000000",
     "editor.foreground": "#FFFFFF",
-    "editor.selectionHighlightBackground": "#73597EE0",
-    "editor.lineHighlightBackground": "#333300"
+    "editor.background": "#000000",
+    "editor.selectionBackground": "#73597EE0",
+    "editor.lineHighlightBackground": "#333300",
+    "editorCursor.foreground": "#FFFFFF",
+    "editorWhitespace.foreground": "#404040"
   }
 }

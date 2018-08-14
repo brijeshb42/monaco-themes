@@ -367,7 +367,7 @@
       "token": "entity.name.function.js"
     },
     {
-      "foreground": "#666",
+      "foreground": "#666666",
       "token": "source.js.embedded.html"
     },
     {
@@ -403,9 +403,13 @@
     }
   ],
   "colors": {
-    "editor.background": "#E8E9E8",
     "editor.foreground": "#363636",
-    "editor.selectionHighlightBackground": "#F5AA0091",
-    "editor.lineHighlightBackground": "#CBDC2F38"
+    "editor.background": "#E8E9E8",
+    "editor.selectionBackground": "#F5AA0091",
+    "editor.lineHighlightBackground": "#CBDC2F38",
+    "editorCursor.foreground": "#202020",
+    "editorWhitespace.foreground": "#0000004A",
+    "editorIndentGuide.background": "#8F8F8F",
+    "editorIndentGuide.activeBackground": "#FA2828"
   }
 }

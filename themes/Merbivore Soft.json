@@ -3,9 +3,6 @@
   "inherit": true,
   "rules": [
     {
-      "token": "source"
-    },
-    {
       "foreground": "#AC4BB8",
       "fontStyle": "italic",
       "token": "comment"
@@ -24,15 +21,6 @@
       "token": "storage"
     },
     {
-      "token": "entity.name.function"
-    },
-    {
-      "token": "keyword.other.name-of-parameter.objc"
-    },
-    {
-      "token": "entity.name"
-    },
-    {
       "foreground": "#C984CD",
       "token": "entity.other.inherited-class"
     },
@@ -41,17 +29,8 @@
       "token": "constant.numeric"
     },
     {
-      "token": "variable.language"
-    },
-    {
-      "token": "variable.other"
-    },
-    {
       "foreground": "#68C1D8",
       "token": "constant"
-    },
-    {
-      "token": "variable.other.constant"
     },
     {
       "foreground": "#E1C582",
@@ -60,9 +39,6 @@
     {
       "foreground": "#8EC65F",
       "token": "string"
-    },
-    {
-      "token": "support.function"
     },
     {
       "foreground": "#8EC65F",
@@ -146,9 +122,11 @@
     }
   ],
   "colors": {
-    "editor.background": "#1C1C1C",
     "editor.foreground": "#E6E1DC",
-    "editor.selectionHighlightBackground": "#494949",
-    "editor.lineHighlightBackground": "#333435"
+    "editor.background": "#1C1C1C",
+    "editor.selectionBackground": "#494949",
+    "editor.lineHighlightBackground": "#333435",
+    "editorCursor.foreground": "#FFFFFF",
+    "editorWhitespace.foreground": "#404040"
   }
 }

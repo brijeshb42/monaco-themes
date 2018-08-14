@@ -55,15 +55,6 @@
       "token": "entity.name.class"
     },
     {
-      "token": "entity.other.inherited-class"
-    },
-    {
-      "token": "entity.name.function"
-    },
-    {
-      "token": "variable.parameter"
-    },
-    {
       "foreground": "#790EAD",
       "token": "entity.name.tag"
     },
@@ -90,15 +81,14 @@
     {
       "foreground": "#790EAD",
       "token": "support.other.variable"
-    },
-    {
-      "token": "invalid"
     }
   ],
   "colors": {
-    "editor.background": "#FFFFFF",
     "editor.foreground": "#000000",
-    "editor.selectionHighlightBackground": "#B5D5FF",
-    "editor.lineHighlightBackground": "#00000012"
+    "editor.background": "#FFFFFF",
+    "editor.selectionBackground": "#B5D5FF",
+    "editor.lineHighlightBackground": "#00000012",
+    "editorCursor.foreground": "#000000",
+    "editorWhitespace.foreground": "#BFBFBF"
   }
 }

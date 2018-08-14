@@ -3,9 +3,6 @@
   "inherit": true,
   "rules": [
     {
-      "token": "source"
-    },
-    {
       "foreground": "#AD2EA4",
       "fontStyle": "italic",
       "token": "comment"
@@ -19,15 +16,6 @@
       "token": "storage"
     },
     {
-      "token": "entity.name.function"
-    },
-    {
-      "token": "keyword.other.name-of-parameter.objc"
-    },
-    {
-      "token": "entity.name"
-    },
-    {
       "foreground": "#FC83FF",
       "token": "entity.other.inherited-class"
     },
@@ -36,17 +24,8 @@
       "token": "constant.numeric"
     },
     {
-      "token": "variable.language"
-    },
-    {
-      "token": "variable.other"
-    },
-    {
       "foreground": "#1EDAFB",
       "token": "constant"
-    },
-    {
-      "token": "variable.other.constant"
     },
     {
       "foreground": "#8DFF0A",
@@ -137,9 +116,11 @@
     }
   ],
   "colors": {
-    "editor.background": "#161616",
     "editor.foreground": "#E6E1DC",
-    "editor.selectionHighlightBackground": "#454545",
-    "editor.lineHighlightBackground": "#333435"
+    "editor.background": "#161616",
+    "editor.selectionBackground": "#454545",
+    "editor.lineHighlightBackground": "#333435",
+    "editorCursor.foreground": "#FFFFFF",
+    "editorWhitespace.foreground": "#404040"
   }
 }
