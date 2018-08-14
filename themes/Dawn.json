@@ -43,13 +43,13 @@
     },
     {
       "foreground": "#B52A1D",
-      "fontStyle": "bold italic underline",
+      "fontStyle": "underline",
       "token": "invalid.deprecated"
     },
     {
       "foreground": "#F8F8F8",
       "background": "#B52A1D",
-      "fontStyle": "italic underline",
+      "fontStyle": "underline",
       "token": "invalid.illegal"
     },
     {
@@ -72,22 +72,22 @@
     },
     {
       "foreground": "#CF5628",
-      "fontStyle": "bold italic",
+      "fontStyle": "italic",
       "token": "string.regexp.character-class"
     },
     {
       "foreground": "#CF5628",
-      "fontStyle": "bold italic",
+      "fontStyle": "italic",
       "token": "string.regexp constant.character.escaped"
     },
     {
       "foreground": "#CF5628",
-      "fontStyle": "bold italic",
+      "fontStyle": "italic",
       "token": "string.regexp source.ruby.embedded"
     },
     {
       "foreground": "#CF5628",
-      "fontStyle": "bold italic",
+      "fontStyle": "italic",
       "token": "string.regexp string.regexp.arbitrary-repitition"
     },
     {
@@ -143,7 +143,7 @@
     },
     {
       "foreground": "#234A97",
-      "fontStyle": "italic underline",
+      "fontStyle": "underline",
       "token": "markup.link"
     },
     {

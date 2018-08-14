@@ -37,7 +37,7 @@
     },
     {
       "foreground": "#D2A8A1",
-      "fontStyle": "italic underline",
+      "fontStyle": "underline",
       "token": "invalid.deprecated"
     },
     {

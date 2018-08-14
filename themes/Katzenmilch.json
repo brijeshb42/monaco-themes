@@ -161,6 +161,6 @@
     "editor.lineHighlightBackground": "#ffffff",
     "editorCursor.foreground": "#100011",
     "editorWhitespace.foreground": "#000000",
-    "undefined": "#8425f0"
+    "editor.selectionHighlightBorder": "#8425f0"
   }
 }

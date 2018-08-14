@@ -67,7 +67,7 @@
       "token": "entity.name.type"
     },
     {
-      "fontStyle": "italic underline",
+      "fontStyle": "underline",
       "token": "entity.other.inherited-class"
     },
     {

@@ -79,7 +79,7 @@
     {
       "foreground": "#FD1732",
       "background": "#E8E9E8",
-      "fontStyle": "italic underline",
+      "fontStyle": "underline",
       "token": "invalid.deprecated"
     },
     {

@@ -873,7 +873,7 @@
     {
       "foreground": "#262626",
       "background": "#8080800D",
-      "fontStyle": "bold italic",
+      "fontStyle": "italic",
       "token": "comment punctuation"
     },
     {

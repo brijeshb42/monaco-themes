@@ -31,7 +31,7 @@
       "token": "entity.name.function"
     },
     {
-      "fontStyle": "bold underline",
+      "fontStyle": "underline",
       "token": "entity.name.type"
     },
     {
@@ -83,7 +83,7 @@
       "token": "storage"
     },
     {
-      "fontStyle": "bold underline",
+      "fontStyle": "underline",
       "token": "entity.name.section"
     },
     {

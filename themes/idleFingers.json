@@ -99,7 +99,7 @@
       "token": "entity.name.class"
     },
     {
-      "fontStyle": "italic underline",
+      "fontStyle": "underline",
       "token": "entity.other.inherited-class"
     },
     {

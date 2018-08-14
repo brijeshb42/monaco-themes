@@ -14,12 +14,12 @@
     },
     {
       "foreground": "#999999",
-      "fontStyle": "bold italic",
+      "fontStyle": "italic",
       "token": "comment.documentation"
     },
     {
       "foreground": "#999999",
-      "fontStyle": "bold italic",
+      "fontStyle": "italic",
       "token": "comment.block.documentation"
     },
     {

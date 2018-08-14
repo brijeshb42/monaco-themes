@@ -116,8 +116,9 @@ var COLOR_MAP = [
     mn: 'editorIndentGuide.activeBackground',
   },
   {
-    tm: 'selectionBorder'
-  }
+    tm: 'selectionBorder',
+    mn: 'editor.selectionHighlightBorder',
+  },
 ];
 
 var ansiColorMap = ['ansiBlack', 'ansiRed', 'ansiGreen', 'ansiYellow', 'ansiBlue', 'ansiMagenta', 'ansiCyan', 'ansiWhite',
@@ -143,15 +144,20 @@ exports.parseTmTheme = function parseTmTheme(rawTmThemeString) {
   var rules = [];
 
   rawData.settings.forEach(setting => {
-    if (!setting.scope || !setting.settings) {
+    if (!setting.settings) {
       return;
     }
 
-    var scopes = setting.scope.split(',');
-    // scopes = scopes.reduce(
-    //   (acc, val) => acc.concat(val.split(' ')),
-    //   []
-    // );
+    var scopes;
+
+    if (typeof setting.scope === 'string') {
+      scopes = setting.scope.replace(/^[,]+/, '').replace(/[,]+$/, '').split(',');
+    } else if (Array.isArray(setting.scope)) {
+      scopes = setting.scope;
+    } else {
+      scopes = [''];
+    }
+
     var rule = {};
     var settings = setting.settings;
 
@@ -163,9 +169,18 @@ exports.parseTmTheme = function parseTmTheme(rawTmThemeString) {
       rule.background = parseColor(settings.background);
     }
 
-    if (settings.fontStyle) {
-      rule.fontStyle = settings.fontStyle;
+    if (settings.fontStyle && typeof settings.fontStyle === 'string') {
+      rule.fontStyle = settings.fontStyle.split(' ').pop();
     }
+
+    //   for(var i = 0; i < fonts.length; i++) {
+    //     const font = fonts[i];
+
+    //     if (['bold', 'italic', 'underline'].includes(font)) {
+    //       rule.fontStyle = font;
+    //     }
+    //   }
+    // }
 
 
     scopes.forEach(scope => {

@@ -114,7 +114,7 @@
       "token": "support.class.js"
     },
     {
-      "fontStyle": "italic underline",
+      "fontStyle": "underline",
       "token": "entity.other.inherited-class"
     },
     {

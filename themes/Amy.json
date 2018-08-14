@@ -29,7 +29,7 @@
       "token": "constant.numeric.integer.int64"
     },
     {
-      "fontStyle": "bold italic",
+      "fontStyle": "italic",
       "token": "constant.numeric.integer.nativeint"
     },
     {

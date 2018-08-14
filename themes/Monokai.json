@@ -46,7 +46,7 @@
     },
     {
       "foreground": "#A6E22E",
-      "fontStyle": "italic underline",
+      "fontStyle": "underline",
       "token": "entity.other.inherited-class"
     },
     {
@@ -135,6 +135,6 @@
     "editorCursor.foreground": "#F8F8F0",
     "editorWhitespace.foreground": "#3B3A32",
     "editorIndentGuide.activeBackground": "#9D550FB0",
-    "undefined": "#222218"
+    "editor.selectionHighlightBorder": "#222218"
   }
 }

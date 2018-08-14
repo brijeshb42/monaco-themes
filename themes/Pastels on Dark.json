@@ -59,7 +59,7 @@
       "token": "declaration.class class-name"
     },
     {
-      "fontStyle": "italic underline",
+      "fontStyle": "underline",
       "token": "declaration.class class-inheritance"
     },
     {
@@ -76,7 +76,7 @@
     },
     {
       "foreground": "#D2A8A1",
-      "fontStyle": "italic, underline",
+      "fontStyle": "underline",
       "token": "invalid.deprecated"
     },
     {
