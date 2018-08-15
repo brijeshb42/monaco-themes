@@ -1,5 +1,7 @@
 ## monaco-themes
 
+See extended demo at [https://editor-a5ea1.firebaseapp.com/](https://editor-a5ea1.firebaseapp.com/)
+
 A list of theme definitions to be used with [monaco-editor](https://microsoft.github.io/monaco-editor/) in browser. See [demo]('https://bitwiser.in/monaco-themes/')
 
 ### Usage
