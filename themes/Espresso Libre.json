@@ -3,70 +3,70 @@
   "inherit": true,
   "rules": [
     {
-      "foreground": "#0066FF",
+      "foreground": "0066ff",
       "fontStyle": "italic",
       "token": "comment"
     },
     {
-      "foreground": "#43A8ED",
+      "foreground": "43a8ed",
       "fontStyle": "bold",
       "token": "keyword"
     },
     {
-      "foreground": "#43A8ED",
+      "foreground": "43a8ed",
       "fontStyle": "bold",
       "token": "storage"
     },
     {
-      "foreground": "#44AA43",
+      "foreground": "44aa43",
       "token": "constant.numeric"
     },
     {
-      "foreground": "#C5656B",
+      "foreground": "c5656b",
       "fontStyle": "bold",
       "token": "constant"
     },
     {
-      "foreground": "#585CF6",
+      "foreground": "585cf6",
       "fontStyle": "bold",
       "token": "constant.language"
     },
     {
-      "foreground": "#318495",
+      "foreground": "318495",
       "token": "variable.language"
     },
     {
-      "foreground": "#318495",
+      "foreground": "318495",
       "token": "variable.other"
     },
     {
-      "foreground": "#049B0A",
+      "foreground": "049b0a",
       "token": "string"
     },
     {
-      "foreground": "#2FE420",
+      "foreground": "2fe420",
       "token": "constant.character.escape"
     },
     {
-      "foreground": "#2FE420",
+      "foreground": "2fe420",
       "token": "string source"
     },
     {
-      "foreground": "#1A921C",
+      "foreground": "1a921c",
       "token": "meta.preprocessor"
     },
     {
-      "foreground": "#9AFF87",
+      "foreground": "9aff87",
       "fontStyle": "bold",
       "token": "keyword.control.import"
     },
     {
-      "foreground": "#FF9358",
+      "foreground": "ff9358",
       "fontStyle": "bold",
       "token": "entity.name.function"
     },
     {
-      "foreground": "#FF9358",
+      "foreground": "ff9358",
       "fontStyle": "bold",
       "token": "keyword.other.name-of-parameter.objc"
     },
@@ -83,7 +83,7 @@
       "token": "variable.parameter"
     },
     {
-      "foreground": "#8B8E9C",
+      "foreground": "8b8e9c",
       "token": "storage.type.method"
     },
     {
@@ -95,57 +95,57 @@
       "token": "declaration.section entity.name.section"
     },
     {
-      "foreground": "#7290D9",
+      "foreground": "7290d9",
       "fontStyle": "bold",
       "token": "support.function"
     },
     {
-      "foreground": "#6D79DE",
+      "foreground": "6d79de",
       "fontStyle": "bold",
       "token": "support.class"
     },
     {
-      "foreground": "#6D79DE",
+      "foreground": "6d79de",
       "fontStyle": "bold",
       "token": "support.type"
     },
     {
-      "foreground": "#00AF0E",
+      "foreground": "00af0e",
       "fontStyle": "bold",
       "token": "support.constant"
     },
     {
-      "foreground": "#2F5FE0",
+      "foreground": "2f5fe0",
       "fontStyle": "bold",
       "token": "support.variable"
     },
     {
-      "foreground": "#687687",
+      "foreground": "687687",
       "token": "keyword.operator.js"
     },
     {
-      "foreground": "#FFFFFF",
-      "background": "#990000",
+      "foreground": "ffffff",
+      "background": "990000",
       "token": "invalid"
     },
     {
-      "background": "#FFD0D0",
+      "background": "ffd0d0",
       "token": "invalid.deprecated.trailing-whitespace"
     },
     {
-      "background": "#F5AA7730",
+      "background": "f5aa77",
       "token": "text source"
     },
     {
-      "background": "#F5AA7730",
+      "background": "f5aa77",
       "token": "string.unquoted"
     },
     {
-      "foreground": "#8F7E65",
+      "foreground": "8f7e65",
       "token": "meta.tag.preprocessor.xml"
     },
     {
-      "foreground": "#888888",
+      "foreground": "888888",
       "token": "meta.tag.sgml.doctype"
     },
     {
@@ -153,11 +153,11 @@
       "token": "string.quoted.docinfo.doctype.DTD"
     },
     {
-      "foreground": "#43A8ED",
+      "foreground": "43a8ed",
       "token": "meta.tag"
     },
     {
-      "foreground": "#43A8ED",
+      "foreground": "43a8ed",
       "token": "declaration.tag"
     },
     {

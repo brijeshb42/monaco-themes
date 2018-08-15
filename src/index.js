@@ -24,8 +24,10 @@ function parseColor(color) {
   if (!color.length) return null;
   if (color.length == 4)
     color = color.replace(/[a-fA-F\d]/g, "$&$&");
-  if (color.length == 7 || color.length == 9)
-    return color;
+  if (color.length == 7)
+    return color
+  if (color.length == 9)
+    return color.substr(0, 7);
   else {
     if (!color.match(/^#(..)(..)(..)(..)$/))
       console.error("can't parse color", color);
@@ -162,26 +164,16 @@ exports.parseTmTheme = function parseTmTheme(rawTmThemeString) {
     var settings = setting.settings;
 
     if (settings.foreground) {
-      rule.foreground = parseColor(settings.foreground);
+      rule.foreground = parseColor(settings.foreground).toLowerCase().replace('#', '');
     }
 
     if (settings.background) {
-      rule.background = parseColor(settings.background);
+      rule.background = parseColor(settings.background).toLowerCase().replace('#', '');
     }
 
     if (settings.fontStyle && typeof settings.fontStyle === 'string') {
-      rule.fontStyle = settings.fontStyle.split(' ').pop();
+      rule.fontStyle = settings.fontStyle;
     }
-
-    //   for(var i = 0; i < fonts.length; i++) {
-    //     const font = fonts[i];
-
-    //     if (['bold', 'italic', 'underline'].includes(font)) {
-    //       rule.fontStyle = font;
-    //     }
-    //   }
-    // }
-
 
     scopes.forEach(scope => {
       if (!scope || !Object.keys(rule).length) {

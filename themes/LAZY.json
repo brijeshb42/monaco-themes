@@ -3,86 +3,86 @@
   "inherit": true,
   "rules": [
     {
-      "foreground": "#8C868F",
+      "foreground": "8c868f",
       "token": "comment"
     },
     {
-      "foreground": "#3B5BB5",
+      "foreground": "3b5bb5",
       "token": "constant"
     },
     {
-      "foreground": "#3B5BB5",
+      "foreground": "3b5bb5",
       "token": "entity"
     },
     {
-      "foreground": "#D62A28",
+      "foreground": "d62a28",
       "token": "text.tex.latex entity"
     },
     {
-      "foreground": "#FF7800",
+      "foreground": "ff7800",
       "token": "keyword"
     },
     {
-      "foreground": "#FF7800",
+      "foreground": "ff7800",
       "token": "storage"
     },
     {
-      "foreground": "#409B1C",
+      "foreground": "409b1c",
       "token": "string"
     },
     {
-      "foreground": "#409B1C",
+      "foreground": "409b1c",
       "token": "meta.verbatim"
     },
     {
-      "foreground": "#3B5BB5",
+      "foreground": "3b5bb5",
       "token": "support"
     },
     {
-      "foreground": "#990000",
+      "foreground": "990000",
       "fontStyle": "italic",
       "token": "invalid.deprecated"
     },
     {
-      "foreground": "#F8F8F8",
-      "background": "#9D1E15",
+      "foreground": "f8f8f8",
+      "background": "9d1e15",
       "token": "invalid.illegal"
     },
     {
-      "foreground": "#3B5BB5",
+      "foreground": "3b5bb5",
       "fontStyle": "italic",
       "token": "entity.other.inherited-class"
     },
     {
-      "foreground": "#671EBB",
+      "foreground": "671ebb",
       "token": "string constant.other.placeholder"
     },
     {
-      "foreground": "#3E4558",
+      "foreground": "3e4558",
       "token": "meta.function-call.py"
     },
     {
-      "foreground": "#3A4A64",
+      "foreground": "3a4a64",
       "token": "meta.tag"
     },
     {
-      "foreground": "#3A4A64",
+      "foreground": "3a4a64",
       "token": "meta.tag entity"
     },
     {
-      "foreground": "#7F90AA",
+      "foreground": "7f90aa",
       "token": "keyword.type.variant"
     },
     {
-      "foreground": "#000000",
+      "foreground": "000000",
       "token": "source.ocaml keyword.operator"
     },
     {
-      "foreground": "#3B5BB5",
+      "foreground": "3b5bb5",
       "token": "source.ocaml keyword.operator.symbol.infix"
     },
     {
-      "foreground": "#3B5BB5",
+      "foreground": "3b5bb5",
       "token": "source.ocaml keyword.operator.symbol.prefix"
     },
     {
@@ -102,7 +102,7 @@
     "editor.foreground": "#000000",
     "editor.background": "#FFFFFF",
     "editor.selectionBackground": "#E3FC8D",
-    "editor.lineHighlightBackground": "#EFFCA68F",
+    "editor.lineHighlightBackground": "#EFFCA6",
     "editorCursor.foreground": "#7C7C7C",
     "editorWhitespace.foreground": "#B6B6B6"
   }

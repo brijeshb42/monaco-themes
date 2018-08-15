@@ -3,83 +3,83 @@
   "inherit": true,
   "rules": [
     {
-      "foreground": "#008E00",
+      "foreground": "008e00",
       "token": "comment"
     },
     {
-      "foreground": "#7D4726",
+      "foreground": "7d4726",
       "token": "meta.preprocessor"
     },
     {
-      "foreground": "#7D4726",
+      "foreground": "7d4726",
       "token": "keyword.control.import"
     },
     {
-      "foreground": "#DF0002",
+      "foreground": "df0002",
       "token": "string"
     },
     {
-      "foreground": "#3A00DC",
+      "foreground": "3a00dc",
       "token": "constant.numeric"
     },
     {
-      "foreground": "#C800A4",
+      "foreground": "c800a4",
       "token": "constant.language"
     },
     {
-      "foreground": "#275A5E",
+      "foreground": "275a5e",
       "token": "constant.character"
     },
     {
-      "foreground": "#275A5E",
+      "foreground": "275a5e",
       "token": "constant.other"
     },
     {
-      "foreground": "#C800A4",
+      "foreground": "c800a4",
       "token": "variable.language"
     },
     {
-      "foreground": "#C800A4",
+      "foreground": "c800a4",
       "token": "variable.other"
     },
     {
-      "foreground": "#C800A4",
+      "foreground": "c800a4",
       "token": "keyword"
     },
     {
-      "foreground": "#C900A4",
+      "foreground": "c900a4",
       "token": "storage"
     },
     {
-      "foreground": "#438288",
+      "foreground": "438288",
       "token": "entity.name.class"
     },
     {
-      "foreground": "#790EAD",
+      "foreground": "790ead",
       "token": "entity.name.tag"
     },
     {
-      "foreground": "#450084",
+      "foreground": "450084",
       "token": "entity.other.attribute-name"
     },
     {
-      "foreground": "#450084",
+      "foreground": "450084",
       "token": "support.function"
     },
     {
-      "foreground": "#450084",
+      "foreground": "450084",
       "token": "support.constant"
     },
     {
-      "foreground": "#790EAD",
+      "foreground": "790ead",
       "token": "support.type"
     },
     {
-      "foreground": "#790EAD",
+      "foreground": "790ead",
       "token": "support.class"
     },
     {
-      "foreground": "#790EAD",
+      "foreground": "790ead",
       "token": "support.other.variable"
     }
   ],
@@ -87,7 +87,7 @@
     "editor.foreground": "#000000",
     "editor.background": "#FFFFFF",
     "editor.selectionBackground": "#B5D5FF",
-    "editor.lineHighlightBackground": "#00000012",
+    "editor.lineHighlightBackground": "#000000",
     "editorCursor.foreground": "#000000",
     "editorWhitespace.foreground": "#BFBFBF"
   }

@@ -3,107 +3,107 @@
   "inherit": true,
   "rules": [
     {
-      "foreground": "#BCC8BA",
+      "foreground": "bcc8ba",
       "token": "comment"
     },
     {
-      "foreground": "#5D90CD",
+      "foreground": "5d90cd",
       "token": "string"
     },
     {
-      "foreground": "#46A609",
+      "foreground": "46a609",
       "token": "constant.numeric"
     },
     {
-      "foreground": "#39946A",
+      "foreground": "39946a",
       "token": "constant.language"
     },
     {
-      "foreground": "#AF956F",
+      "foreground": "af956f",
       "token": "keyword"
     },
     {
-      "foreground": "#AF956F",
+      "foreground": "af956f",
       "token": "support.constant.property-value"
     },
     {
-      "foreground": "#AF956F",
+      "foreground": "af956f",
       "token": "constant.other.color"
     },
     {
-      "foreground": "#96DC5F",
+      "foreground": "96dc5f",
       "token": "keyword.other.unit"
     },
     {
-      "foreground": "#484848",
+      "foreground": "484848",
       "token": "keyword.operator"
     },
     {
-      "foreground": "#C52727",
+      "foreground": "c52727",
       "token": "storage"
     },
     {
-      "foreground": "#858585",
+      "foreground": "858585",
       "token": "entity.other.inherited-class"
     },
     {
-      "foreground": "#606060",
+      "foreground": "606060",
       "token": "entity.name.tag"
     },
     {
-      "foreground": "#BF78CC",
+      "foreground": "bf78cc",
       "token": "constant.character.entity"
     },
     {
-      "foreground": "#BF78CC",
+      "foreground": "bf78cc",
       "token": "support.class.js"
     },
     {
-      "foreground": "#606060",
+      "foreground": "606060",
       "token": "entity.other.attribute-name"
     },
     {
-      "foreground": "#C52727",
+      "foreground": "c52727",
       "token": "meta.selector.css"
     },
     {
-      "foreground": "#C52727",
+      "foreground": "c52727",
       "token": "entity.name.tag.css"
     },
     {
-      "foreground": "#C52727",
+      "foreground": "c52727",
       "token": "entity.other.attribute-name.id.css"
     },
     {
-      "foreground": "#C52727",
+      "foreground": "c52727",
       "token": "entity.other.attribute-name.class.css"
     },
     {
-      "foreground": "#484848",
+      "foreground": "484848",
       "token": "meta.property-name.css"
     },
     {
-      "foreground": "#C52727",
+      "foreground": "c52727",
       "token": "support.function"
     },
     {
-      "background": "#FF002A",
+      "background": "ff002a",
       "token": "invalid"
     },
     {
-      "foreground": "#C52727",
+      "foreground": "c52727",
       "token": "punctuation.section.embedded"
     },
     {
-      "foreground": "#606060",
+      "foreground": "606060",
       "token": "punctuation.definition.tag"
     },
     {
-      "foreground": "#BF78CC",
+      "foreground": "bf78cc",
       "token": "constant.other.color.rgb-value.css"
     },
     {
-      "foreground": "#BF78CC",
+      "foreground": "bf78cc",
       "token": "support.constant.property-value.css"
     }
   ],

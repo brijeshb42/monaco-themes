@@ -3,29 +3,29 @@
   "inherit": true,
   "rules": [
     {
-      "foreground": "#FFFFFF",
-      "background": "#434242",
+      "foreground": "ffffff",
+      "background": "434242",
       "token": "text"
     },
     {
-      "foreground": "#FFFFFF",
-      "background": "#000000",
+      "foreground": "ffffff",
+      "background": "000000",
       "token": "source"
     },
     {
-      "foreground": "#9933CC",
+      "foreground": "9933cc",
       "token": "comment"
     },
     {
-      "foreground": "#3387CC",
+      "foreground": "3387cc",
       "token": "constant"
     },
     {
-      "foreground": "#CC7833",
+      "foreground": "cc7833",
       "token": "keyword"
     },
     {
-      "foreground": "#D0D0FF",
+      "foreground": "d0d0ff",
       "token": "meta.preprocessor.c"
     },
     {
@@ -33,33 +33,33 @@
       "token": "variable.parameter"
     },
     {
-      "foreground": "#FFFFFF",
-      "background": "#9B9B9B",
+      "foreground": "ffffff",
+      "background": "9b9b9b",
       "token": "source comment.block"
     },
     {
-      "foreground": "#66CC33",
+      "foreground": "66cc33",
       "token": "string"
     },
     {
-      "foreground": "#AAAAAA",
+      "foreground": "aaaaaa",
       "token": "string constant.character.escape"
     },
     {
-      "foreground": "#000000",
-      "background": "#CCCC33",
+      "foreground": "000000",
+      "background": "cccc33",
       "token": "string.interpolated"
     },
     {
-      "foreground": "#CCCC33",
+      "foreground": "cccc33",
       "token": "string.regexp"
     },
     {
-      "foreground": "#CCCC33",
+      "foreground": "cccc33",
       "token": "string.literal"
     },
     {
-      "foreground": "#555555",
+      "foreground": "555555",
       "token": "string.interpolated constant.character.escape"
     },
     {
@@ -67,7 +67,7 @@
       "token": "entity.name.type"
     },
     {
-      "fontStyle": "underline",
+      "fontStyle": "italic underline",
       "token": "entity.other.inherited-class"
     },
     {
@@ -75,14 +75,14 @@
       "token": "entity.name.tag"
     },
     {
-      "foreground": "#C83730",
+      "foreground": "c83730",
       "token": "support.function"
     }
   ],
   "colors": {
     "editor.foreground": "#FFFFFF",
     "editor.background": "#000000",
-    "editor.selectionBackground": "#73597EE0",
+    "editor.selectionBackground": "#73597E",
     "editor.lineHighlightBackground": "#333300",
     "editorCursor.foreground": "#FFFFFF",
     "editorWhitespace.foreground": "#404040"

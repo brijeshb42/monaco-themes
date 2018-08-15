@@ -3,7 +3,7 @@
   "inherit": true,
   "rules": [
     {
-      "foreground": "#709070",
+      "foreground": "709070",
       "fontStyle": "italic",
       "token": "comment"
     },
@@ -16,15 +16,15 @@
       "token": "keyword.other.directive.line-number"
     },
     {
-      "foreground": "#FF8080",
+      "foreground": "ff8080",
       "token": "constant.character"
     },
     {
-      "foreground": "#FF2020",
+      "foreground": "ff2020",
       "token": "string"
     },
     {
-      "foreground": "#22C0FF",
+      "foreground": "22c0ff",
       "token": "constant.numeric"
     },
     {
@@ -32,21 +32,21 @@
       "token": "constant.numeric.floating-point"
     },
     {
-      "foreground": "#FFFFA0",
+      "foreground": "ffffa0",
       "token": "keyword"
     },
     {
-      "foreground": "#FF8000",
+      "foreground": "ff8000",
       "fontStyle": "bold",
       "token": "entity.name.module"
     },
     {
-      "foreground": "#FF8000",
+      "foreground": "ff8000",
       "fontStyle": "bold",
       "token": "support.other.module"
     },
     {
-      "foreground": "#FFFFA0",
+      "foreground": "ffffa0",
       "token": "keyword.operator"
     },
     {
@@ -58,28 +58,28 @@
       "token": "source.ocaml keyword.operator.symbol.prefix.floating-point"
     },
     {
-      "foreground": "#6080FF",
+      "foreground": "6080ff",
       "token": "storage.type"
     },
     {
-      "foreground": "#4080A0",
+      "foreground": "4080a0",
       "token": "entity.name.class.variant"
     },
     {
-      "foreground": "#F09040",
+      "foreground": "f09040",
       "token": "entity.name.type"
     },
     {
-      "foreground": "#FFCC66",
+      "foreground": "ffcc66",
       "fontStyle": "bold",
       "token": "entity.name.function"
     },
     {
-      "foreground": "#FFE000",
+      "foreground": "ffe000",
       "token": "storage.type.user-defined"
     },
     {
-      "foreground": "#F4A020",
+      "foreground": "f4a020",
       "token": "entity.name.type.class.type"
     }
   ],
@@ -87,7 +87,7 @@
     "editor.foreground": "#DEDEDE",
     "editor.background": "#404040",
     "editor.selectionBackground": "#A0A0C0",
-    "editor.lineHighlightBackground": "#A0804026",
+    "editor.lineHighlightBackground": "#A08040",
     "editorCursor.foreground": "#FFFF66",
     "editorWhitespace.foreground": "#A8A8A8"
   }
