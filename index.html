@@ -47,6 +47,14 @@
         });
     }
 
+    function setEditorValue(jsn) {
+      if (!window.editor) {
+        return;
+      }
+
+      window.editor.setValue('const themeData = ' + JSON.stringify(jsn, null, 2));
+    }
+
     function addFileListener() {
       var fileNode = document.getElementById('file');
 
@@ -64,8 +72,7 @@
 
           monaco.editor.defineTheme(themeSlug, loadedThemes[themeSlug]);
           monaco.editor.setTheme(themeSlug);
-
-          window.editor.setValue(JSON.stringify(loadedThemes[themeSlug], null, 2));
+          setEditorValue(loadedThemes[themeSlug]);
         };
         reader.readAsText(file);
       });
@@ -80,12 +87,11 @@
 
       if (loadedThemesData[val]) {
         monaco.editor.setTheme(val);
+        setEditorValue(loadedThemesData[val]);
       } else {
         loadTheme(val).then((data) => {
           monaco.editor.setTheme(val);
-          if (window.editor) {
-            window.editor.setValue(JSON.stringify(data, null, 2));
-          }
+          setEditorValue(data);
         });
       }
     });
@@ -125,7 +131,7 @@
           '  "value": "Select a locally available tmtheme file or choose from the many pregenrated themes"',
           '}'
         ].join('\n'),
-        language: 'json',
+        language: 'javascript',
         fontSize: 16,
         fontFamily: 'monospace',
         minimap: {
