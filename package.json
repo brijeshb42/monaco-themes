@@ -1,10 +1,10 @@
 {
   "name": "monaco-themes",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Themes for monaco editor in web browser",
   "main": "src/index.js",
   "scripts": {
-    "prepublish": "npm run build && npm run generatethemes",
+    "prepublishOnly": "npm run build && npm run generatethemes",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
     "generatethemes": "node ./scripts/generate.js"
