@@ -43,14 +43,6 @@
       "token": "entity.other.attribute-name"
     },
     {
-      "foreground": "c82829",
-      "token": "meta.tag"
-    },
-    {
-      "foreground": "c82829",
-      "token": "declaration.tag"
-    },
-    {
       "foreground": "f5871f",
       "token": "constant.numeric"
     },

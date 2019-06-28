@@ -3,15 +3,15 @@
   "inherit": true,
   "rules": [
     {
-      "foreground": "a6c6ff",
+      "foreground": "555555",
       "token": "comment"
     },
     {
-      "foreground": "a6c6ff",
+      "foreground": "555555",
       "token": "comment.block"
     },
     {
-      "foreground": "66a968",
+      "foreground": "ad9361",
       "token": "string"
     },
     {
@@ -19,7 +19,7 @@
       "token": "constant.numeric"
     },
     {
-      "foreground": "757ad8",
+      "foreground": "a1a1ff",
       "token": "keyword"
     },
     {
@@ -31,7 +31,7 @@
       "token": "keyword.control.import"
     },
     {
-      "foreground": "aeb2f8",
+      "foreground": "a1a1ff",
       "token": "support.function"
     },
     {
@@ -63,25 +63,13 @@
       "token": "declaration.class class-inheritance"
     },
     {
-      "foreground": "f8f8f8",
-      "background": "562d56",
+      "foreground": "fff9f9",
+      "background": "ff0000",
       "fontStyle": "bold",
       "token": "invalid"
     },
     {
-      "foreground": "f8f8f8",
-      "background": "562d56",
-      "fontStyle": "bold",
-      "token": "invalid.illegal"
-    },
-    {
-      "foreground": "d2a8a1",
-      "fontStyle": "italic, underline",
-      "token": "invalid.deprecated"
-    },
-    {
       "background": "ffd0d0",
-      "fontStyle": "bold",
       "token": "invalid.deprecated.trailing-whitespace"
     },
     {
@@ -93,19 +81,15 @@
       "token": "string.interpolation"
     },
     {
-      "foreground": "e9c062",
+      "foreground": "666666",
       "token": "string.regexp"
     },
     {
-      "foreground": "bebf55",
+      "foreground": "c1c144",
       "token": "variable"
     },
     {
-      "foreground": "c1c144",
-      "token": "variable.language"
-    },
-    {
-      "foreground": "4fb7c5",
+      "foreground": "6782d3",
       "token": "constant"
     },
     {
@@ -139,7 +123,7 @@
       "token": "keyword.exception"
     },
     {
-      "foreground": "797878",
+      "foreground": "47b8d6",
       "token": "keyword.operator"
     },
     {
@@ -152,7 +136,7 @@
       "token": "meta.tag.preprocessor.xml"
     },
     {
-      "foreground": "494949",
+      "foreground": "888888",
       "token": "meta.tag.sgml.doctype"
     },
     {
@@ -273,11 +257,11 @@
     }
   ],
   "colors": {
-    "editor.foreground": "#8F938F",
-    "editor.background": "#2C2828",
-    "editor.selectionBackground": "#DDF0FF",
-    "editor.lineHighlightBackground": "#FFFFFF",
-    "editorCursor.foreground": "#A7A7A7",
-    "editorWhitespace.foreground": "#FFFFFF"
+    "editor.foreground": "#DADADA",
+    "editor.background": "#211E1E",
+    "editor.selectionBackground": "#73597E",
+    "editor.lineHighlightBackground": "#353030",
+    "editorCursor.foreground": "#FFFFFF",
+    "editorWhitespace.foreground": "#4F4D4D"
   }
 }

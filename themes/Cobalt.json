@@ -4,7 +4,7 @@
   "rules": [
     {
       "foreground": "e1efff",
-      "token": "punctuation - (punctuation.definition.string | punctuation.definition.comment)"
+      "token": "punctuation - (punctuation.definition.string || punctuation.definition.comment)"
     },
     {
       "foreground": "ff628c",

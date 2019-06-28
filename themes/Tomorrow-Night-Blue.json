@@ -47,14 +47,6 @@
       "token": "entity.other.attribute-name"
     },
     {
-      "foreground": "ff9da4",
-      "token": "meta.tag"
-    },
-    {
-      "foreground": "ff9da4",
-      "token": "declaration.tag"
-    },
-    {
       "foreground": "ffc58f",
       "token": "constant.numeric"
     },

@@ -171,16 +171,6 @@
       "token": "meta.selector.css entity.name.tag"
     },
     {
-      "foreground": "ac885b",
-      "fontStyle": "bold",
-      "token": "entity.name.function"
-    },
-    {
-      "foreground": "ac885b",
-      "fontStyle": "bold",
-      "token": "support.function.any-method"
-    },
-    {
       "foreground": "8f9d6a",
       "token": "meta.selector.css entity.other.attribute-name.tag.pseudo-class"
     },

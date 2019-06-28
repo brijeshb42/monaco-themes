@@ -8,6 +8,10 @@
       "token": "comment"
     },
     {
+      "foreground": "bfbfbf",
+      "token": "deco.folding"
+    },
+    {
       "foreground": "0000ff",
       "fontStyle": "bold",
       "token": "keyword"
@@ -49,7 +53,7 @@
     },
     {
       "foreground": "26b31a",
-      "token": "string source"
+      "token": "string meta.embedded"
     },
     {
       "foreground": "1a921c",
@@ -142,6 +146,10 @@
     },
     {
       "background": "000000",
+      "token": "meta.embedded"
+    },
+    {
+      "background": "000000",
       "token": "text source string.unquoted"
     },
     {
@@ -154,31 +162,31 @@
     },
     {
       "foreground": "888888",
-      "token": "meta.tag.sgml.doctype"
+      "token": "meta.tag.metadata.doctype"
     },
     {
       "foreground": "888888",
-      "token": "meta.tag.sgml.doctype entity"
+      "token": "meta.tag.metadata.doctype entity"
     },
     {
       "foreground": "888888",
-      "token": "meta.tag.sgml.doctype string"
+      "token": "meta.tag.metadata.doctype string"
     },
     {
       "foreground": "888888",
-      "token": "meta.tag.preprocessor.xml"
+      "token": "meta.tag.metadata.processing.xml"
     },
     {
       "foreground": "888888",
-      "token": "meta.tag.preprocessor.xml entity"
+      "token": "meta.tag.metadata.processing.xml entity"
     },
     {
       "foreground": "888888",
-      "token": "meta.tag.preprocessor.xml string"
+      "token": "meta.tag.metadata.processing.xml string"
     },
     {
       "fontStyle": "italic",
-      "token": "string.quoted.docinfo.doctype.DTD"
+      "token": "meta.tag.metadata.doctype string.quoted"
     },
     {
       "foreground": "1c02ff",

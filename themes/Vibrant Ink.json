@@ -18,17 +18,7 @@
     },
     {
       "foreground": "ccff33",
-      "background": "000000",
-      "token": "invalid"
-    },
-    {
-      "foreground": "ccff33",
-      "background": "000000",
-      "token": "invalid.deprecated"
-    },
-    {
-      "foreground": "99cc99",
-      "token": "constant.numeric"
+      "token": "constant.numeric.ruby"
     },
     {
       "foreground": "ffffff",
@@ -77,8 +67,8 @@
       "token": "variable.other"
     },
     {
-      "foreground": "ffcc00",
-      "token": "support.function"
+      "foreground": "999966",
+      "token": "support.function.activerecord.rails"
     },
     {
       "foreground": "66ff00",
@@ -193,9 +183,9 @@
   ],
   "colors": {
     "editor.foreground": "#FFFFFF",
-    "editor.background": "#0F0F0F",
-    "editor.selectionBackground": "#6699CC",
-    "editor.lineHighlightBackground": "#333333",
+    "editor.background": "#000000",
+    "editor.selectionBackground": "#35493C",
+    "editor.lineHighlightBackground": "#333300",
     "editorCursor.foreground": "#FFFFFF",
     "editorWhitespace.foreground": "#404040"
   }

@@ -19,7 +19,7 @@ function generate(themePath) {
   files.forEach(file => {
     let fname = file.split('.');
     fname.pop()
-    if (!fname.length) {
+    if (!fname.length || !fname[0]) {
       return;
     }
     fname = fname.join('.');

@@ -39,14 +39,6 @@
       "token": "entity.other.attribute-name"
     },
     {
-      "foreground": "f2777a",
-      "token": "meta.tag"
-    },
-    {
-      "foreground": "f2777a",
-      "token": "declaration.tag"
-    },
-    {
       "foreground": "f99157",
       "token": "constant.numeric"
     },
@@ -115,23 +107,23 @@
       "token": "constant.other.color"
     },
     {
-      "foreground": "6699cc",
+      "foreground": "99cccc",
       "token": "entity.name.function"
     },
     {
-      "foreground": "6699cc",
+      "foreground": "99cccc",
       "token": "meta.function-call"
     },
     {
-      "foreground": "6699cc",
+      "foreground": "99cccc",
       "token": "support.function"
     },
     {
-      "foreground": "6699cc",
+      "foreground": "99cccc",
       "token": "keyword.other.special-method"
     },
     {
-      "foreground": "6699cc",
+      "foreground": "99cccc",
       "token": "meta.block-level"
     },
     {
