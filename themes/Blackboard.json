@@ -98,11 +98,11 @@
       "token": "source.ocaml constant.numeric.floating-point"
     },
     {
-      "background": "ffffff",
+      "background": "ffffff08",
       "token": "text.tex.latex meta.function.environment"
     },
     {
-      "background": "7a96fa",
+      "background": "7a96fa08",
       "token": "text.tex.latex meta.function.environment meta.function.environment"
     },
     {
@@ -122,8 +122,8 @@
     "editor.foreground": "#F8F8F8",
     "editor.background": "#0C1021",
     "editor.selectionBackground": "#253B76",
-    "editor.lineHighlightBackground": "#FFFFFF",
-    "editorCursor.foreground": "#FFFFFF",
-    "editorWhitespace.foreground": "#FFFFFF"
+    "editor.lineHighlightBackground": "#FFFFFF0F",
+    "editorCursor.foreground": "#FFFFFFA6",
+    "editorWhitespace.foreground": "#FFFFFF40"
   }
 }

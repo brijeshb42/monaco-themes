@@ -54,7 +54,7 @@
     },
     {
       "foreground": "080808",
-      "background": "6f8bba",
+      "background": "6f8bba26",
       "token": "string source"
     },
     {
@@ -96,7 +96,7 @@
       "token": "string.regexp constant.character.escape"
     },
     {
-      "background": "6f8bba",
+      "background": "6f8bba26",
       "token": "text source"
     },
     {
@@ -122,7 +122,7 @@
     },
     {
       "foreground": "0b6125",
-      "background": "bbbbbb",
+      "background": "bbbbbb30",
       "fontStyle": "italic",
       "token": "markup.quote"
     },
@@ -148,7 +148,7 @@
     },
     {
       "foreground": "234a97",
-      "background": "bbbbbb",
+      "background": "bbbbbb30",
       "token": "markup.raw"
     },
     {
@@ -165,9 +165,9 @@
   "colors": {
     "editor.foreground": "#080808",
     "editor.background": "#F9F9F9",
-    "editor.selectionBackground": "#275FFF",
-    "editor.lineHighlightBackground": "#2463B4",
+    "editor.selectionBackground": "#275FFF4D",
+    "editor.lineHighlightBackground": "#2463B41F",
     "editorCursor.foreground": "#000000",
-    "editorWhitespace.foreground": "#4B4B7E"
+    "editorWhitespace.foreground": "#4B4B7E80"
   }
 }

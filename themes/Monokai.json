@@ -119,7 +119,7 @@
       "token": "markup.changed"
     },
     {
-      "foreground": "ae81ff",
+      "foreground": "ae81ffa0",
       "token": "constant.numeric.line-number.find-in-files - match"
     },
     {
@@ -134,7 +134,7 @@
     "editor.lineHighlightBackground": "#3E3D32",
     "editorCursor.foreground": "#F8F8F0",
     "editorWhitespace.foreground": "#3B3A32",
-    "editorIndentGuide.activeBackground": "#9D550F",
+    "editorIndentGuide.activeBackground": "#9D550FB0",
     "editor.selectionHighlightBorder": "#222218"
   }
 }

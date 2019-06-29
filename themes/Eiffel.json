@@ -125,11 +125,11 @@
       "token": "invalid.deprecated.trailing-whitespace"
     },
     {
-      "background": "427ff5",
+      "background": "427ff530",
       "token": "text source"
     },
     {
-      "background": "427ff5",
+      "background": "427ff530",
       "token": "string.unquoted"
     },
     {
@@ -191,7 +191,7 @@
     "editor.foreground": "#000000",
     "editor.background": "#FFFFFF",
     "editor.selectionBackground": "#C3DCFF",
-    "editor.lineHighlightBackground": "#000000",
+    "editor.lineHighlightBackground": "#00000012",
     "editorCursor.foreground": "#000000",
     "editorWhitespace.foreground": "#BFBFBF"
   }

@@ -31,17 +31,17 @@
       "token": "string.unquoted"
     },
     {
-      "foreground": "e94700",
+      "foreground": "e9470000",
       "background": "1a0700",
       "token": "constant.character.escaped"
     },
     {
-      "foreground": "e94700",
+      "foreground": "e9470000",
       "background": "1a0700",
       "token": "string source - string.unquoted.embedded"
     },
     {
-      "foreground": "e94700",
+      "foreground": "e9470000",
       "background": "1a0700",
       "token": "string string source"
     },
@@ -120,7 +120,7 @@
     },
     {
       "foreground": "ffffff",
-      "background": "990000",
+      "background": "990000ad",
       "token": "invalid"
     },
     {
@@ -177,7 +177,7 @@
       "token": "entity.other.attribute-name"
     },
     {
-      "foreground": "909993",
+      "foreground": "90999380",
       "token": "punctuation"
     },
     {
@@ -186,43 +186,43 @@
     },
     {
       "foreground": "ffffff",
-      "background": "000000",
+      "background": "00000059",
       "token": "meta.scope.changed-files.svn"
     },
     {
       "foreground": "ffffff",
-      "background": "000000",
+      "background": "00000059",
       "token": "markup.inserted.svn"
     },
     {
       "foreground": "ffffff",
-      "background": "000000",
+      "background": "00000059",
       "token": "markup.changed.svn"
     },
     {
       "foreground": "ffffff",
-      "background": "000000",
+      "background": "00000059",
       "token": "markup.deleted.svn"
     },
     {
-      "background": "78807b",
+      "background": "78807b0a",
       "token": "meta.section"
     },
     {
-      "background": "78807b",
+      "background": "78807b0a",
       "token": "meta.section meta.section"
     },
     {
-      "background": "78807b",
+      "background": "78807b0a",
       "token": "meta.section meta.section meta.section"
     }
   ],
   "colors": {
     "editor.foreground": "#FFFFFF",
     "editor.background": "#222C28",
-    "editor.selectionBackground": "#919994",
-    "editor.lineHighlightBackground": "#0C0D0C",
+    "editor.selectionBackground": "#91999466",
+    "editor.lineHighlightBackground": "#0C0D0C40",
     "editorCursor.foreground": "#FFFFFF",
-    "editorWhitespace.foreground": "#666C68"
+    "editorWhitespace.foreground": "#666C6880"
   }
 }

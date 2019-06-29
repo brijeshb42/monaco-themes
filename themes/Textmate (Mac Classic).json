@@ -137,23 +137,23 @@
       "token": "invalid.deprecated.trailing-whitespace"
     },
     {
-      "background": "000000",
+      "background": "0000000d",
       "token": "text source"
     },
     {
-      "background": "000000",
+      "background": "0000000d",
       "token": "string.unquoted"
     },
     {
-      "background": "000000",
+      "background": "0000000d",
       "token": "meta.embedded"
     },
     {
-      "background": "000000",
+      "background": "0000000f",
       "token": "text source string.unquoted"
     },
     {
-      "background": "000000",
+      "background": "0000000f",
       "token": "text source text source"
     },
     {
@@ -222,8 +222,8 @@
   "colors": {
     "editor.foreground": "#000000",
     "editor.background": "#FFFFFF",
-    "editor.selectionBackground": "#4D97FF",
-    "editor.lineHighlightBackground": "#000000",
+    "editor.selectionBackground": "#4D97FF54",
+    "editor.lineHighlightBackground": "#00000012",
     "editorCursor.foreground": "#000000",
     "editorWhitespace.foreground": "#BFBFBF"
   }

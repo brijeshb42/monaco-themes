@@ -102,7 +102,7 @@
     "editor.foreground": "#000000",
     "editor.background": "#FFFFFF",
     "editor.selectionBackground": "#E3FC8D",
-    "editor.lineHighlightBackground": "#EFFCA6",
+    "editor.lineHighlightBackground": "#EFFCA68F",
     "editorCursor.foreground": "#7C7C7C",
     "editorWhitespace.foreground": "#B6B6B6"
   }

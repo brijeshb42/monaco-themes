@@ -45,16 +45,16 @@
     },
     {
       "foreground": "ff0000",
-      "background": "e71a11",
+      "background": "e71a114d",
       "token": "invalid"
     },
     {
-      "background": "e71a11",
+      "background": "e71a1100",
       "token": "invalid.deprecated.trailing-whitespace"
     },
     {
       "foreground": "000000",
-      "background": "fafafa",
+      "background": "fafafafc",
       "token": "text source"
     },
     {
@@ -107,10 +107,10 @@
   ],
   "colors": {
     "editor.foreground": "#000000",
-    "editor.background": "#EEEEEE",
+    "editor.background": "#EEEEEEEB",
     "editor.selectionBackground": "#BAD6FD",
-    "editor.lineHighlightBackground": "#000000",
+    "editor.lineHighlightBackground": "#0000001A",
     "editorCursor.foreground": "#000000",
-    "editorWhitespace.foreground": "#B3B3B3"
+    "editorWhitespace.foreground": "#B3B3B3F4"
   }
 }

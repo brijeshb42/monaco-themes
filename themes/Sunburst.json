@@ -42,11 +42,11 @@
     },
     {
       "foreground": "fd5ff1",
-      "background": "562d56",
+      "background": "562d56bf",
       "token": "invalid.illegal"
     },
     {
-      "background": "b1b3ba",
+      "background": "b1b3ba08",
       "token": "text source"
     },
     {
@@ -251,7 +251,7 @@
     },
     {
       "foreground": "e1d4b9",
-      "background": "fee09c",
+      "background": "fee09c12",
       "fontStyle": "italic",
       "token": "markup.quote"
     },
@@ -271,7 +271,7 @@
     },
     {
       "foreground": "578bb3",
-      "background": "b1b3ba",
+      "background": "b1b3ba08",
       "token": "markup.raw"
     },
     {
@@ -285,11 +285,11 @@
       "token": "meta.separator"
     },
     {
-      "background": "eeeeee",
+      "background": "eeeeee29",
       "token": "meta.line.entry.logfile"
     },
     {
-      "background": "eeeeee",
+      "background": "eeeeee29",
       "token": "meta.line.exit.logfile"
     },
     {
@@ -300,9 +300,9 @@
   "colors": {
     "editor.foreground": "#F8F8F8",
     "editor.background": "#000000",
-    "editor.selectionBackground": "#DDF0FF",
-    "editor.lineHighlightBackground": "#FFFFFF",
+    "editor.selectionBackground": "#DDF0FF33",
+    "editor.lineHighlightBackground": "#FFFFFF0D",
     "editorCursor.foreground": "#A7A7A7",
-    "editorWhitespace.foreground": "#CAE2FB"
+    "editorWhitespace.foreground": "#CAE2FB3D"
   }
 }

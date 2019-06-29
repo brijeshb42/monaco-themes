@@ -3,7 +3,7 @@
   "inherit": true,
   "rules": [
     {
-      "background": "e2e9ff",
+      "background": "e2e9ff5e",
       "token": "text.html source.active4d"
     },
     {
@@ -143,7 +143,7 @@
     "editor.foreground": "#3B3B3B",
     "editor.background": "#FFFFFF",
     "editor.selectionBackground": "#BAD6FD",
-    "editor.lineHighlightBackground": "#000000",
+    "editor.lineHighlightBackground": "#00000012",
     "editorCursor.foreground": "#000000",
     "editorWhitespace.foreground": "#BFBFBF"
   }

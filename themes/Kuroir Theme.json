@@ -3,13 +3,13 @@
   "inherit": true,
   "rules": [
     {
-      "foreground": "949494",
-      "background": "dcdcdc",
+      "foreground": "949494e8",
+      "background": "dcdcdc8f",
       "token": "comment"
     },
     {
       "foreground": "a54776",
-      "background": "e9d6dc",
+      "background": "e9d6dc85",
       "token": "comment.line.region"
     },
     {
@@ -84,12 +84,12 @@
     },
     {
       "foreground": "fd1224",
-      "background": "ff0600",
+      "background": "ff060026",
       "token": "invalid.illegal"
     },
     {
       "foreground": "7b211a",
-      "background": "77ade9",
+      "background": "77ade900",
       "token": "text source"
     },
     {
@@ -295,18 +295,18 @@
     },
     {
       "foreground": "8b7765",
-      "background": "fee09c",
+      "background": "fee09c12",
       "fontStyle": "italic",
       "token": "markup.quote"
     },
     {
       "foreground": "b8012d",
-      "background": "bf6133",
+      "background": "bf61330d",
       "token": "markup.heading"
     },
     {
       "foreground": "b8012d",
-      "background": "bf6133",
+      "background": "bf61330d",
       "token": "markup.heading entity"
     },
     {
@@ -315,7 +315,7 @@
     },
     {
       "foreground": "578bb3",
-      "background": "b1b3ba",
+      "background": "b1b3ba08",
       "token": "markup.raw"
     },
     {
@@ -330,15 +330,15 @@
     },
     {
       "foreground": "578bb3",
-      "background": "b1b3ba",
+      "background": "b1b3ba08",
       "token": "markup.other"
     },
     {
-      "background": "eeeeee",
+      "background": "eeeeee29",
       "token": "meta.line.entry.logfile"
     },
     {
-      "background": "eeeeee",
+      "background": "eeeeee29",
       "token": "meta.line.exit.logfile"
     },
     {
@@ -346,7 +346,7 @@
       "token": "meta.line.error.logfile"
     },
     {
-      "background": "dcdcdc",
+      "background": "dcdcdc8f",
       "token": "punctuation.definition.end"
     },
     {
@@ -398,17 +398,17 @@
       "token": "active_guide"
     },
     {
-      "background": "cbdc2f",
+      "background": "cbdc2f38",
       "token": "highlight_matching_word"
     }
   ],
   "colors": {
     "editor.foreground": "#363636",
     "editor.background": "#E8E9E8",
-    "editor.selectionBackground": "#F5AA00",
-    "editor.lineHighlightBackground": "#CBDC2F",
+    "editor.selectionBackground": "#F5AA0091",
+    "editor.lineHighlightBackground": "#CBDC2F38",
     "editorCursor.foreground": "#202020",
-    "editorWhitespace.foreground": "#000000",
+    "editorWhitespace.foreground": "#0000004A",
     "editorIndentGuide.background": "#8F8F8F",
     "editorIndentGuide.activeBackground": "#FA2828"
   }

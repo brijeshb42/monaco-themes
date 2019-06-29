@@ -210,7 +210,7 @@
       "token": "markup.inserted"
     },
     {
-      "background": "8fddf6",
+      "background": "8fddf630",
       "token": "markup.raw"
     },
     {
@@ -241,9 +241,9 @@
   "colors": {
     "editor.foreground": "#FFFFFF",
     "editor.background": "#002240",
-    "editor.selectionBackground": "#B36539",
-    "editor.lineHighlightBackground": "#000000",
+    "editor.selectionBackground": "#B36539BF",
+    "editor.lineHighlightBackground": "#00000059",
     "editorCursor.foreground": "#FFFFFF",
-    "editorWhitespace.foreground": "#FFFFFF"
+    "editorWhitespace.foreground": "#FFFFFF26"
   }
 }

@@ -168,7 +168,7 @@
       "token": "invalid.deprecated"
     },
     {
-      "background": "400080",
+      "background": "40008054",
       "token": "source.camlp4.embedded"
     },
     {
@@ -179,8 +179,8 @@
   "colors": {
     "editor.foreground": "#D0D0FF",
     "editor.background": "#200020",
-    "editor.selectionBackground": "#800000",
-    "editor.lineHighlightBackground": "#800000",
+    "editor.selectionBackground": "#80000080",
+    "editor.lineHighlightBackground": "#80000040",
     "editorCursor.foreground": "#7070FF",
     "editorWhitespace.foreground": "#BFBFBF"
   }

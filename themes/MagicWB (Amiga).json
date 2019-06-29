@@ -9,7 +9,7 @@
     },
     {
       "foreground": "ffffff",
-      "background": "ff0000",
+      "background": "ff000033",
       "token": "string"
     },
     {
@@ -23,12 +23,12 @@
     },
     {
       "foreground": "ffa995",
-      "background": "0000ff",
+      "background": "0000ff33",
       "token": "constant.character"
     },
     {
       "foreground": "ffa995",
-      "background": "0000ff",
+      "background": "0000ff33",
       "token": "constant.other"
     },
     {
@@ -144,7 +144,7 @@
     "editor.foreground": "#000000",
     "editor.background": "#969696",
     "editor.selectionBackground": "#B1B1B1",
-    "editor.lineHighlightBackground": "#000000",
+    "editor.lineHighlightBackground": "#00000012",
     "editorCursor.foreground": "#FFFFFF",
     "editorWhitespace.foreground": "#FF38FF"
   }

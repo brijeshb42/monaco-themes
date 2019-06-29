@@ -27,7 +27,7 @@ function parseColor(color) {
   if (color.length == 7)
     return color
   if (color.length == 9)
-    return color.substr(0, 7);
+    return color; // substr(0, 7);
   else {
     if (!color.match(/^#(..)(..)(..)(..)$/))
       console.error("can't parse color", color);

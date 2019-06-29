@@ -3,10 +3,11 @@ const path = require('path');
 const http = require('follow-redirects').https;
 
 const themeMap = {
-  'Active4D': 'https://github.com/JetBrains/colorSchemeTool/raw/master/tmThemes/Active4D.tmTheme',
+  'Active4D': 'https://github.com/ajaxorg/ace/raw/master/tool/tmthemes/Active4D.tmTheme',
   'All Hallows Eve': 'https://github.com/JetBrains/colorSchemeTool/raw/master/tmThemes/All%20Hallow\'s%20Eve.tmTheme',
   'Amy': 'https://github.com/JetBrains/colorSchemeTool/raw/master/tmThemes/Amy.tmTheme',
   'Blackboard': 'https://github.com/JetBrains/colorSchemeTool/raw/master/tmThemes/Blackboard.tmTheme',
+  'Birds of Paradise': 'https://github.com/filmgirl/TextMate-Themes/raw/master/Birds%20of%20Paradise.tmTheme',
   'Brilliance Black': 'https://raw.githubusercontent.com/ajaxorg/ace/master/tool/tmthemes/Brilliance%20Black.tmTheme',
   'Brilliance Dull': 'https://raw.githubusercontent.com/ajaxorg/ace/master/tool/tmthemes/Brilliance%20Dull.tmTheme',
   'Chrome DevTools': 'https://raw.githubusercontent.com/ajaxorg/ace/master/tool/tmthemes/Chrome%20DevTools.tmTheme',
@@ -32,7 +33,7 @@ const themeMap = {
   'Solarized-dark': 'https://github.com/deplorableword/textmate-solarized/raw/master/Solarized%20(dark).tmTheme',
   'Solarized-light': 'https://github.com/deplorableword/textmate-solarized/raw/master/Solarized%20(light).tmTheme',
   'SpaceCadet': 'https://github.com/JetBrains/colorSchemeTool/raw/master/tmThemes/SpaceCadet.tmTheme',
-  'Sunburst': 'https://github.com/JetBrains/colorSchemeTool/raw/master/tmThemes/Sunburst.tmTheme',
+  'Sunburst': 'https://github.com/filmgirl/TextMate-Themes/raw/master/Sunburst.tmTheme',
   'Textmate (Mac Classic)': 'https://github.com/textmate/themes.tmbundle/raw/master/Themes/Mac%20Classic.tmTheme',
   'Tomorrow-Night-Blue': 'https://github.com/filmgirl/TextMate-Themes/raw/master/Tomorrow-Night-Blue.tmTheme',
   'Tomorrow-Night-Bright': 'https://github.com/filmgirl/TextMate-Themes/raw/master/Tomorrow-Night-Bright.tmTheme',
@@ -40,6 +41,7 @@ const themeMap = {
   'Tomorrow-Night': 'https://github.com/filmgirl/TextMate-Themes/raw/master/Tomorrow%20Night.tmTheme',
   'Tomorrow': 'https://github.com/filmgirl/TextMate-Themes/raw/master/Tomorrow.tmTheme',
   'Twilight': 'https://github.com/JetBrains/colorSchemeTool/raw/master/tmThemes/Twilight.tmTheme',
+  'Upstream Sunburst': 'https://github.com/filmgirl/TextMate-Themes/raw/master/Upstream%20Sunburst.tmTheme',
   'Vibrant Ink': 'https://github.com/filmgirl/TextMate-Themes/raw/master/Vibrant%20Ink.tmTheme',
   'Xcode_default': 'https://github.com/ajaxorg/ace/raw/master/tool/tmthemes/Xcode_default.tmTheme',
   'Zenburnesque': 'https://github.com/JetBrains/colorSchemeTool/raw/master/tmThemes/Zenburnesque.tmTheme',
