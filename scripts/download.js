@@ -28,6 +28,7 @@ const themeMap = {
   'Merbivore': 'https://github.com/ajaxorg/ace/raw/master/tool/tmthemes/Merbivore.tmTheme',
   'Monokai': 'https://github.com/cj/sublime/raw/master/Color%20Scheme%20-%20Default/Monokai.tmTheme',
   'Monokai Bright': 'https://github.com/JetBrains/colorSchemeTool/raw/master/tmThemes/Monokai%20Bright.tmTheme',
+  'Oceanic Next': 'https://github.com/voronianski/oceanic-next-color-scheme/raw/master/Oceanic%20Next.tmTheme',
   'Pastels on Dark': 'https://github.com/JetBrains/colorSchemeTool/raw/master/tmThemes/Pastels%20on%20Dark.tmTheme',
   'Slush and Poppies': 'https://github.com/JetBrains/colorSchemeTool/raw/master/tmThemes/Slush%20%26%20Poppies.tmTheme',
   'Solarized-dark': 'https://github.com/deplorableword/textmate-solarized/raw/master/Solarized%20(dark).tmTheme',
