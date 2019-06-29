@@ -1,8 +1,8 @@
 ## monaco-themes
 
-See extended demo at [https://editor-a5ea1.firebaseapp.com/](https://editor-a5ea1.firebaseapp.com/)
+See extended demo at [https://editor.bitwiser.in](https://editor.bitwiser.in)
 
-A list of theme definitions to be used with [monaco-editor](https://microsoft.github.io/monaco-editor/) in browser. See [demo]('https://bitwiser.in/monaco-themes/')
+A list of theme definitions to be used with [monaco-editor](https://microsoft.github.io/monaco-editor/) in browser. See [minimal demo]('https://bitwiser.in/monaco-themes/')
 
 ### Usage
 
@@ -14,7 +14,7 @@ npm install monaco-themes
 
 ##### Using `<script>`
 
-```js
+```html
 <script type="text/javascript" src="https://unpkg.com/monaco-themes/dist/monaco-themes.js"></script>
 <script type="text/javascript">
     var tmThemeString = /* read using FileReader */
