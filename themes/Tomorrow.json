@@ -43,6 +43,18 @@
       "token": "entity.other.attribute-name"
     },
     {
+      "foreground": "c82829",
+      "token": "meta.tag"
+    },
+    {
+      "foreground": "c82829",
+      "token": "declaration.tag"
+    },
+    {
+      "foreground": "c82829",
+      "token": "markup.deleted.git_gutter"
+    },
+    {
       "foreground": "f5871f",
       "token": "constant.numeric"
     },
@@ -103,6 +115,10 @@
       "token": "markup.heading"
     },
     {
+      "foreground": "718c00",
+      "token": "markup.inserted.git_gutter"
+    },
+    {
       "foreground": "3e999f",
       "token": "keyword.operator"
     },
@@ -131,6 +147,10 @@
       "token": "meta.block-level"
     },
     {
+      "foreground": "4271ae",
+      "token": "markup.changed.git_gutter"
+    },
+    {
       "foreground": "8959a8",
       "token": "keyword"
     },
@@ -156,6 +176,53 @@
       "foreground": "ffffff",
       "background": "8959a8",
       "token": "invalid.deprecated"
+    },
+    {
+      "foreground": "ffffff",
+      "token": "markup.inserted.diff"
+    },
+    {
+      "foreground": "ffffff",
+      "token": "markup.deleted.diff"
+    },
+    {
+      "foreground": "ffffff",
+      "token": "meta.diff.header.to-file"
+    },
+    {
+      "foreground": "ffffff",
+      "token": "meta.diff.header.from-file"
+    },
+    {
+      "background": "718c00",
+      "token": "markup.inserted.diff"
+    },
+    {
+      "background": "718c00",
+      "token": "meta.diff.header.to-file"
+    },
+    {
+      "background": "c82829",
+      "token": "markup.deleted.diff"
+    },
+    {
+      "background": "c82829",
+      "token": "meta.diff.header.from-file"
+    },
+    {
+      "foreground": "ffffff",
+      "background": "4271ae",
+      "token": "meta.diff.header.from-file"
+    },
+    {
+      "foreground": "ffffff",
+      "background": "4271ae",
+      "token": "meta.diff.header.to-file"
+    },
+    {
+      "foreground": "3e999f",
+      "fontStyle": "italic",
+      "token": "meta.diff.range"
     }
   ],
   "colors": {

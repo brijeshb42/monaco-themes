@@ -43,6 +43,18 @@
       "token": "entity.other.attribute-name"
     },
     {
+      "foreground": "d54e53",
+      "token": "meta.tag"
+    },
+    {
+      "foreground": "d54e53",
+      "token": "declaration.tag"
+    },
+    {
+      "foreground": "d54e53",
+      "token": "markup.deleted.git_gutter"
+    },
+    {
       "foreground": "e78c45",
       "token": "constant.numeric"
     },
@@ -103,6 +115,10 @@
       "token": "markup.heading"
     },
     {
+      "foreground": "b9ca4a",
+      "token": "markup.inserted.git_gutter"
+    },
+    {
       "foreground": "70c0b1",
       "token": "keyword.operator"
     },
@@ -129,6 +145,10 @@
     {
       "foreground": "7aa6da",
       "token": "meta.block-level"
+    },
+    {
+      "foreground": "7aa6da",
+      "token": "markup.changed.git_gutter"
     },
     {
       "foreground": "c397d8",
@@ -160,6 +180,53 @@
       "foreground": "ced2cf",
       "background": "b798bf",
       "token": "invalid.deprecated"
+    },
+    {
+      "foreground": "ffffff",
+      "token": "markup.inserted.diff"
+    },
+    {
+      "foreground": "ffffff",
+      "token": "markup.deleted.diff"
+    },
+    {
+      "foreground": "ffffff",
+      "token": "meta.diff.header.to-file"
+    },
+    {
+      "foreground": "ffffff",
+      "token": "meta.diff.header.from-file"
+    },
+    {
+      "foreground": "718c00",
+      "token": "markup.inserted.diff"
+    },
+    {
+      "foreground": "718c00",
+      "token": "meta.diff.header.to-file"
+    },
+    {
+      "foreground": "c82829",
+      "token": "markup.deleted.diff"
+    },
+    {
+      "foreground": "c82829",
+      "token": "meta.diff.header.from-file"
+    },
+    {
+      "foreground": "ffffff",
+      "background": "4271ae",
+      "token": "meta.diff.header.from-file"
+    },
+    {
+      "foreground": "ffffff",
+      "background": "4271ae",
+      "token": "meta.diff.header.to-file"
+    },
+    {
+      "foreground": "3e999f",
+      "fontStyle": "italic",
+      "token": "meta.diff.range"
     }
   ],
   "colors": {

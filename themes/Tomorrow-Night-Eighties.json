@@ -39,6 +39,18 @@
       "token": "entity.other.attribute-name"
     },
     {
+      "foreground": "f2777a",
+      "token": "meta.tag"
+    },
+    {
+      "foreground": "f2777a",
+      "token": "declaration.tag"
+    },
+    {
+      "foreground": "f2777a",
+      "token": "markup.deleted.git_gutter"
+    },
+    {
       "foreground": "f99157",
       "token": "constant.numeric"
     },
@@ -99,6 +111,10 @@
       "token": "markup.heading"
     },
     {
+      "foreground": "99cc99",
+      "token": "markup.inserted.git_gutter"
+    },
+    {
       "foreground": "66cccc",
       "token": "keyword.operator"
     },
@@ -107,24 +123,28 @@
       "token": "constant.other.color"
     },
     {
-      "foreground": "99cccc",
+      "foreground": "6699cc",
       "token": "entity.name.function"
     },
     {
-      "foreground": "99cccc",
+      "foreground": "6699cc",
       "token": "meta.function-call"
     },
     {
-      "foreground": "99cccc",
+      "foreground": "6699cc",
       "token": "support.function"
     },
     {
-      "foreground": "99cccc",
+      "foreground": "6699cc",
       "token": "keyword.other.special-method"
     },
     {
-      "foreground": "99cccc",
+      "foreground": "6699cc",
       "token": "meta.block-level"
+    },
+    {
+      "foreground": "6699cc",
+      "token": "markup.changed.git_gutter"
     },
     {
       "foreground": "cc99cc",
@@ -156,6 +176,53 @@
       "foreground": "cdcdcd",
       "background": "cc99cc",
       "token": "invalid.deprecated"
+    },
+    {
+      "foreground": "ffffff",
+      "token": "markup.inserted.diff"
+    },
+    {
+      "foreground": "ffffff",
+      "token": "markup.deleted.diff"
+    },
+    {
+      "foreground": "ffffff",
+      "token": "meta.diff.header.to-file"
+    },
+    {
+      "foreground": "ffffff",
+      "token": "meta.diff.header.from-file"
+    },
+    {
+      "foreground": "718c00",
+      "token": "markup.inserted.diff"
+    },
+    {
+      "foreground": "718c00",
+      "token": "meta.diff.header.to-file"
+    },
+    {
+      "foreground": "c82829",
+      "token": "markup.deleted.diff"
+    },
+    {
+      "foreground": "c82829",
+      "token": "meta.diff.header.from-file"
+    },
+    {
+      "foreground": "ffffff",
+      "background": "4271ae",
+      "token": "meta.diff.header.from-file"
+    },
+    {
+      "foreground": "ffffff",
+      "background": "4271ae",
+      "token": "meta.diff.header.to-file"
+    },
+    {
+      "foreground": "3e999f",
+      "fontStyle": "italic",
+      "token": "meta.diff.range"
     }
   ],
   "colors": {

@@ -49,6 +49,14 @@ var COLOR_MAP = [
     tm: 'background',
     mn: 'editor.background',
   },
+  // {
+  //   tm: 'foreground',
+  //   mn: 'editorSuggestWidget.foreground',
+  // },
+  // {
+  //   tm: 'background',
+  //   mn: 'editorSuggestWidget.background',
+  // },
   {
     tm: 'selection',
     mn: 'editor.selectionBackground',
@@ -134,6 +142,9 @@ ansiColorMap.forEach((color) => {
   });
 });
 
+var GUTTER_COLOR_MAP = [
+];
+
 
 /**
  * @param {string} rawTmThemeString - The contents read from a tmTheme file.
@@ -141,8 +152,8 @@ ansiColorMap.forEach((color) => {
  */
 exports.parseTmTheme = function parseTmTheme(rawTmThemeString) {
   var rawData = plist.parse(rawTmThemeString);
-  var data = {};
   var globalSettings = rawData.settings[0].settings;
+  var gutterSettings = rawData.gutterSettings;
   var rules = [];
 
   rawData.settings.forEach(setting => {
@@ -194,6 +205,14 @@ exports.parseTmTheme = function parseTmTheme(rawTmThemeString) {
       globalColors[obj.mn] = parseColor(globalSettings[obj.tm]);
     }
   });
+
+  if (gutterSettings) {
+    GUTTER_COLOR_MAP.forEach((obj) => {
+      if (gutterSettings[obj.tm]) {
+        globalColors[obj.mn] = parseColor(gutterSettings[obj.tm]);
+      }
+    });
+  }
 
   return {
     base: (darkness(globalColors['editor.background']) < 0.5) ? 'vs-dark' : 'vs',
