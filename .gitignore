@@ -3,3 +3,4 @@ tmthemes/*.tmTheme
 acetm.js
 monaco.d.ts
 dist/
+vsthemes/
