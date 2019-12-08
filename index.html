@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="utf-8" />
   <title>Monaco Themes</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,400i,700,700i&display=swap" rel="stylesheet">
   <style type="text/css">
     body {
-      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+      font-family: 'Source Code Pro', monospace;
     }
     #editor {
       width: 100%;
@@ -27,7 +29,7 @@
   </div>
   <div id=editor></div>
   <script type="text/javascript" src="https://unpkg.com/monaco-themes/dist/monaco-themes.js"></script>
-  <script type="text/javascript" src="https://unpkg.com/monaco-editor@0.14.2/min/vs/loader.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/monaco-editor/min/vs/loader.js"></script>
   <script type="text/javascript">
     var lang = document.getElementById('lang');
     var loadedThemes = null;
@@ -52,7 +54,7 @@
         return;
       }
 
-      window.editor.setValue('const themeData = ' + JSON.stringify(jsn, null, 2));
+      window.editor.setValue(JSON.stringify(jsn, null, 2));
     }
 
     function addFileListener() {
@@ -113,14 +115,14 @@
 
     loadThemeList();
 
-    require.config({ paths: { 'vs': 'https://unpkg.com/monaco-editor@0.14.2/min/vs' }});
+    require.config({ paths: { 'vs': 'https://unpkg.com/monaco-editor/min/vs' }});
     window.MonacoEnvironment = {
       getWorkerUrl: function(workerId, label) {
         return `data:text/javascript;charset=utf-8,${encodeURIComponent(`
           self.MonacoEnvironment = {
-            baseUrl: 'https://unpkg.com/monaco-editor@0.14.2/min'
+            baseUrl: 'https://unpkg.com/monaco-editor/min'
           };
-          importScripts('https://unpkg.com/monaco-editor@0.14.2/min/vs/base/worker/workerMain.js');`
+          importScripts('https://unpkg.com/monaco-editor/min/vs/base/worker/workerMain.js');`
         )}`;
       }
     };
@@ -132,10 +134,10 @@
           '}'
         ].join('\n'),
         language: 'javascript',
-        fontSize: 16,
-        fontFamily: 'monospace',
+        fontSize: 18,
+        fontFamily: '\'Source Code Pro\', monospace',
         minimap: {
-          enabled: false,
+          enabled: true,
         },
         scrollBeyondLastLine: false,
       });

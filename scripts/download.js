@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const http = require('follow-redirects').https;
 
-const themeMap = {
+const tmThemeMap = {
   'Active4D': 'https://github.com/ajaxorg/ace/raw/master/tool/tmthemes/Active4D.tmTheme',
   'All Hallows Eve': 'https://github.com/JetBrains/colorSchemeTool/raw/master/tmThemes/All%20Hallow\'s%20Eve.tmTheme',
   'Amy': 'https://github.com/JetBrains/colorSchemeTool/raw/master/tmThemes/Amy.tmTheme',
@@ -54,10 +54,17 @@ const themeMap = {
   'monoindustrial': 'https://github.com/bryanjswift/tmthemes/raw/master/monoindustrial.tmTheme'
 };
 
-const themePath = path.join(process.cwd(), 'tmthemes');
+const vsThemeMap = {
+  'Kimbie-Dark': 'https://github.com/microsoft/vscode/raw/master/extensions/theme-kimbie-dark/themes/kimbie-dark-color-theme.json',
+  'Abyss': 'https://github.com/microsoft/vscode/raw/master/extensions/theme-kimbie-dark/themes/kimbie-dark-color-theme.json',
+  'Dimmed-Monokai': 'https://github.com/microsoft/vscode/raw/master/extensions/theme-monokai-dimmed/themes/dimmed-monokai-color-theme.json',
+};
 
-function downloadTheme(name, url) {
-  const dest = path.join(themePath, `${name}.tmTheme`);
+const tmThemePath = path.join(process.cwd(), 'tmthemes');
+const vsThemesPath = path.join(process.cwd(), 'vsthemes');
+
+function downloadTheme(name, url, dir, ext) {
+  const dest = path.join(dir, `${name}.${ext}`);
 
   return new Promise((resolve, reject) => {
     const file = fs.createWriteStream(dest);
@@ -73,13 +80,19 @@ function downloadTheme(name, url) {
   });
 }
 
-function startDownload() {
-  const promises = Object.keys(themeMap).map(name => {
+function getThemeDownloader(themeMap, dir, extension) {
+  return Object.keys(themeMap).map(name => {
     console.log(`Downloading ${name}`);
-    downloadTheme(name, themeMap[name])
-      .then(() => console.log(`Downloaded ${name}`))
+    const themePromise = downloadTheme(name, themeMap[name], dir, extension);
+    themePromise.then(() => console.log(`Downloaded ${name}`))
       .catch(() => console.log(`Could not download ${name}`));
+    return themePromise;
   });
+}
+
+function startDownload() {
+  getThemeDownloader(tmThemeMap, tmThemePath, 'tmTheme');
+  getThemeDownloader(vsThemeMap, vsThemesPath, 'json');
 }
 
 startDownload();

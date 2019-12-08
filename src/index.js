@@ -15,6 +15,7 @@ function rgbColor(color) {
       return parseInt(c, 10);
     });
 }
+
 function darkness(color) {
   var rgb = rgbColor(color);
   return (0.21 * rgb[0] + 0.72 * rgb[1] + 0.07 * rgb[2]) / 255;
@@ -145,6 +146,8 @@ ansiColorMap.forEach((color) => {
 var GUTTER_COLOR_MAP = [
 ];
 
+
+exports.darkness = darkness;
 
 /**
  * @param {string} rawTmThemeString - The contents read from a tmTheme file.
