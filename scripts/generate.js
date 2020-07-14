@@ -5,7 +5,14 @@ const parseTmTheme = require('../src/index').parseTmTheme;
 function ext(themeName) {
   const lpath = path.join(process.cwd(), 'tmthemes', `${themeName}.tmTheme`);
   const fileData = fs.readFileSync(lpath, 'utf8');
-  return parseTmTheme(fileData);
+  const theme =  parseTmTheme(fileData);
+  // Support minimap background color. 
+  // @see https://github.com/microsoft/monaco-editor/issues/908
+  theme.rules.unshift({
+    "background": theme.colors["editor.background"].replace('#',''),
+    "token": ""
+  })
+  return theme;
 }
 
 function snakeCase(fname) {
