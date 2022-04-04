@@ -14,7 +14,7 @@ const themeMap = {
   'Clouds Midnight': 'https://raw.githubusercontent.com/ajaxorg/ace/master/tool/tmthemes/Clouds%20Midnight.tmTheme',
   'Clouds': 'https://raw.githubusercontent.com/ajaxorg/ace/master/tool/tmthemes/Clouds.tmTheme',
   'Cobalt': 'https://github.com/JetBrains/colorSchemeTool/raw/master/tmThemes/Cobalt.tmTheme',
-  // 'Cobalt2': 'https://github.com/wesbos/cobalt2/raw/master/cobalt2.tmTheme',
+  'Cobalt2': 'https://github.com/wesbos/cobalt2/raw/master/cobalt2.tmTheme',
   'Dawn': 'https://github.com/JetBrains/colorSchemeTool/raw/master/tmThemes/Dawn.tmTheme',
   'Dracula': 'https://github.com/dracula/textmate/raw/master/Dracula.tmTheme',
   'Dreamweaver': 'https://github.com/ajaxorg/ace/raw/master/tool/tmthemes/Dreamweaver.tmTheme',
