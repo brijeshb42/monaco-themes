@@ -30,6 +30,6 @@
     "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
-    "fast-plist": "^0.1.2"
+    "fast-plist": "^0.1.3"
   }
 }
