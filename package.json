@@ -23,7 +23,7 @@
   ],
   "author": "Brijesh <brijesh@bitwiser.in>",
   "repository": "github:brijeshb42/monaco-themes",
-	"homepage": "https://editor.bitwiser.in/",
+  "homepage": "https://editor.bitwiser.in/",
   "license": "MIT",
   "devDependencies": {
     "follow-redirects": "^1.9.0",
