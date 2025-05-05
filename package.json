@@ -3,10 +3,11 @@
   "version": "0.4.4",
   "description": "Themes for monaco editor in web browser",
   "main": "src/index.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "prepublishOnly": "npm run build && npm run download && npm run generate",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production",
+    "build": "webpack --mode production && npx copyfiles src/index.d.ts dist/",
     "download": "node ./scripts/download.js",
     "generate": "node ./scripts/generate.js"
   },
@@ -26,6 +27,7 @@
   "homepage": "https://editor.bitwiser.in/",
   "license": "MIT",
   "devDependencies": {
+    "copyfiles": "^2.4.1",
     "follow-redirects": "^1.9.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
