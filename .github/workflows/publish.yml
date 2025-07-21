@@ -4,7 +4,10 @@ on:
     branches:
       - master
 jobs:
-  build:
+  publish:
+    permissions:
+      contents: read
+      id-token: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -13,7 +16,7 @@ jobs:
           node-version: "22"
           registry-url: "https://registry.npmjs.org"
       - run: yarn
-      - run: npm publish
+      - run: npm publish --provenance
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NODE_OPTIONS: "--openssl-legacy-provider"
