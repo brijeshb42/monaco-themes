@@ -1,8 +1,11 @@
 name: Publish Package to npmjs
 on:
-  push:
-    branches:
-      - master
+  workflow_dispatch:
+    inputs:
+      sha:
+        description: 'Commit SHA to release from'
+        required: false
+        type: string
 jobs:
   publish:
     permissions:
@@ -11,12 +14,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+        with:
+          ref: ${{ inputs.sha }}
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
           registry-url: "https://registry.npmjs.org"
       - run: yarn
-      - run: npm publish --provenance
+      - run: npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NODE_OPTIONS: "--openssl-legacy-provider"
