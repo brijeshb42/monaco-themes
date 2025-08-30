@@ -1,6 +1,6 @@
 {
   "name": "monaco-themes",
-  "version": "0.4.6",
+  "version": "0.4.7",
   "description": "Themes for monaco editor in web browser",
   "main": "src/index.js",
   "types": "src/index.d.ts",
