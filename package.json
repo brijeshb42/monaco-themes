@@ -41,7 +41,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/follow-redirects": "^1.14.4",
-    "@types/node": "^22.10.2",
+    "@types/node": "^24.0.0",
     "follow-redirects": "^1.15.9",
     "tsdown": "^0.3.0",
     "typescript": "^5.7.2",
