@@ -16,13 +16,15 @@ jobs:
       - uses: actions/checkout@v6
         with:
           ref: ${{ inputs.sha }}
-      - uses: actions/setup-node@v6
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: "22"
-          registry-url: "https://registry.npmjs.org"
-      - name: Update npm
-        run: npm install -g npm@latest
-      - run: yarn
-      - run: npm publish --provenance --access public
+          node-version: '22'
+          cache: pnpm
+          registry-url: 'https://registry.npmjs.org'
+      - run: corepack enable
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm run build
+      - run: npm publish --provenance --access public --no-git-checks
         env:
-          NODE_OPTIONS: "--openssl-legacy-provider"
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
