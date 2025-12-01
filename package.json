@@ -45,7 +45,7 @@
     "follow-redirects": "^1.15.9",
     "tsdown": "^0.3.0",
     "typescript": "^5.7.2",
-    "vite": "^6.0.3"
+    "vite": "^7.0.0"
   },
   "dependencies": {
     "fast-plist": "^0.1.3"
