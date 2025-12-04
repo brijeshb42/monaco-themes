@@ -43,7 +43,7 @@
     "@types/follow-redirects": "^1.14.4",
     "@types/node": "^22.10.2",
     "follow-redirects": "^1.15.9",
-    "tsdown": "^0.3.0",
+    "tsdown": "^0.17.0",
     "typescript": "^5.7.2",
     "vite": "^6.0.3"
   },
