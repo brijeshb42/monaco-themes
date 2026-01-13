@@ -8,11 +8,16 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs"
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      },
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
     },
-    "./dist/monaco-themes.js": "./dist/monaco-themes.js"
+    "./themes/*": "./themes/*.json"
   },
   "scripts": {
     "prepublishOnly": "pnpm run build && pnpm run download && pnpm run generate",
@@ -30,6 +35,7 @@
   "files": [
     "themes",
     "dist",
+    "src",
     "README.md"
   ],
   "author": "Brijesh <brijesh@bitwiser.in>",
@@ -42,10 +48,10 @@
   "devDependencies": {
     "@types/follow-redirects": "^1.14.4",
     "@types/node": "^22.10.2",
-    "follow-redirects": "^1.15.9",
-    "tsdown": "^0.3.0",
-    "typescript": "^5.7.2",
-    "vite": "^6.0.3"
+    "follow-redirects": "^1.15.11",
+    "tsdown": "^0.20.0-beta.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
   },
   "dependencies": {
     "fast-plist": "^0.1.3"

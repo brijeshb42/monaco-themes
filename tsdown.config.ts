@@ -1,40 +1,41 @@
-import { defineConfig } from 'tsdown';
+import { defineConfig, type UserConfig } from 'tsdown';
+import pkg from './package.json' with { type: 'json' };
+
+const commonConfig: UserConfig = {
+  clean: true,
+  sourcemap: true,
+  platform: 'browser',
+  treeshake: true,
+  skipNodeModulesBundle: true,
+  env: {
+    NODE_ENV: 'production',
+  },
+  banner: {
+    js: `/**
+ * ${pkg.name} v${pkg.version}
+  * (c) ${new Date().getFullYear()} ${pkg.author}
+  * @license ${pkg.license}
+ */`
+  }
+};
 
 export default defineConfig([
   // ESM build
   {
-    entry: ['src/index.ts'],
-    format: 'esm',
-    clean: true,
+    ...commonConfig,
+    entry: {
+      index: 'src/index.ts',
+    },
+    format: ['esm', 'cjs'],
     dts: true,
-    sourcemap: true,
-    outDir: 'dist',
-    platform: 'browser',
-    external: [],
-    treeshake: true,
-  },
-  // CJS build
-  {
-    entry: ['src/index.ts'],
-    format: 'cjs',
-    dts: false,
-    sourcemap: true,
-    outDir: 'dist',
-    platform: 'browser',
-    external: [],
-    treeshake: true,
   },
   // IIFE/UMD build
   {
+    ...commonConfig,
     entry: { 'monaco-themes': 'src/index.ts' },
+    globalName: 'MonacoThemes',
     format: 'iife',
     dts: false,
-    sourcemap: true,
-    outDir: 'dist',
-    globalName: 'MonacoThemes',
-    platform: 'browser',
-    external: [],
-    treeshake: true,
     outputOptions: {
       globals: {
         'fast-plist': 'FastPlist',
