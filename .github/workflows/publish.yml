@@ -13,7 +13,7 @@ jobs:
       id-token: write
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           ref: ${{ inputs.sha }}
       - uses: pnpm/action-setup@v4
